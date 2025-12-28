@@ -1,0 +1,109 @@
+{
+  "app": {
+    "name": "Fabulosa Play",
+    "version": "1.0",
+    "updated_at": "2025-12-26"
+  },
+  "assets": {
+    "base_url": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS",
+    "note": "Ejemplo: https://raw.githubusercontent.com/TUUSUARIO/TUREPO/main/logos"
+  },
+  "radio": [
+    {
+      "id": "radio-fabulosa",
+      "name": "Radio Fabulosa",
+      "stream_url": "https://dattavolt.com/8030/stream",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/logo-fabulosa.png",
+      "tags": [
+        "radio",
+        "fabulosa"
+      ]
+    }
+  ],
+  "tv_channels": [
+    {
+      "id": "canal-11",
+      "name": "Canal 11",
+      "stream_url": "http://200.125.170.122:8000/play/a03s/index.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-11.webp",
+      "category": "Costa Rica"
+    },
+    {
+      "id": "canal-13",
+      "name": "Canal 13",
+      "stream_url": "http://200.125.170.122:8000/play/a0e6/index.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-13.png",
+      "category": "Costa Rica"
+    },
+    {
+      "id": "canal-42",
+      "name": "Canal 42",
+      "stream_url": "http://200.125.170.122:8000/play/a00q/index.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/extra-tv-42.png",
+      "category": "Costa Rica"
+    },
+    {
+      "id": "canal-10",
+      "name": "Canal 10",
+      "stream_url": "http://200.125.170.122:8000/play/a0e3/index.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/c10.jpg",
+      "category": "Costa Rica"
+    },
+    {
+      "id": "canal-12",
+      "name": "Canal 12",
+      "stream_url": "http://200.125.170.122:8000/play/a0ed/index.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-12.jpg",
+      "category": "Costa Rica"
+    },
+    {
+      "id": "canal-7",
+      "name": "Canal 7",
+      "stream_url": "http://200.125.170.122:8000/play/a02d/index.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/teletica-canal-7.png",
+      "category": "Costa Rica"
+    },
+    {
+      "id": "canal-4",
+      "name": "Canal 4",
+      "stream_url": "http://200.125.170.122:8000/play/a04x/index.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-4-salvador.png",
+      "category": "Costa Rica"
+    },
+    {
+      "id": "canal-6",
+      "name": "Canal 6",
+      "stream_url": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-6.webp",
+      "category": "Costa Rica"
+    },
+    {
+      "id": "enlace-tv",
+      "name": "Enlace",
+      "stream_url": "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/enlace.jpg",
+      "category": "Internacional"
+    },
+    {
+      "id": "planet-tv",
+      "name": "Planet",
+      "stream_url": "https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/planet.webp",
+      "category": "Música"
+    },
+    {
+      "id": "opa-tv",
+      "name": "OPA",
+      "stream_url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/chunklist_w215971633.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/opa.png",
+      "category": "Internacional"
+    },
+    {
+      "id": "tv-fabulosa",
+      "name": "TV Fabulosa",
+      "stream_url": "https://live20.bozztv.com/akamaissh101/ssh101/fabulosa/playlist.m3u8",
+      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/logo-fabulosa.png",
+      "category": "Fabulosa"
+    }
+  ]
+}
