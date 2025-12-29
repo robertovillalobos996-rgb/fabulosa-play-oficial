@@ -5,31 +5,29 @@ const Channels = () => {
   const [channels, setChannels] = useState([]);
   const [selectedChannel, setSelectedChannel] = useState(null);
 
-  // Cargar canales
+  // Cargar canales desde el JSON
   useEffect(() => {
     fetch('/data/fabulosa-data.json')
       .then((response) => response.json())
       .then((data) => setChannels(data.channels || data.tv_channels || []))
-      .catch((err) => console.error("Error:", err));
+      .catch((err) => console.error("Error cargando canales:", err));
   }, []);
 
-  // Función para reproducir un canal de tu lista
   const handlePlayChannel = (channel) => {
     setSelectedChannel(channel);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Función para PROBAR si el sistema funciona (Video de prueba seguro)
   const handleTestSystem = () => {
     setSelectedChannel({
-      name: "Prueba de Sistema (Si ves esto, el player funciona)",
-      streamUrl: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" // Enlace HTTPS garantizado
+      name: "Prueba de Sistema (Video Seguro)",
+      streamUrl: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
     });
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
-    <div className="container-fabulosa" style={{ padding: '20px', paddingBottom: '80px', color: 'white' }}>
+    <div className="container-fabulosa" style={{ padding: '20px', paddingBottom: '80px', minHeight: '100vh', background: '#111', color: 'white' }}>
       
       {/* --- REPRODUCTOR --- */}
       <div className="player-section" style={{ marginBottom: '20px', background: '#000', borderRadius: '10px', overflow: 'hidden' }}>
@@ -38,8 +36,9 @@ const Channels = () => {
             <div style={{ position: 'relative', paddingTop: '56.25%' }}>
               <ReactPlayer 
                 url={selectedChannel.streamUrl}
-                playing={true}
-                controls={true}
+                playing={true}        // Intentar autoejecutar
+                muted={true}          // <--- ESTA ES LA CLAVE: Arrancar en silencio
+                controls={true}       // Mostrar barra de tiempo y volumen
                 width="100%"
                 height="100%"
                 style={{ position: 'absolute', top: 0, left: 0 }}
@@ -47,29 +46,30 @@ const Channels = () => {
                 onError={(e) => console.log("Error de reproducción:", e)}
               />
             </div>
-            <div style={{ padding: '15px', background: '#222', display: 'flex', justifyContent: 'space-between' }}>
+            
+            <div style={{ padding: '15px', background: '#222', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <h3 style={{ margin: 0, fontSize: '16px' }}>{selectedChannel.name}</h3>
-              <button onClick={() => setSelectedChannel(null)} style={{ color: 'red', fontWeight: 'bold' }}>CERRAR X</button>
+              <button 
+                onClick={() => setSelectedChannel(null)} 
+                style={{ background: '#d32f2f', color: 'white', border: 'none', padding: '5px 15px', borderRadius: '4px', cursor: 'pointer' }}
+              >
+                Cerrar
+              </button>
             </div>
-            {/* Aviso si es canal HTTP */}
-            {selectedChannel.streamUrl.startsWith('http:') && (
-              <div style={{ padding: '10px', background: '#500', color: '#fff', fontSize: '12px', textAlign: 'center' }}>
-                ⚠️ OJO: Este canal usa 'http'. Es probable que no se vea en Vercel. <br/>
-                Necesitas enlaces 'https'.
-              </div>
-            )}
+            {/* Aviso de silencio */}
+            <div style={{ padding: '5px', background: '#0288d1', fontSize: '12px', textAlign: 'center' }}>
+              🔊 El video inicia en silencio por seguridad. Súbele volumen.
+            </div>
           </div>
         ) : (
-          <div style={{ padding: '30px', textAlign: 'center', border: '1px dashed #444' }}>
-            <h2>Selecciona un canal</h2>
-            {/* BOTÓN DE PRUEBA */}
+          <div style={{ padding: '40px', textAlign: 'center', border: '1px dashed #444' }}>
+            <h2>📺 Selecciona un canal</h2>
             <button 
               onClick={handleTestSystem}
               style={{ background: '#ffcc00', color: 'black', border: 'none', padding: '10px 20px', borderRadius: '5px', fontWeight: 'bold', cursor: 'pointer', marginTop: '10px' }}
             >
-              ⚠️ PROBAR REPRODUCTOR (Click aquí)
+              ⚠️ PROBAR REPRODUCTOR
             </button>
-            <p style={{fontSize: '12px', color: '#aaa', marginTop: '5px'}}>Si este botón funciona, el problema son los links de tus canales.</p>
           </div>
         )}
       </div>
@@ -80,7 +80,7 @@ const Channels = () => {
           <div 
             key={index} 
             onClick={() => handlePlayChannel(channel)}
-            style={{ cursor: 'pointer', background: '#1a1a1a', padding: '10px', borderRadius: '10px', textAlign: 'center' }}
+            style={{ cursor: 'pointer', background: '#1e1e1e', padding: '10px', borderRadius: '10px', textAlign: 'center' }}
           >
             <img 
               src={channel.logoUrl || channel.logo} 
