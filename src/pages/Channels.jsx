@@ -1,121 +1,89 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import ReactPlayer from 'react-player'; // Asegúrate de tener instalado react-player
 
-import SideNav from "../components/layout/SideNav";
-import ChannelCard from "../components/channel/ChannelCard";
-import { Input } from "../components/ui/input";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "../components/ui/select";
-
-import { fetchData } from "../config/dataSource";
-
-export default function Channels() {
-  const navigate = useNavigate();
-
+const Channels = () => {
   const [channels, setChannels] = useState([]);
-  const [query, setQuery] = useState("");
-  const [category, setCategory] = useState("all");
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState("");
+  const [selectedChannel, setSelectedChannel] = useState(null); // Aquí guardamos el canal activo
+  const [error, setError] = useState(null);
 
+  // 1. CARGA DE DATOS (Fetch del JSON)
   useEffect(() => {
-    (async () => {
-      try {
-        setLoading(true);
-        setError("");
-        const { channels } = await fetchData();
-        setChannels(Array.isArray(channels) ? channels : []);
-      } catch (e) {
-        console.error(e);
-        setError("Error cargando datos");
-      } finally {
-        setLoading(false);
-      }
-    })();
+    fetch('/data/fabulosa-data.json') // Ruta absoluta a la carpeta public
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('No se pudo cargar el archivo JSON');
+        }
+        return response.json();
+      })
+      .then((data) => {
+        // Validamos si viene como 'channels' o 'tv_channels' según tu estructura
+        setChannels(data.channels || data.tv_channels || []);
+      })
+      .catch((err) => {
+        console.error("Error cargando canales:", err);
+        setError("Error cargando la lista de canales.");
+      });
   }, []);
 
-  const categories = useMemo(() => {
-    const set = new Set();
-    channels.forEach((c) => {
-      if (c?.category) set.add(c.category);
-    });
-    return ["all", ...Array.from(set)];
-  }, [channels]);
-
-  const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return channels.filter((c) => {
-      const okCategory = category === "all"
-        ? true
-        : (c?.category || "") === category;
-
-      const okQuery = !q
-        ? true
-        : (c?.name || "").toLowerCase().includes(q);
-
-      return okCategory && okQuery;
-    });
-  }, [channels, query, category]);
-
-  // 🔥 CLAVE: navegar directo a /player (evita 404)
-  function handleChannelClick(channel) {
-    navigate(`/player?channel=${encodeURIComponent(channel.id)}`);
-  }
+  // 2. FUNCIÓN PARA REPRODUCIR (Evita el error 404)
+  const handlePlayChannel = (channel) => {
+    console.log("Reproduciendo:", channel.name, channel.streamUrl);
+    // En lugar de navegar a una ruta rota, actualizamos el estado
+    setSelectedChannel(channel);
+    
+    // Opcional: Si quieres que scrollee hacia arriba al reproductor
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
-    <div className="min-h-screen bg-[#050508] text-white">
-      <SideNav currentPage="Channels" />
-
-      <div className="ml-64 p-8">
-        <h1 className="text-4xl font-bold mb-2">Canales TV</h1>
-        <p className="text-white/60 mb-6">
-          {loading ? "Cargando..." : `${filtered.length} canales disponibles`}
-        </p>
-
-        <div className="flex gap-4 items-center mb-6">
-          <div className="flex-1">
-            <Input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Buscar canales..."
-            />
-          </div>
-
-          <div className="w-64">
-            <Select value={category} onValueChange={setCategory}>
-              <SelectTrigger>
-                <SelectValue placeholder="Categoría" />
-              </SelectTrigger>
-              <SelectContent>
-                {categories.map((cat) => (
-                  <SelectItem key={cat} value={cat}>
-                    {cat === "all" ? "Todas las categorías" : cat}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-          </div>
+    <div className="container-fabulosa">
+      
+      {/* --- SECCIÓN DEL REPRODUCTOR --- */}
+      {selectedChannel ? (
+        <div className="player-wrapper" style={{ marginBottom: '20px', background: '#000' }}>
+          <h3>Viendo: {selectedChannel.name}</h3>
+          <ReactPlayer 
+            url={selectedChannel.streamUrl} // USA LA URL DIRECTA DEL JSON
+            playing={true}
+            controls={true}
+            width="100%"
+            height="auto"
+            onError={(e) => console.error("Error en el player:", e)}
+          />
+          <button onClick={() => setSelectedChannel(null)} style={{marginTop: '10px'}}>
+            Cerrar Reproductor
+          </button>
         </div>
+      ) : (
+        <div className="hero-section">
+          <h2>Selecciona un canal para ver en vivo</h2>
+        </div>
+      )}
 
-        {error ? (
-          <div className="text-red-400">{error}</div>
-        ) : (
-          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filtered.map((channel) => (
-              <ChannelCard
-                key={channel.id}
-                channel={channel}
-                onClick={() => handleChannelClick(channel)}
-              />
-            ))}
+      {/* --- LISTA DE CANALES --- */}
+      <div className="channels-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '20px' }}>
+        {channels.map((channel, index) => (
+          <div 
+            key={index} 
+            className="channel-card" 
+            onClick={() => handlePlayChannel(channel)} // CLICK CORRECTO
+            style={{ cursor: 'pointer', border: '1px solid #ccc', padding: '10px', borderRadius: '8px', textAlign: 'center' }}
+          >
+            {/* LOGOS: Usamos la ruta directa del JSON */}
+            <img 
+              src={channel.logoUrl || channel.logo} 
+              alt={channel.name} 
+              style={{ width: '100px', height: '100px', objectFit: 'contain' }}
+              onError={(e) => {e.target.src = '/logos/default.png'}} // Fallback si falla el logo
+            />
+            <p>{channel.name}</p>
           </div>
-        )}
+        ))}
       </div>
+
+      {error && <p style={{color: 'red'}}>{error}</p>}
     </div>
   );
-}
+};
+
+export default Channels;
