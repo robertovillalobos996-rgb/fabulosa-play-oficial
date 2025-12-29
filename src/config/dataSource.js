@@ -1,19 +1,50 @@
-// URL del archivo JSON externo con los datos de canales y radio
-export const DATA_SOURCE_URL = 'https://raw.githubusercontent.com/robertovillalobos996-rgb/fabulosa-data/main/fabulosa-data-final.json';
+// =======================================================
+// Fabulosa Play - Fuente de datos oficial (Vercel)
+// =======================================================
 
-// Función para obtener los datos normalizados
+// IMPORTANTE:
+// - Este archivo hace que la app lea el JSON desde Vercel
+// - NO usa GitHub Raw
+// - Funciona en local y en producción
+
+export const DATA_SOURCE_URL = "/data/fabulosa-data.json";
+
+// -------------------------------------------------------
+// Función principal para obtener y normalizar los datos
+// -------------------------------------------------------
 export async function fetchData() {
-  console.log("DATA_SOURCE_URL", DATA_SOURCE_URL);
+  try {
+    console.log("DATA_SOURCE_URL:", DATA_SOURCE_URL);
 
-  const response = await fetch(DATA_SOURCE_URL, { cache: "no-store" });
-  const data = await response.json();
+    const response = await fetch(DATA_SOURCE_URL, {
+      cache: "no-store",
+    });
 
-  // Normalizar las llaves: acepta channels/tv_channels y stations/radio/radios
-  const channels = data.channels || data.tv_channels || [];
-  const stations = data.stations || data.radio || data.radios || [];
+    if (!response.ok) {
+      throw new Error(`Error HTTP ${response.status}`);
+    }
 
-  console.log("channels", channels.length);
-  console.log("stations", stations.length);
+    const data = await response.json();
 
-  return { channels, stations };
+    // Normalización para compatibilidad total
+    const channels = data.tv_channels || data.channels || [];
+    const stations = data.radios || data.radio || data.stations || [];
+
+    console.log("Canales cargados:", channels.length);
+    console.log("Radios cargadas:", stations.length);
+
+    return {
+      channels,
+      stations,
+      raw: data,
+    };
+  } catch (error) {
+    console.error("Error cargando datos:", error);
+    return {
+      channels: [],
+      stations: [],
+      raw: null,
+      error,
+    };
+  }
 }
