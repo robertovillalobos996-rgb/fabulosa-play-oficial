@@ -2,108 +2,304 @@
   "app": {
     "name": "Fabulosa Play",
     "version": "1.0",
-    "updated_at": "2025-12-26"
+    "updated_at": "2025-12-28"
   },
   "assets": {
-    "base_url": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS",
-    "note": "Ejemplo: https://raw.githubusercontent.com/TUUSUARIO/TUREPO/main/logos"
+    "base_url": "/logos",
+    "note": "Ejemplo claim: https://TU-DOMINIO/logos/archivo.png"
   },
   "radio": [
     {
       "id": "radio-fabulosa",
       "name": "Radio Fabulosa",
       "stream_url": "https://dattavolt.com/8030/stream",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/logo-fabulosa.png",
+      "streamUrl": "https://dattavolt.com/8030/stream",
+      "logo": "/logos/logo-fabulosa.png",
+      "logoUrl": "/logos/logo-fabulosa.png",
       "tags": [
         "radio",
         "fabulosa"
-      ]
+      ],
+      "order": 1
     }
   ],
   "tv_channels": [
     {
-      "id": "canal-11",
-      "name": "Canal 11",
-      "stream_url": "http://200.125.170.122:8000/play/a03s/index.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-11.webp",
-      "category": "Costa Rica"
+      "id": "fabulosa-tv",
+      "name": "Fabulosa TV",
+      "stream_url": "https://live20.bozztv.com/akamaissh101/ssh101/fabulosa/playlist.m3u8",
+      "streamUrl": "https://live20.bozztv.com/akamaissh101/ssh101/fabulosa/playlist.m3u8",
+      "logo": "/logos/logo-fabulosa.png",
+      "logoUrl": "/logos/logo-fabulosa.png",
+      "category": "Costa Rica",
+      "order": 1
     },
     {
-      "id": "canal-13",
-      "name": "Canal 13",
-      "stream_url": "http://200.125.170.122:8000/play/a0e6/index.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-13.png",
-      "category": "Costa Rica"
+      "id": "retrox-tv",
+      "name": "RetroX TV",
+      "stream_url": "https://live21.bozztv.com/akamaissh101/ssh101/retroxcrtv/playlist.m3u8",
+      "streamUrl": "https://live21.bozztv.com/akamaissh101/ssh101/retroxcrtv/playlist.m3u8",
+      "logo": "/logos/retrox.png",
+      "logoUrl": "/logos/retrox.png",
+      "category": "Costa Rica",
+      "order": 2
     },
     {
-      "id": "canal-42",
-      "name": "Canal 42",
-      "stream_url": "http://200.125.170.122:8000/play/a00q/index.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/extra-tv-42.png",
-      "category": "Costa Rica"
-    },
-    {
-      "id": "canal-10",
-      "name": "Canal 10",
-      "stream_url": "http://200.125.170.122:8000/play/a0e3/index.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/c10.jpg",
-      "category": "Costa Rica"
-    },
-    {
-      "id": "canal-12",
-      "name": "Canal 12",
-      "stream_url": "http://200.125.170.122:8000/play/a0ed/index.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-12.jpg",
-      "category": "Costa Rica"
-    },
-    {
-      "id": "canal-7",
-      "name": "Canal 7",
-      "stream_url": "http://200.125.170.122:8000/play/a02d/index.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/teletica-canal-7.png",
-      "category": "Costa Rica"
-    },
-    {
-      "id": "canal-4",
-      "name": "Canal 4",
-      "stream_url": "http://200.125.170.122:8000/play/a04x/index.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-4-salvador.png",
-      "category": "Costa Rica"
+      "id": "canal-8",
+      "name": "Canal 8",
+      "stream_url": "https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
+      "streamUrl": "https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
+      "logo": "/logos/canal-8.png",
+      "logoUrl": "/logos/canal-8.png",
+      "category": "Costa Rica",
+      "order": 3
     },
     {
       "id": "canal-6",
       "name": "Canal 6",
       "stream_url": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/canal-6.webp",
-      "category": "Costa Rica"
+      "streamUrl": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8",
+      "logo": "/logos/canal-6.webp",
+      "logoUrl": "/logos/canal-6.webp",
+      "category": "Costa Rica",
+      "order": 4
     },
     {
-      "id": "enlace-tv",
+      "id": "teletica-7",
+      "name": "Teletica 7",
+      "stream_url": "http://200.125.170.122:8000/play/a02d/index.m3u8",
+      "streamUrl": "http://200.125.170.122:8000/play/a02d/index.m3u8",
+      "logo": "/logos/teletica-canal-7.png",
+      "logoUrl": "/logos/teletica-canal-7.png",
+      "category": "Costa Rica",
+      "order": 5
+    },
+    {
+      "id": "canal-13",
+      "name": "Canal 13",
+      "stream_url": "http://200.125.170.122:8000/play/a0e6/index.m3u8",
+      "streamUrl": "http://200.125.170.122:8000/play/a0e6/index.m3u8",
+      "logo": "/logos/canal-13.png",
+      "logoUrl": "/logos/canal-13.png",
+      "category": "Costa Rica",
+      "order": 6
+    },
+    {
+      "id": "extra-tv-42",
+      "name": "Extra TV 42",
+      "stream_url": "http://200.125.170.122:8000/play/a00q/index.m3u8",
+      "streamUrl": "http://200.125.170.122:8000/play/a00q/index.m3u8",
+      "logo": "/logos/extra-tv-42.png",
+      "logoUrl": "/logos/extra-tv-42.png",
+      "category": "Costa Rica",
+      "order": 7
+    },
+    {
+      "id": "enlace",
       "name": "Enlace",
       "stream_url": "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/enlace.jpg",
-      "category": "Internacional"
+      "streamUrl": "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8",
+      "logo": "/logos/enlace.jpg",
+      "logoUrl": "/logos/enlace.jpg",
+      "category": "Internacional",
+      "order": 8
     },
     {
-      "id": "planet-tv",
-      "name": "Planet",
-      "stream_url": "https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/planet.webp",
-      "category": "Música"
-    },
-    {
-      "id": "opa-tv",
+      "id": "opa",
       "name": "OPA",
-      "stream_url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/chunklist_w215971633.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/opa.png",
-      "category": "Internacional"
+      "stream_url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
+      "streamUrl": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
+      "logo": "/logos/opa-1.png",
+      "logoUrl": "/logos/opa-1.png",
+      "category": "Costa Rica",
+      "order": 9
     },
     {
-      "id": "tv-fabulosa",
-      "name": "TV Fabulosa",
+      "id": "gex-tv",
+      "name": "Gex TV",
+      "stream_url": "https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8",
+      "streamUrl": "https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8",
+      "logo": "/logos/gextv.webp",
+      "logoUrl": "/logos/gextv.webp",
+      "category": "Costa Rica",
+      "order": 10
+    },
+    {
+      "id": "gam-tv",
+      "name": "GAM TV",
+      "stream_url": "https://v2.azulstream.com:8081/gamtv/gamtv/index.m3u8",
+      "streamUrl": "https://v2.azulstream.com:8081/gamtv/gamtv/index.m3u8",
+      "logo": "/logos/gam.webp",
+      "logoUrl": "/logos/gam.webp",
+      "category": "Costa Rica",
+      "order": 11
+    },
+    {
+      "id": "garabito-tv",
+      "name": "Garabito TV",
+      "stream_url": "https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8",
+      "streamUrl": "https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8",
+      "logo": "/logos/garavito.jpg",
+      "logoUrl": "/logos/garavito.jpg",
+      "category": "Costa Rica",
+      "order": 12
+    },
+    {
+      "id": "extrema-kids",
+      "name": "Extrema Kids",
+      "stream_url": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8",
+      "streamUrl": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8",
+      "logo": "/logos/extrema-Kids.png",
+      "logoUrl": "/logos/extrema-Kids.png",
+      "category": "Kids",
+      "order": 13
+    }
+  ],
+  "channels": [
+    {
+      "id": "fabulosa-tv",
+      "name": "Fabulosa TV",
       "stream_url": "https://live20.bozztv.com/akamaissh101/ssh101/fabulosa/playlist.m3u8",
-      "logo": "PEGAR_AQUI_BASE_URL_PUBLICA_DE_LOGOS/logo-fabulosa.png",
-      "category": "Fabulosa"
+      "streamUrl": "https://live20.bozztv.com/akamaissh101/ssh101/fabulosa/playlist.m3u8",
+      "logo": "/logos/logo-fabulosa.png",
+      "logoUrl": "/logos/logo-fabulosa.png",
+      "category": "Costa Rica",
+      "order": 1
+    },
+    {
+      "id": "retrox-tv",
+      "name": "RetroX TV",
+      "stream_url": "https://live21.bozztv.com/akamaissh101/ssh101/retroxcrtv/playlist.m3u8",
+      "streamUrl": "https://live21.bozztv.com/akamaissh101/ssh101/retroxcrtv/playlist.m3u8",
+      "logo": "/logos/retrox.png",
+      "logoUrl": "/logos/retrox.png",
+      "category": "Costa Rica",
+      "order": 2
+    },
+    {
+      "id": "canal-8",
+      "name": "Canal 8",
+      "stream_url": "https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
+      "streamUrl": "https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8",
+      "logo": "/logos/canal-8.png",
+      "logoUrl": "/logos/canal-8.png",
+      "category": "Costa Rica",
+      "order": 3
+    },
+    {
+      "id": "canal-6",
+      "name": "Canal 6",
+      "stream_url": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8",
+      "streamUrl": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8",
+      "logo": "/logos/canal-6.webp",
+      "logoUrl": "/logos/canal-6.webp",
+      "category": "Costa Rica",
+      "order": 4
+    },
+    {
+      "id": "teletica-7",
+      "name": "Teletica 7",
+      "stream_url": "http://200.125.170.122:8000/play/a02d/index.m3u8",
+      "streamUrl": "http://200.125.170.122:8000/play/a02d/index.m3u8",
+      "logo": "/logos/teletica-canal-7.png",
+      "logoUrl": "/logos/teletica-canal-7.png",
+      "category": "Costa Rica",
+      "order": 5
+    },
+    {
+      "id": "canal-13",
+      "name": "Canal 13",
+      "stream_url": "http://200.125.170.122:8000/play/a0e6/index.m3u8",
+      "streamUrl": "http://200.125.170.122:8000/play/a0e6/index.m3u8",
+      "logo": "/logos/canal-13.png",
+      "logoUrl": "/logos/canal-13.png",
+      "category": "Costa Rica",
+      "order": 6
+    },
+    {
+      "id": "extra-tv-42",
+      "name": "Extra TV 42",
+      "stream_url": "http://200.125.170.122:8000/play/a00q/index.m3u8",
+      "streamUrl": "http://200.125.170.122:8000/play/a00q/index.m3u8",
+      "logo": "/logos/extra-tv-42.png",
+      "logoUrl": "/logos/extra-tv-42.png",
+      "category": "Costa Rica",
+      "order": 7
+    },
+    {
+      "id": "enlace",
+      "name": "Enlace",
+      "stream_url": "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8",
+      "streamUrl": "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8",
+      "logo": "/logos/enlace.jpg",
+      "logoUrl": "/logos/enlace.jpg",
+      "category": "Internacional",
+      "order": 8
+    },
+    {
+      "id": "opa",
+      "name": "OPA",
+      "stream_url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
+      "streamUrl": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8",
+      "logo": "/logos/opa-1.png",
+      "logoUrl": "/logos/opa-1.png",
+      "category": "Costa Rica",
+      "order": 9
+    },
+    {
+      "id": "gex-tv",
+      "name": "Gex TV",
+      "stream_url": "https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8",
+      "streamUrl": "https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8",
+      "logo": "/logos/gextv.webp",
+      "logoUrl": "/logos/gextv.webp",
+      "category": "Costa Rica",
+      "order": 10
+    },
+    {
+      "id": "gam-tv",
+      "name": "GAM TV",
+      "stream_url": "https://v2.azulstream.com:8081/gamtv/gamtv/index.m3u8",
+      "streamUrl": "https://v2.azulstream.com:8081/gamtv/gamtv/index.m3u8",
+      "logo": "/logos/gam.webp",
+      "logoUrl": "/logos/gam.webp",
+      "category": "Costa Rica",
+      "order": 11
+    },
+    {
+      "id": "garabito-tv",
+      "name": "Garabito TV",
+      "stream_url": "https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8",
+      "streamUrl": "https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8",
+      "logo": "/logos/garavito.jpg",
+      "logoUrl": "/logos/garavito.jpg",
+      "category": "Costa Rica",
+      "order": 12
+    },
+    {
+      "id": "extrema-kids",
+      "name": "Extrema Kids",
+      "stream_url": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8",
+      "streamUrl": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8",
+      "logo": "/logos/extrema-Kids.png",
+      "logoUrl": "/logos/extrema-Kids.png",
+      "category": "Kids",
+      "order": 13
+    }
+  ],
+  "radios": [
+    {
+      "id": "radio-fabulosa",
+      "name": "Radio Fabulosa",
+      "stream_url": "https://dattavolt.com/8030/stream",
+      "streamUrl": "https://dattavolt.com/8030/stream",
+      "logo": "/logos/logo-fabulosa.png",
+      "logoUrl": "/logos/logo-fabulosa.png",
+      "tags": [
+        "radio",
+        "fabulosa"
+      ],
+      "order": 1
     }
   ]
 }
