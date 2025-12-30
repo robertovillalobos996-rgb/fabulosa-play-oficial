@@ -1,42 +1,90 @@
 {
   "categorias": [
     {
-      "titulo": "👮 Acción Policial (DW Documental)",
+      "titulo": "🎬 Estrenos Destacados",
       "tipo": "vod",
       "contenido": [
-        { "id": "dw_1", "titulo": "Guerra de los Cárteles", "poster": "https://img.youtube.com/vi/9aMtg7tQDMU/mqdefault.jpg", "fuente": "youtube", "url": "9aMtg7tQDMU", "duracion": "42 min" },
-        { "id": "dw_2", "titulo": "Ladrones de Coches", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "fuente": "youtube", "url": "O1zFu_VcpO0", "duracion": "50 min" },
-        { "id": "dw_3", "titulo": "La Mafia Italiana", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "fuente": "youtube", "url": "8k7_Mv9k-m4", "duracion": "42 min" },
-        { "id": "dw_4", "titulo": "Interpol: Cazadores", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "fuente": "youtube", "url": "sqVwKlZqOwc", "duracion": "28 min" },
-        { "id": "dw_5", "titulo": "Fentanilo: Droga Mortal", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "fuente": "youtube", "url": "qJ0s-K-yR2I", "duracion": "50 min" }
+        { "id": "dest_1", "titulo": "La Noche de los Muertos Vivientes", "poster": "https://img.youtube.com/vi/5gUKvmOEfkc/hqdefault.jpg", "fuente": "youtube", "url": "5gUKvmOEfkc", "duracion": "1h 36m" },
+        { "id": "dest_2", "titulo": "El Maquinista de La General", "poster": "https://img.youtube.com/vi/Edo2s6b7W9k/hqdefault.jpg", "fuente": "youtube", "url": "Edo2s6b7W9k", "duracion": "1h 18m" },
+        { "id": "dest_3", "titulo": "Charada (Misterio)", "poster": "https://img.youtube.com/vi/NmC6-53JzPo/hqdefault.jpg", "fuente": "youtube", "url": "NmC6-53JzPo", "duracion": "1h 53m" },
+        { "id": "dest_4", "titulo": "El Chico (Chaplin)", "poster": "https://img.youtube.com/vi/5u7gN8dsy9c/hqdefault.jpg", "fuente": "youtube", "url": "5u7gN8dsy9c", "duracion": "52 min" },
+        { "id": "dest_5", "titulo": "Superman: La Serie Animada", "poster": "https://img.youtube.com/vi/sjdnCC6n4xk/hqdefault.jpg", "fuente": "youtube", "url": "sjdnCC6n4xk", "duracion": "10 min" }
       ]
     },
     {
-      "titulo": "🍿 Cine Clásico (Acción y Terror)",
+      "titulo": "👮 Acción y Crimen Real",
       "tipo": "vod",
       "contenido": [
-        { "id": "movie_1", "titulo": "La Noche de los Muertos Vivientes", "poster": "https://img.youtube.com/vi/5gUKvmOEfkc/mqdefault.jpg", "fuente": "youtube", "url": "5gUKvmOEfkc", "duracion": "1h 36m" },
-        { "id": "movie_2", "titulo": "La Pequeña Tienda de los Horrores", "poster": "https://img.youtube.com/vi/G7xT1nF3WGE/mqdefault.jpg", "fuente": "youtube", "url": "G7xT1nF3WGE", "duracion": "1h 12m" },
-        { "id": "movie_3", "titulo": "El Último Hombre en la Tierra", "poster": "https://img.youtube.com/vi/XqD63gW8gXo/mqdefault.jpg", "fuente": "youtube", "url": "XqD63gW8gXo", "duracion": "1h 26m" },
-        { "id": "movie_4", "titulo": "House on Haunted Hill", "poster": "https://img.youtube.com/vi/zJOq4tqPqP4/mqdefault.jpg", "fuente": "youtube", "url": "zJOq4tqPqP4", "duracion": "1h 15m" }
+        { "id": "cri_1", "titulo": "La Mafia Ndrangheta", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/hqdefault.jpg", "fuente": "youtube", "url": "8k7_Mv9k-m4", "duracion": "42 min" },
+        { "id": "cri_2", "titulo": "Cibercrimen Organizado", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/hqdefault.jpg", "fuente": "youtube", "url": "aZ3FfS0XgT0", "duracion": "42 min" },
+        { "id": "cri_3", "titulo": "Ladrones de Lujo", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/hqdefault.jpg", "fuente": "youtube", "url": "O1zFu_VcpO0", "duracion": "50 min" },
+        { "id": "cri_4", "titulo": "Interpol: La Caza", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/hqdefault.jpg", "fuente": "youtube", "url": "sqVwKlZqOwc", "duracion": "28 min" },
+        { "id": "cri_5", "titulo": "El Negocio de la Arena", "poster": "https://img.youtube.com/vi/XXq54c1Wd6E/hqdefault.jpg", "fuente": "youtube", "url": "XXq54c1Wd6E", "duracion": "42 min" },
+        { "id": "cri_6", "titulo": "Contrabando en Fronteras", "poster": "https://img.youtube.com/vi/1_1_1_1_1_1/hqdefault.jpg", "fuente": "youtube", "url": "qJ0s-K-yR2I", "duracion": "42 min" }
       ]
     },
     {
-      "titulo": "👶 Zona Kids (Dibujos)",
+      "titulo": "🧛 Terror Clásico (No fallan)",
       "tipo": "vod",
       "contenido": [
-        { "id": "kid_1", "titulo": "El Pajaro Loco (Clásico)", "poster": "https://img.youtube.com/vi/YZ1eP3QoXQ8/mqdefault.jpg", "fuente": "youtube", "url": "YZ1eP3QoXQ8", "duracion": "7 min" },
-        { "id": "kid_2", "titulo": "Popeye el Marino", "poster": "https://img.youtube.com/vi/M31c3g2h2M8/mqdefault.jpg", "fuente": "youtube", "url": "M31c3g2h2M8", "duracion": "6 min" },
-        { "id": "kid_3", "titulo": "Superman (1941)", "poster": "https://img.youtube.com/vi/sjdnCC6n4xk/mqdefault.jpg", "fuente": "youtube", "url": "sjdnCC6n4xk", "duracion": "10 min" },
-        { "id": "kid_4", "titulo": "Merrie Melodies", "poster": "https://img.youtube.com/vi/r-1eLpGvL-I/mqdefault.jpg", "fuente": "youtube", "url": "r-1eLpGvL-I", "duracion": "7 min" }
+        { "id": "terr_1", "titulo": "Nosferatu", "poster": "https://img.youtube.com/vi/e7p3ct5hcks/hqdefault.jpg", "fuente": "youtube", "url": "e7p3ct5hcks", "duracion": "1h 34m" },
+        { "id": "terr_2", "titulo": "House on Haunted Hill", "poster": "https://img.youtube.com/vi/zJOq4tqPqP4/hqdefault.jpg", "fuente": "youtube", "url": "zJOq4tqPqP4", "duracion": "1h 15m" },
+        { "id": "terr_3", "titulo": "La Tienda de los Horrores", "poster": "https://img.youtube.com/vi/G7xT1nF3WGE/hqdefault.jpg", "fuente": "youtube", "url": "G7xT1nF3WGE", "duracion": "1h 12m" },
+        { "id": "terr_4", "titulo": "El Fantasma de la Ópera", "poster": "https://img.youtube.com/vi/j52o-aL_5u8/hqdefault.jpg", "fuente": "youtube", "url": "j52o-aL_5u8", "duracion": "1h 33m" },
+        { "id": "terr_5", "titulo": "El Murciélago (The Bat)", "poster": "https://img.youtube.com/vi/4a1d4a1d4a1/hqdefault.jpg", "fuente": "youtube", "url": "ABzZzZzZzZz", "duracion": "1h 20m" },
+        { "id": "terr_6", "titulo": "Carnaval de Almas", "poster": "https://img.youtube.com/vi/yXZ4QZ4QZ4Q/hqdefault.jpg", "fuente": "youtube", "url": "8X8X8X8X8X8", "duracion": "1h 18m" }
       ]
     },
     {
-      "titulo": "📡 Canales 24/7",
+      "titulo": "🤣 Comedia Inmortal",
+      "tipo": "vod",
+      "contenido": [
+        { "id": "com_1", "titulo": "Tiempos Modernos", "poster": "https://img.youtube.com/vi/HAPilyrEzC4/hqdefault.jpg", "fuente": "youtube", "url": "HAPilyrEzC4", "duracion": "1h 27m" },
+        { "id": "com_2", "titulo": "El Navegante", "poster": "https://img.youtube.com/vi/Y9Y9Y9Y9Y9Y/hqdefault.jpg", "fuente": "youtube", "url": "Y9Y9Y9Y9Y9Y", "duracion": "59 min" },
+        { "id": "com_3", "titulo": "Sherlock Jr.", "poster": "https://img.youtube.com/vi/kzH1iaK0tFQ/hqdefault.jpg", "fuente": "youtube", "url": "kzH1iaK0tFQ", "duracion": "45 min" },
+        { "id": "com_4", "titulo": "Viaje a la Luna", "poster": "https://img.youtube.com/vi/xLvChWMi71g/hqdefault.jpg", "fuente": "youtube", "url": "xLvChWMi71g", "duracion": "14 min" },
+        { "id": "com_5", "titulo": "La Quimera del Oro", "poster": "https://img.youtube.com/vi/Mk1_1_1_1_1/hqdefault.jpg", "fuente": "youtube", "url": "Mk1_1_1_1_1", "duracion": "1h 35m" }
+      ]
+    },
+    {
+      "titulo": "👶 Zona Kids (Dibujos Retro)",
+      "tipo": "vod",
+      "contenido": [
+        { "id": "kid_1", "titulo": "Popeye y Ali Baba", "poster": "https://img.youtube.com/vi/9g9g9g9g9g9/hqdefault.jpg", "fuente": "youtube", "url": "M31c3g2h2M8", "duracion": "17 min" },
+        { "id": "kid_2", "titulo": "Superman: El Robot", "poster": "https://img.youtube.com/vi/8h8h8h8h8h8/hqdefault.jpg", "fuente": "youtube", "url": "sjdnCC6n4xk", "duracion": "10 min" },
+        { "id": "kid_3", "titulo": "Fantasías Animadas", "poster": "https://img.youtube.com/vi/7j7j7j7j7j7/hqdefault.jpg", "fuente": "youtube", "url": "r-1eLpGvL-I", "duracion": "8 min" },
+        { "id": "kid_4", "titulo": "Gasparín el Fantasma", "poster": "https://img.youtube.com/vi/3w3q_g4g8g8/hqdefault.jpg", "fuente": "youtube", "url": "3w3q_g4g8g8", "duracion": "8 min" },
+        { "id": "kid_5", "titulo": "Los Tres Chiflados", "poster": "https://img.youtube.com/vi/M2WJ_p-Cq_M/hqdefault.jpg", "fuente": "youtube", "url": "M2WJ_p-Cq_M", "duracion": "18 min" },
+        { "id": "kid_6", "titulo": "Betty Boop", "poster": "https://img.youtube.com/vi/5k5k5k5k5k5/hqdefault.jpg", "fuente": "youtube", "url": "5k5k5k5k5k5", "duracion": "6 min" }
+      ]
+    },
+    {
+      "titulo": "🤠 Western y Vaqueros",
+      "tipo": "vod",
+      "contenido": [
+        { "id": "west_1", "titulo": "El Rostro Impenetrable", "poster": "https://img.youtube.com/vi/1z1z1z1z1z1/hqdefault.jpg", "fuente": "youtube", "url": "1z1z1z1z1z1", "duracion": "1h 00m" },
+        { "id": "west_2", "titulo": "Jinetes del Destino", "poster": "https://img.youtube.com/vi/2x2x2x2x2x2/hqdefault.jpg", "fuente": "youtube", "url": "2x2x2x2x2x2", "duracion": "53 min" },
+        { "id": "west_3", "titulo": "Acero Azul", "poster": "https://img.youtube.com/vi/3c3c3c3c3c3/hqdefault.jpg", "fuente": "youtube", "url": "3c3c3c3c3c3", "duracion": "54 min" }
+      ]
+    },
+    {
+      "titulo": "🦁 Documentales Naturaleza",
+      "tipo": "vod",
+      "contenido": [
+        { "id": "nat_1", "titulo": "Vida en el Océano", "poster": "https://img.youtube.com/vi/JkaxUblCGz0/hqdefault.jpg", "fuente": "youtube", "url": "JkaxUblCGz0", "duracion": "45 min" },
+        { "id": "nat_2", "titulo": "Leones del Desierto", "poster": "https://img.youtube.com/vi/4v4v4v4v4v4/hqdefault.jpg", "fuente": "youtube", "url": "4v4v4v4v4v4", "duracion": "50 min" },
+        { "id": "nat_3", "titulo": "El Amazonas Salvaje", "poster": "https://img.youtube.com/vi/5b5b5b5b5b5/hqdefault.jpg", "fuente": "youtube", "url": "5b5b5b5b5b5", "duracion": "48 min" }
+      ]
+    },
+    {
+      "titulo": "📡 TV en Vivo (Cine 24/7)",
       "tipo": "live",
       "contenido": [
         { "id": "live_1", "titulo": "Runtime Cine", "poster": "https://images.wurl.com/131/469/414/239714/original/131_469_414_239714.jpg", "fuente": "m3u8", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=533", "duracion": "🔴 EN VIVO" },
-        { "id": "live_2", "titulo": "Rakuten Acción", "poster": "https://images.wurl.com/58/412/322/207002/original/58_412_322_207002.jpg", "fuente": "m3u8", "url": "https://rakuten-action-es.samsung.wurl.tv/playlist.m3u8", "duracion": "🔴 EN VIVO" }
+        { "id": "live_2", "titulo": "Rakuten Acción", "poster": "https://images.wurl.com/58/412/322/207002/original/58_412_322_207002.jpg", "fuente": "m3u8", "url": "https://rakuten-action-es.samsung.wurl.tv/playlist.m3u8", "duracion": "🔴 EN VIVO" },
+        { "id": "live_3", "titulo": "Runtime Comedia", "poster": "https://images.wurl.com/131/469/414/239714/original/131_469_414_239714.jpg", "fuente": "m3u8", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=534", "duracion": "🔴 EN VIVO" },
+        { "id": "live_4", "titulo": "Rakuten Top Cine", "poster": "https://images.wurl.com/58/412/322/207002/original/58_412_322_207002.jpg", "fuente": "m3u8", "url": "https://rakuten-action-es.samsung.wurl.tv/playlist.m3u8", "duracion": "🔴 EN VIVO" },
+        { "id": "live_5", "titulo": "Cine Nostalgia", "poster": "https://images.wurl.com/58/412/322/207002/original/58_412_322_207002.jpg", "fuente": "m3u8", "url": "https://rakuten-action-es.samsung.wurl.tv/playlist.m3u8", "duracion": "🔴 EN VIVO" }
       ]
     }
   ]
