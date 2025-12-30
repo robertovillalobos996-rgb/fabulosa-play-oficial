@@ -1,59 +1,13 @@
 {
   "categorias": [
     {
-      "titulo": "🔥 Acción Implacable",
-      "tipo": "vod",
-      "contenido": [
-        {
-          "id": "doa_1950",
-          "titulo": "D.O.A. (Con las horas contadas)",
-          "poster": "https://ia800300.us.archive.org/5/items/doa_1950/doa_1950.thumbs/DOA_1950_000030.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/doa_1950",
-          "duracion": "1h 23m"
-        },
-        {
-          "id": "detour_1945",
-          "titulo": "Desvío (Cine Negro)",
-          "poster": "https://ia801308.us.archive.org/21/items/Detour_1945_456/Detour_1945_456.thumbs/Detour_%281945%29_000058.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/Detour_1945_456",
-          "duracion": "1h 07m"
-        },
-        {
-          "id": "kansas_city",
-          "titulo": "El Confidencial (Kansas City)",
-          "poster": "https://ia800303.us.archive.org/10/items/kansas_city_confidential_ipod/kansas_city_confidential_ipod.thumbs/kansas_city_confidential_512kb_000030.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/kansas_city_confidential_ipod",
-          "duracion": "1h 39m"
-        },
-        {
-          "id": "hitchhiker",
-          "titulo": "El Autoestopista (Thriller)",
-          "poster": "https://ia800504.us.archive.org/1/items/TheHitchhiker/TheHitchhiker.thumbs/TheHitch-Hiker1953_000060.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/TheHitchhiker",
-          "duracion": "1h 11m"
-        },
-        {
-          "id": "the_stranger",
-          "titulo": "El Extraño (Orson Welles)",
-          "poster": "https://ia800508.us.archive.org/28/items/TheStranger1946_519/TheStranger1946_519.thumbs/The_Stranger_1946_000090.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/TheStranger1946_519",
-          "duracion": "1h 35m"
-        }
-      ]
-    },
-    {
-      "titulo": "👮 Crimen y Narcotráfico (Documentales)",
+      "titulo": "👮 Crimen y Policiales (DW Documental)",
       "tipo": "vod",
       "contenido": [
         {
           "id": "dw_narco_mx",
           "titulo": "Guerra de los Cárteles",
-          "poster": "https://img.youtube.com/vi/9aMtg7tQDMU/hqdefault.jpg",
+          "poster": "https://img.youtube.com/vi/9aMtg7tQDMU/mqdefault.jpg",
           "fuente": "youtube",
           "url": "9aMtg7tQDMU",
           "duracion": "42 min"
@@ -61,7 +15,7 @@
         {
           "id": "dw_ladrones",
           "titulo": "Ladrones de Coches",
-          "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/hqdefault.jpg",
+          "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg",
           "fuente": "youtube",
           "url": "O1zFu_VcpO0",
           "duracion": "50 min"
@@ -69,86 +23,86 @@
         {
           "id": "dw_fentanilo",
           "titulo": "Fentanilo: Droga Mortal",
-          "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/hqdefault.jpg",
+          "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg",
           "fuente": "youtube",
           "url": "qJ0s-K-yR2I",
           "duracion": "50 min"
         },
         {
-          "id": "dw_mafia_italiana",
-          "titulo": "La Mafia Ndrangheta",
-          "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/hqdefault.jpg",
+          "id": "dw_mafia",
+          "titulo": "La Mafia Italiana",
+          "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg",
           "fuente": "youtube",
           "url": "8k7_Mv9k-m4",
           "duracion": "42 min"
-        },
-        {
-          "id": "dw_interpol",
-          "titulo": "Interpol: Cazadores",
-          "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/hqdefault.jpg",
-          "fuente": "youtube",
-          "url": "sqVwKlZqOwc",
-          "duracion": "28 min"
         }
       ]
     },
     {
-      "titulo": "🧟 Terror y Suspenso",
+      "titulo": "🔥 Acción y Suspenso (Cine Clásico)",
+      "tipo": "vod",
+      "contenido": [
+        {
+          "id": "doa_movie",
+          "titulo": "D.O.A. (Muerto al llegar)",
+          "poster": "https://img.youtube.com/vi/3pqiQpM_jI8/mqdefault.jpg",
+          "fuente": "youtube",
+          "url": "3pqiQpM_jI8",
+          "duracion": "1h 23m"
+        },
+        {
+          "id": "stranger_movie",
+          "titulo": "El Extraño (Orson Welles)",
+          "poster": "https://img.youtube.com/vi/WdJj8e1Kqow/mqdefault.jpg",
+          "fuente": "youtube",
+          "url": "WdJj8e1Kqow",
+          "duracion": "1h 35m"
+        },
+        {
+          "id": "sherlock_movie",
+          "titulo": "Sherlock Holmes: Terror",
+          "poster": "https://img.youtube.com/vi/W4hV4BKyR_w/mqdefault.jpg",
+          "fuente": "youtube",
+          "url": "W4hV4BKyR_w",
+          "duracion": "1h 00m"
+        },
+        {
+          "id": "hitchhiker_movie",
+          "titulo": "El Autoestopista",
+          "poster": "https://img.youtube.com/vi/ds-b84zO9k4/mqdefault.jpg",
+          "fuente": "youtube",
+          "url": "ds-b84zO9k4",
+          "duracion": "1h 11m"
+        }
+      ]
+    },
+    {
+      "titulo": "🧟 Terror (Clásicos de Miedo)",
       "tipo": "vod",
       "contenido": [
         {
           "id": "night_living_dead",
           "titulo": "La Noche de los Muertos Vivientes",
-          "poster": "https://ia800501.us.archive.org/11/items/night_of_the_living_dead/night_of_the_living_dead.thumbs/night_of_the_living_dead_000120.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/night_of_the_living_dead",
+          "poster": "https://img.youtube.com/vi/0TjQ0t3gWwQ/mqdefault.jpg",
+          "fuente": "youtube",
+          "url": "0TjQ0t3gWwQ",
           "duracion": "1h 36m"
-        },
-        {
-          "id": "house_haunted_hill",
-          "titulo": "La Casa de la Colina Encantada",
-          "poster": "https://ia800502.us.archive.org/12/items/HouseOnHauntedHill_262/HouseOnHauntedHill_262.thumbs/House_on_Haunted_Hill_1959_000180.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/HouseOnHauntedHill_262",
-          "duracion": "1h 15m"
         },
         {
           "id": "nosferatu",
           "titulo": "Nosferatu (Vampiro)",
-          "poster": "https://ia801900.us.archive.org/18/items/Nosferatu_DVD_Quality_with_original_score/Nosferatu_DVD_Quality_with_original_score.thumbs/Nosferatu_000060.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/Nosferatu_DVD_Quality_with_original_score",
-          "duracion": "1h 34m"
-        }
-      ]
-    },
-    {
-      "titulo": "🤣 Comedia y Familiar",
-      "tipo": "vod",
-      "contenido": [
-        {
-          "id": "chaplin_kid",
-          "titulo": "El Chico (Chaplin)",
-          "poster": "https://ia800305.us.archive.org/13/items/TheKid1921_201809/TheKid1921_201809.thumbs/The%20Kid%20%281921%29_000155.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/TheKid1921_201809",
-          "duracion": "52 min"
+          "poster": "https://img.youtube.com/vi/e7p3ct5hcks/mqdefault.jpg",
+          "fuente": "youtube",
+          "url": "e7p3ct5hcks",
+          "duracion": "1h 30m"
         },
         {
-          "id": "popeye_meets_bad",
-          "titulo": "Popeye y Simbad",
-          "poster": "https://ia800501.us.archive.org/21/items/Popeye_PopeyeTheSailorMeetsSindbadTheSailor/Popeye_PopeyeTheSailorMeetsSindbadTheSailor.thumbs/Popeye_-_Popeye_the_Sailor_Meets_Sindbad_the_Sailor_000210.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/Popeye_PopeyeTheSailorMeetsSindbadTheSailor",
-          "duracion": "16 min"
-        },
-        {
-          "id": "superman_classic",
-          "titulo": "Superman (Animado Clásico)",
-          "poster": "https://ia800300.us.archive.org/30/items/Superman_1941/Superman_1941.thumbs/Superman%20%281941%29_000115.jpg",
-          "fuente": "archive",
-          "url": "https://archive.org/embed/Superman_1941",
-          "duracion": "10 min"
+          "id": "house_haunted",
+          "titulo": "La Casa Encantada",
+          "poster": "https://img.youtube.com/vi/XF7kF7p0aIM/mqdefault.jpg",
+          "fuente": "youtube",
+          "url": "XF7kF7p0aIM",
+          "duracion": "1h 15m"
         }
       ]
     },
