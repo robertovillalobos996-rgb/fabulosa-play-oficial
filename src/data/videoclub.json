@@ -1,117 +1,30 @@
 {
   "categorias": [
     {
-      "titulo": "🎬 Cine Clásico (Fuente: Archive.org - Garantizado)",
-      "tipo": "vod",
+      "titulo": "🍿 Cine 24/7 (Señales en Vivo)",
+      "tipo": "live",
       "contenido": [
-        { 
-          "id": "cine_1", 
-          "titulo": "La Noche de los Muertos Vivientes", 
-          "poster": "https://ia902607.us.archive.org/21/items/night_of_the_living_dead/night_of_the_living_dead.thumbs/night_of_the_living_dead_000060.jpg", 
-          "fuente": "archive", 
-          "url": "https://archive.org/embed/night_of_the_living_dead", 
-          "duracion": "1h 36m" 
-        },
-        { 
-          "id": "cine_2", 
-          "titulo": "Charada (Misterio con Cary Grant)", 
-          "poster": "https://ia802608.us.archive.org/19/items/Charade1963/Charade1963.thumbs/Charade1963_000120.jpg", 
-          "fuente": "archive", 
-          "url": "https://archive.org/embed/Charade1963", 
-          "duracion": "1h 53m" 
-        },
-        { 
-          "id": "cine_3", 
-          "titulo": "El Maquinista de la General (Comedia)", 
-          "poster": "https://ia800302.us.archive.org/2/items/TheGeneral_201609/TheGeneral_201609.thumbs/TheGeneral.00_00_03_08.still001.jpg", 
-          "fuente": "archive", 
-          "url": "https://archive.org/embed/TheGeneral_201609", 
-          "duracion": "1h 18m" 
-        },
-        { 
-          "id": "cine_4", 
-          "titulo": "Viaje a la Luna (Color 1902)", 
-          "poster": "https://ia800501.us.archive.org/27/items/Le_Voyage_dans_la_lune_1902_Georges_Melies/Le_Voyage_dans_la_lune_1902_Georges_Melies.thumbs/Le_Voyage_dans_la_lune_1902_Georges_Melies_000001.jpg", 
-          "fuente": "archive", 
-          "url": "https://archive.org/embed/Le_Voyage_dans_la_lune_1902_Georges_Melies", 
-          "duracion": "14 min" 
-        }
+        { "id": "rt_accion", "titulo": "Runtime Acción", "poster": "https://img.freepik.com/foto-gratis/cine-palomitas-maiz-rollo-pelicula_23-2148532703.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=533" },
+        { "id": "rt_comedia", "titulo": "Runtime Comedia", "poster": "https://img.freepik.com/fotos-premium/badajo-pelicula-sobre-fondo-amarillo_256339-1685.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=534" },
+        { "id": "rt_romance", "titulo": "Runtime Romance", "poster": "https://img.freepik.com/fotos-premium/pareja-amor-al-atardecer-playa_250469-12297.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=536" },
+        { "id": "rt_thriller", "titulo": "Runtime Thriller", "poster": "https://img.freepik.com/foto-gratis/hombre-misterioso-caminando-noche_23-2149098586.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=535" }
       ]
     },
     {
-      "titulo": "👶 Zona Kids (Canales Oficiales YouTube)",
-      "tipo": "vod",
+      "titulo": "👶 Niños y Familia (24/7)",
+      "tipo": "live",
       "contenido": [
-        { 
-          "id": "kid_1", 
-          "titulo": "Pocoyó - Especial Navidad (1 Hora)", 
-          "poster": "https://img.youtube.com/vi/UjQ29GqgKps/mqdefault.jpg", 
-          "fuente": "youtube", 
-          "url": "UjQ29GqgKps", 
-          "duracion": "1h 00m" 
-        },
-        { 
-          "id": "kid_2", 
-          "titulo": "Masha y el Oso - Lo Mejor", 
-          "poster": "https://img.youtube.com/vi/UK1ZPFQEvmo/mqdefault.jpg", 
-          "fuente": "youtube", 
-          "url": "UK1ZPFQEvmo", 
-          "duracion": "1h 00m" 
-        },
-        { 
-          "id": "kid_3", 
-          "titulo": "Pocoyó y los Dinosaurios", 
-          "poster": "https://img.youtube.com/vi/XRudpf6Mwp0/mqdefault.jpg", 
-          "fuente": "youtube", 
-          "url": "XRudpf6Mwp0", 
-          "duracion": "1h 00m" 
-        },
-        { 
-          "id": "kid_4", 
-          "titulo": "Peppa Pig - Temporada 6", 
-          "poster": "https://img.youtube.com/vi/h2O4a3I6u_o/mqdefault.jpg", 
-          "fuente": "youtube", 
-          "url": "h2O4a3I6u_o", 
-          "duracion": "30 min" 
-        }
+        { "id": "kid_bob", "titulo": "Bob Esponja (Pluto TV)", "poster": "https://images.pluto.tv/channels/5f12128796677c00072b202e/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12128796677c00072b202e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f12128796677c00072b202e&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f12128796677c00072b202e&userId=" },
+        { "id": "kid_padrinos", "titulo": "Padrinos Mágicos", "poster": "https://images.pluto.tv/channels/5f7626966144e50007621c17/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f7626966144e50007621c17/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f7626966144e50007621c17&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f7626966144e50007621c17&userId=" },
+         { "id": "kid_pocoyo", "titulo": "Pocoyó TV", "poster": "https://yt3.googleusercontent.com/ytc/AIdro_k67sD-Fk4C_aOq7LzI442y8Hk1X5y5y5y5y5y=s900-c-k-c0x00ffffff-no-rj", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=457" }
       ]
     },
     {
-      "titulo": "🌍 Documentales (DW Español Oficial)",
-      "tipo": "vod",
+      "titulo": "🎵 Música y Entretenimiento",
+      "tipo": "live",
       "contenido": [
-        { 
-          "id": "doc_1", 
-          "titulo": "Océanos de Codicia (Minería Marina)", 
-          "poster": "https://img.youtube.com/vi/c56eg0hOLuw/mqdefault.jpg", 
-          "fuente": "youtube", 
-          "url": "c56eg0hOLuw", 
-          "duracion": "42 min" 
-        },
-        { 
-          "id": "doc_2", 
-          "titulo": "Machu Picchu - Arquitectos Incas", 
-          "poster": "https://img.youtube.com/vi/b3A4RiRqvYk/mqdefault.jpg", 
-          "fuente": "youtube", 
-          "url": "b3A4RiRqvYk", 
-          "duracion": "28 min" 
-        },
-        { 
-          "id": "doc_3", 
-          "titulo": "Inteligencia Artificial (DW)", 
-          "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", 
-          "fuente": "youtube", 
-          "url": "aZ3FfS0XgT0", 
-          "duracion": "42 min" 
-        },
-         { 
-          "id": "doc_4", 
-          "titulo": "¿Es posible la paz mundial?", 
-          "poster": "https://img.youtube.com/vi/2cON7CA20r4/mqdefault.jpg", 
-          "fuente": "youtube", 
-          "url": "2cON7CA20r4", 
-          "duracion": "50 min" 
-        }
+         { "id": "mus_vevo", "titulo": "Vevo Latino", "poster": "https://images.pluto.tv/channels/5f120d5d96677c00072b1fe4/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f120d5d96677c00072b1fe4/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f120d5d96677c00072b1fe4&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f120d5d96677c00072b1fe4&userId=" },
+         { "id": "mus_karol", "titulo": "MTV En Vivo", "poster": "https://images.pluto.tv/channels/5f120e7496677c00072b1ff9/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f120e7496677c00072b1ff9/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f120e7496677c00072b1ff9&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f120e7496677c00072b1ff9&userId=" }
       ]
     }
   ]
