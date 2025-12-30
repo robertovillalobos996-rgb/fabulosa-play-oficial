@@ -12,6 +12,7 @@ import { createPageUrl } from "../utils/createPageUrl";
 export default function Home() {
   const [lastChannel, setLastChannel] = useState(null);
 
+  // Consulta de canales
   const { data: channels = [] } = useQuery({
     queryKey: ["channels"],
     queryFn: async () => {
@@ -23,6 +24,7 @@ export default function Home() {
     },
   });
 
+  // Consulta de radios
   const { data: radioStations = [] } = useQuery({
     queryKey: ["radioStations"],
     queryFn: async () => {
@@ -41,6 +43,7 @@ export default function Home() {
     window.location.href = createPageUrl("Player") + "?channel=" + channel.id;
   };
 
+  // Botones existentes
   const quickActions = [
     { title: "Canales TV", description: "Ver todos los canales", icon: Tv, page: "Channels", color: "from-fuchsia-600 to-pink-600" },
     { title: "Fabulosa La Radio Romantica", description: "Escuchar en vivo", icon: Radio, page: "Radio", color: "from-purple-600 to-pink-600",
@@ -53,6 +56,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a0a0f] p-8">
       <div className="max-w-7xl mx-auto space-y-12">
+        
+        {/* --- SECCIÓN PRINCIPAL (HERO) --- */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -81,6 +86,7 @@ export default function Home() {
           </div>
         </motion.div>
 
+        {/* --- CONTINUAR VIENDO (Si existe historial) --- */}
         {lastChannel && (
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
             <div className="flex items-center gap-3 mb-6">
@@ -93,9 +99,12 @@ export default function Home() {
           </motion.div>
         )}
 
+        {/* --- ACCESO RÁPIDO (Aquí están los botones) --- */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
           <h2 className="text-3xl font-bold text-white mb-6">Acceso Rápido</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            {/* 1. Botones Originales (Mapeados) */}
             {quickActions.map((action, index) => {
               const Icon = action.icon;
               const isRadio = action.page === "Radio";
@@ -150,9 +159,42 @@ export default function Home() {
                 </Link>
               );
             })}
+
+            {/* 2. NUEVO BOTÓN VIDEO CLUB (Insertado Correctamente Aquí) */}
+            <Link to="/videoclub">
+              <motion.div
+                whileHover={{ scale: 1.03, y: -4 }}
+                whileTap={{ scale: 0.98 }}
+                className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#ff00bf] to-[#9900ff] p-6 text-white shadow-xl h-64 flex flex-col justify-center cursor-pointer"
+              >
+                <div className="relative z-10 flex flex-col items-center justify-center gap-3 text-center h-full">
+                  <div className="rounded-full bg-white/20 p-3 backdrop-blur-sm">
+                    {/* Icono de Película */}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+                      <path d="M7 3v18" />
+                      <path d="M3 7.5h4" />
+                      <path d="M3 12h18" />
+                      <path d="M3 16.5h4" />
+                      <path d="M17 3v18" />
+                      <path d="M17 7.5h4" />
+                      <path d="M17 16.5h4" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold">Video Club</h3>
+                    <p className="text-xs opacity-90">Pelis y Series</p>
+                  </div>
+                </div>
+                {/* Efecto de fondo igual a los otros */}
+                <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl transform translate-x-8 -translate-y-8 group-hover:scale-150 transition-transform duration-500" />
+              </motion.div>
+            </Link>
+
           </div>
         </motion.div>
 
+        {/* --- CANALES DESTACADOS --- */}
         {channels.length > 0 && (
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}>
             <h2 className="text-3xl font-bold text-white mb-6">Canales Destacados</h2>
