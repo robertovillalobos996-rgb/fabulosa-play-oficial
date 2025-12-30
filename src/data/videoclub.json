@@ -1,79 +1,117 @@
 {
   "categorias": [
     {
-      "titulo": "🎬 Cine Clásico y Acción (Funcionan 100%)",
+      "titulo": "🎬 Cine Clásico (Fuente: Archive.org - Garantizado)",
       "tipo": "vod",
       "contenido": [
-        { "id": "cine_1", "titulo": "La Noche de los Muertos Vivientes", "poster": "https://img.youtube.com/vi/5gUKvmOEfkc/mqdefault.jpg", "fuente": "youtube", "url": "5gUKvmOEfkc", "duracion": "1h 36m" },
-        { "id": "cine_2", "titulo": "Tears of Steel (Sci-Fi)", "poster": "https://img.youtube.com/vi/R6MlUcmOul8/mqdefault.jpg", "fuente": "youtube", "url": "R6MlUcmOul8", "duracion": "12 min" },
-        { "id": "cine_3", "titulo": "El Maquinista de la General", "poster": "https://img.youtube.com/vi/Edo_I9R6K2k/mqdefault.jpg", "fuente": "youtube", "url": "Edo_I9R6K2k", "duracion": "1h 18m" },
-        { "id": "cine_4", "titulo": "Sherlock Jr (Buster Keaton)", "poster": "https://img.youtube.com/vi/kzH1iaK0tFQ/mqdefault.jpg", "fuente": "youtube", "url": "kzH1iaK0tFQ", "duracion": "45 min" },
-        { "id": "cine_5", "titulo": "Viaje a la Luna (1902)", "poster": "https://img.youtube.com/vi/xLvChWMi71g/mqdefault.jpg", "fuente": "youtube", "url": "xLvChWMi71g", "duracion": "15 min" },
-        { "id": "cine_6", "titulo": "El Fantasma de la Ópera", "poster": "https://img.youtube.com/vi/j52o-aL_5u8/mqdefault.jpg", "fuente": "youtube", "url": "j52o-aL_5u8", "duracion": "1h 33m" },
-        { "id": "cine_7", "titulo": "Charada (Cary Grant)", "poster": "https://img.youtube.com/vi/v5u7QeMpplk/mqdefault.jpg", "fuente": "youtube", "url": "v5u7QeMpplk", "duracion": "1h 53m" },
-        { "id": "cine_8", "titulo": "Sintel (Animación 4K)", "poster": "https://img.youtube.com/vi/eRsGyueVLvQ/mqdefault.jpg", "fuente": "youtube", "url": "eRsGyueVLvQ", "duracion": "15 min" },
-        { "id": "cine_9", "titulo": "Kung Fury (Acción)", "poster": "https://img.youtube.com/vi/bS5P_LAqiVg/mqdefault.jpg", "fuente": "youtube", "url": "bS5P_LAqiVg", "duracion": "30 min" },
-        { "id": "cine_10", "titulo": "El Último Hombre", "poster": "https://img.youtube.com/vi/J5jV5b3g2c/mqdefault.jpg", "fuente": "youtube", "url": "_J5jV5b3g2c", "duracion": "1h 27m" }
+        { 
+          "id": "cine_1", 
+          "titulo": "La Noche de los Muertos Vivientes", 
+          "poster": "https://ia902607.us.archive.org/21/items/night_of_the_living_dead/night_of_the_living_dead.thumbs/night_of_the_living_dead_000060.jpg", 
+          "fuente": "archive", 
+          "url": "https://archive.org/embed/night_of_the_living_dead", 
+          "duracion": "1h 36m" 
+        },
+        { 
+          "id": "cine_2", 
+          "titulo": "Charada (Misterio con Cary Grant)", 
+          "poster": "https://ia802608.us.archive.org/19/items/Charade1963/Charade1963.thumbs/Charade1963_000120.jpg", 
+          "fuente": "archive", 
+          "url": "https://archive.org/embed/Charade1963", 
+          "duracion": "1h 53m" 
+        },
+        { 
+          "id": "cine_3", 
+          "titulo": "El Maquinista de la General (Comedia)", 
+          "poster": "https://ia800302.us.archive.org/2/items/TheGeneral_201609/TheGeneral_201609.thumbs/TheGeneral.00_00_03_08.still001.jpg", 
+          "fuente": "archive", 
+          "url": "https://archive.org/embed/TheGeneral_201609", 
+          "duracion": "1h 18m" 
+        },
+        { 
+          "id": "cine_4", 
+          "titulo": "Viaje a la Luna (Color 1902)", 
+          "poster": "https://ia800501.us.archive.org/27/items/Le_Voyage_dans_la_lune_1902_Georges_Melies/Le_Voyage_dans_la_lune_1902_Georges_Melies.thumbs/Le_Voyage_dans_la_lune_1902_Georges_Melies_000001.jpg", 
+          "fuente": "archive", 
+          "url": "https://archive.org/embed/Le_Voyage_dans_la_lune_1902_Georges_Melies", 
+          "duracion": "14 min" 
+        }
       ]
     },
     {
-      "titulo": "👶 Zona Kids (Dibujos Oficiales)",
+      "titulo": "👶 Zona Kids (Canales Oficiales YouTube)",
       "tipo": "vod",
       "contenido": [
-        { "id": "kid_1", "titulo": "Masha y el Oso - Capítulos", "poster": "https://img.youtube.com/vi/K7u5W-f9Z7M/mqdefault.jpg", "fuente": "youtube", "url": "K7u5W-f9Z7M", "duracion": "20 min" },
-        { "id": "kid_2", "titulo": "Pocoyó - Lo Mejor", "poster": "https://img.youtube.com/vi/d3x9a9l8qH8/mqdefault.jpg", "fuente": "youtube", "url": "d3x9a9l8qH8", "duracion": "30 min" },
-        { "id": "kid_3", "titulo": "La Granja de Zenón", "poster": "https://img.youtube.com/vi/H_Heid_Heid/mqdefault.jpg", "fuente": "youtube", "url": "H_Heid_Heid", "duracion": "12 min" },
-        { "id": "kid_4", "titulo": "Baby Shark & Animals", "poster": "https://img.youtube.com/vi/XqZsoesa55w/mqdefault.jpg", "fuente": "youtube", "url": "XqZsoesa55w", "duracion": "15 min" },
-        { "id": "kid_5", "titulo": "Caminandes (Llama)", "poster": "https://img.youtube.com/vi/SkVqJ1SGeL0/mqdefault.jpg", "fuente": "youtube", "url": "SkVqJ1SGeL0", "duracion": "5 min" },
-        { "id": "kid_6", "titulo": "Simon's Cat", "poster": "https://img.youtube.com/vi/4rb8aOzy9t4/mqdefault.jpg", "fuente": "youtube", "url": "4rb8aOzy9t4", "duracion": "10 min" },
-        { "id": "kid_7", "titulo": "Larva - Compilación", "poster": "https://img.youtube.com/vi/bXnC9jH9t4/mqdefault.jpg", "fuente": "youtube", "url": "bXnC-9jH9t4", "duracion": "15 min" },
-        { "id": "kid_8", "titulo": "Pantera Rosa", "poster": "https://img.youtube.com/vi/y3_gG_y3_gG/mqdefault.jpg", "fuente": "youtube", "url": "y3_gG_y3_gG", "duracion": "30 min" },
-        { "id": "kid_9", "titulo": "Curious George", "poster": "https://img.youtube.com/vi/YwZ_YwZ_YwZ/mqdefault.jpg", "fuente": "youtube", "url": "YwZ_YwZ_YwZ", "duracion": "20 min" },
-        { "id": "kid_10", "titulo": "Aprende los Colores", "poster": "https://img.youtube.com/vi/pZW9veQUF9I/mqdefault.jpg", "fuente": "youtube", "url": "pZW9veQUF9I", "duracion": "55 min" }
+        { 
+          "id": "kid_1", 
+          "titulo": "Pocoyó - Especial Navidad (1 Hora)", 
+          "poster": "https://img.youtube.com/vi/UjQ29GqgKps/mqdefault.jpg", 
+          "fuente": "youtube", 
+          "url": "UjQ29GqgKps", 
+          "duracion": "1h 00m" 
+        },
+        { 
+          "id": "kid_2", 
+          "titulo": "Masha y el Oso - Lo Mejor", 
+          "poster": "https://img.youtube.com/vi/UK1ZPFQEvmo/mqdefault.jpg", 
+          "fuente": "youtube", 
+          "url": "UK1ZPFQEvmo", 
+          "duracion": "1h 00m" 
+        },
+        { 
+          "id": "kid_3", 
+          "titulo": "Pocoyó y los Dinosaurios", 
+          "poster": "https://img.youtube.com/vi/XRudpf6Mwp0/mqdefault.jpg", 
+          "fuente": "youtube", 
+          "url": "XRudpf6Mwp0", 
+          "duracion": "1h 00m" 
+        },
+        { 
+          "id": "kid_4", 
+          "titulo": "Peppa Pig - Temporada 6", 
+          "poster": "https://img.youtube.com/vi/h2O4a3I6u_o/mqdefault.jpg", 
+          "fuente": "youtube", 
+          "url": "h2O4a3I6u_o", 
+          "duracion": "30 min" 
+        }
       ]
     },
     {
-      "titulo": "🌍 Documentales (DW y NatGeo)",
+      "titulo": "🌍 Documentales (DW Español Oficial)",
       "tipo": "vod",
       "contenido": [
-        { "id": "doc_1", "titulo": "El Espacio (DW)", "poster": "https://img.youtube.com/vi/t6rHHnABoT8/mqdefault.jpg", "fuente": "youtube", "url": "t6rHHnABoT8", "duracion": "42 min" },
-        { "id": "doc_2", "titulo": "Océanos Profundos", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "fuente": "youtube", "url": "8k7_Mv9k-m4", "duracion": "45 min" },
-        { "id": "doc_3", "titulo": "Inteligencia Artificial", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "fuente": "youtube", "url": "aZ3FfS0XgT0", "duracion": "28 min" },
-        { "id": "doc_4", "titulo": "Animales Salvajes", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "fuente": "youtube", "url": "qJ0s-K-yR2I", "duracion": "50 min" },
-        { "id": "doc_5", "titulo": "Egipto Antiguo", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "fuente": "youtube", "url": "sqVwKlZqOwc", "duracion": "40 min" },
-        { "id": "doc_6", "titulo": "Misterios del Universo", "poster": "https://img.youtube.com/vi/9aMtg7tQDMU/mqdefault.jpg", "fuente": "youtube", "url": "9aMtg7tQDMU", "duracion": "50 min" },
-        { "id": "doc_7", "titulo": "Volcanes", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "fuente": "youtube", "url": "O1zFu_VcpO0", "duracion": "45 min" }
-      ]
-    },
-    {
-      "titulo": "🤣 Comedia y Risas",
-      "tipo": "vod",
-      "contenido": [
-        { "id": "com_1", "titulo": "El Chico (Chaplin)", "poster": "https://img.youtube.com/vi/qNfqM7K_g3g/mqdefault.jpg", "fuente": "youtube", "url": "qNfqM7K_g3g", "duracion": "52 min" },
-        { "id": "com_2", "titulo": "Tiempos Modernos", "poster": "https://img.youtube.com/vi/HAPilyrEzC4/mqdefault.jpg", "fuente": "youtube", "url": "HAPilyrEzC4", "duracion": "1h 27m" },
-        { "id": "com_3", "titulo": "FailArmy Lo Mejor", "poster": "https://img.youtube.com/vi/W4hV4BKyR_w/mqdefault.jpg", "fuente": "youtube", "url": "W4hV4BKyR_w", "duracion": "15 min" },
-        { "id": "com_4", "titulo": "Gatos Graciosos", "poster": "https://img.youtube.com/vi/5dsGWM5XGdg/mqdefault.jpg", "fuente": "youtube", "url": "5dsGWM5XGdg", "duracion": "10 min" },
-        { "id": "com_5", "titulo": "Bromas en la Calle", "poster": "https://img.youtube.com/vi/ds-b84zO9k4/mqdefault.jpg", "fuente": "youtube", "url": "ds-b84zO9k4", "duracion": "20 min" }
-      ]
-    },
-    {
-      "titulo": "🧟 Terror y Suspenso",
-      "tipo": "vod",
-      "contenido": [
-        { "id": "terr_1", "titulo": "Nosferatu", "poster": "https://img.youtube.com/vi/e7p3ct5hcks/mqdefault.jpg", "fuente": "youtube", "url": "e7p3ct5hcks", "duracion": "1h 34m" },
-        { "id": "terr_2", "titulo": "House on Haunted Hill", "poster": "https://img.youtube.com/vi/zJOq4tqPqP4/mqdefault.jpg", "fuente": "youtube", "url": "zJOq4tqPqP4", "duracion": "1h 15m" },
-        { "id": "terr_3", "titulo": "La Tienda de los Horrores", "poster": "https://img.youtube.com/vi/G7xT1nF3WGE/mqdefault.jpg", "fuente": "youtube", "url": "G7xT1nF3WGE", "duracion": "1h 12m" },
-        { "id": "terr_4", "titulo": "El Gabinete Dr. Caligari", "poster": "https://img.youtube.com/vi/Kuyk0O-8/mqdefault.jpg", "fuente": "youtube", "url": "Kuyk0O-8", "duracion": "1h 14m" }
-      ]
-    },
-    {
-      "titulo": "📡 TV en Vivo (Solo Celular/App)",
-      "tipo": "live",
-      "contenido": [
-        { "id": "live_1", "titulo": "NASA TV", "poster": "https://i.ytimg.com/vi/21X5lGlDOfg/mqdefault.jpg", "fuente": "youtube", "url": "21X5lGlDOfg", "duracion": "🔴 EN VIVO" },
-        { "id": "live_2", "titulo": "Euronews en Vivo", "poster": "https://i.ytimg.com/vi/pyR6d5R7/mqdefault.jpg", "fuente": "youtube", "url": "pyR6d5R7", "duracion": "🔴 EN VIVO" },
-        { "id": "live_3", "titulo": "Sky News", "poster": "https://i.ytimg.com/vi/9Auq9mYxFEE/mqdefault.jpg", "fuente": "youtube", "url": "9Auq9mYxFEE", "duracion": "🔴 EN VIVO" },
-        { "id": "live_4", "titulo": "Al Jazeera", "poster": "https://i.ytimg.com/vi/jL8uDJJBjMA/mqdefault.jpg", "fuente": "youtube", "url": "jL8uDJJBjMA", "duracion": "🔴 EN VIVO" }
+        { 
+          "id": "doc_1", 
+          "titulo": "Océanos de Codicia (Minería Marina)", 
+          "poster": "https://img.youtube.com/vi/c56eg0hOLuw/mqdefault.jpg", 
+          "fuente": "youtube", 
+          "url": "c56eg0hOLuw", 
+          "duracion": "42 min" 
+        },
+        { 
+          "id": "doc_2", 
+          "titulo": "Machu Picchu - Arquitectos Incas", 
+          "poster": "https://img.youtube.com/vi/b3A4RiRqvYk/mqdefault.jpg", 
+          "fuente": "youtube", 
+          "url": "b3A4RiRqvYk", 
+          "duracion": "28 min" 
+        },
+        { 
+          "id": "doc_3", 
+          "titulo": "Inteligencia Artificial (DW)", 
+          "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", 
+          "fuente": "youtube", 
+          "url": "aZ3FfS0XgT0", 
+          "duracion": "42 min" 
+        },
+         { 
+          "id": "doc_4", 
+          "titulo": "¿Es posible la paz mundial?", 
+          "poster": "https://img.youtube.com/vi/2cON7CA20r4/mqdefault.jpg", 
+          "fuente": "youtube", 
+          "url": "2cON7CA20r4", 
+          "duracion": "50 min" 
+        }
       ]
     }
   ]
