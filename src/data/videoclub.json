@@ -1,86 +1,88 @@
 {
   "categorias": [
     {
-      "titulo": "🌍 Super Documentales (Ciencia y Crimen)",
+      "titulo": "🌍 MEGA DOCUMENTALES (Crimen y Sociedad - +40 Horas)",
       "tipo": "vod",
       "contenido": [
-        { "id": "doc_1", "titulo": "La Mafia Italiana", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "fuente": "youtube", "url": "8k7_Mv9k-m4", "duracion": "42m" },
-        { "id": "doc_2", "titulo": "Cibercrimen Organizado", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "fuente": "youtube", "url": "aZ3FfS0XgT0", "duracion": "42m" },
-        { "id": "doc_3", "titulo": "Fentanilo: Droga Mortal", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "fuente": "youtube", "url": "qJ0s-K-yR2I", "duracion": "50m" },
-        { "id": "doc_4", "titulo": "Ladrones de Coches", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "fuente": "youtube", "url": "O1zFu_VcpO0", "duracion": "50m" },
-        { "id": "doc_5", "titulo": "Interpol: Cazadores", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "fuente": "youtube", "url": "sqVwKlZqOwc", "duracion": "28m" },
-        { "id": "doc_6", "titulo": "Guerra de Cárteles", "poster": "https://img.youtube.com/vi/9aMtg7tQDMU/mqdefault.jpg", "fuente": "youtube", "url": "9aMtg7tQDMU", "duracion": "42m" },
-        { "id": "doc_7", "titulo": "Negocio de la Arena", "poster": "https://img.youtube.com/vi/XXq54c1Wd6E/mqdefault.jpg", "fuente": "youtube", "url": "XXq54c1Wd6E", "duracion": "42m" },
-        { "id": "doc_8", "titulo": "El Salvador de Bukele", "poster": "https://img.youtube.com/vi/6fO-gJ8qK6A/mqdefault.jpg", "fuente": "youtube", "url": "6fO-gJ8qK6A", "duracion": "26m" },
-        { "id": "doc_9", "titulo": "Cárceles de Máxima Seguridad", "poster": "https://img.youtube.com/vi/3K1x3n5_x0o/mqdefault.jpg", "fuente": "youtube", "url": "3K1x3n5_x0o", "duracion": "50m" },
-        { "id": "doc_10", "titulo": "Fronteras Peligrosas", "poster": "https://img.youtube.com/vi/_kLhaGMKpZY/mqdefault.jpg", "fuente": "youtube", "url": "_kLhaGMKpZY", "duracion": "42m" }
+        { "id": "d1", "titulo": "El Negocio de la Arena", "poster": "https://img.youtube.com/vi/XXq54c1Wd6E/mqdefault.jpg", "url": "XXq54c1Wd6E", "duracion": "42m" },
+        { "id": "d2", "titulo": "Fentanilo: Droga Mortal", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "url": "qJ0s-K-yR2I", "duracion": "50m" },
+        { "id": "d3", "titulo": "La Mafia Italiana", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "url": "8k7_Mv9k-m4", "duracion": "42m" },
+        { "id": "d4", "titulo": "Cibercrimen Organizado", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "aZ3FfS0XgT0", "duracion": "42m" },
+        { "id": "d5", "titulo": "Ladrones de Coches", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "url": "O1zFu_VcpO0", "duracion": "50m" },
+        { "id": "d6", "titulo": "Guerra de Cárteles", "poster": "https://img.youtube.com/vi/9aMtg7tQDMU/mqdefault.jpg", "url": "9aMtg7tQDMU", "duracion": "42m" },
+        { "id": "d7", "titulo": "Interpol vs Criminales", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "url": "sqVwKlZqOwc", "duracion": "28m" },
+        { "id": "d8", "titulo": "El Salvador de Bukele", "poster": "https://img.youtube.com/vi/6fO-gJ8qK6A/mqdefault.jpg", "url": "6fO-gJ8qK6A", "duracion": "26m" },
+        { "id": "d9", "titulo": "Cárceles de Máxima Seguridad", "poster": "https://img.youtube.com/vi/3K1x3n5_x0o/mqdefault.jpg", "url": "3K1x3n5_x0o", "duracion": "50m" },
+        { "id": "d10", "titulo": "Fronteras Peligrosas", "poster": "https://img.youtube.com/vi/_kLhaGMKpZY/mqdefault.jpg", "url": "_kLhaGMKpZY", "duracion": "42m" },
+        { "id": "d11", "titulo": "La Ruta de la Cocaína", "poster": "https://img.youtube.com/vi/xyz123abc/mqdefault.jpg", "url": "J5jV5b3g2c", "duracion": "42m" },
+        { "id": "d12", "titulo": "Estafadores del Amor", "poster": "https://img.youtube.com/vi/987654zyx/mqdefault.jpg", "url": "t4Zzi2j3dBs", "duracion": "25m" }
       ]
     },
     {
-      "titulo": "🧬 Historia y Naturaleza (DW/NatGeo)",
+      "titulo": "🧬 CIENCIA Y NATURALEZA (NatGeo / DW)",
       "tipo": "vod",
       "contenido": [
-        { "id": "doc_11", "titulo": "Secretos del Espacio", "poster": "https://img.youtube.com/vi/t6rHHnABoT8/mqdefault.jpg", "fuente": "youtube", "url": "t6rHHnABoT8", "duracion": "42m" },
-        { "id": "doc_12", "titulo": "Océanos Profundos", "poster": "https://img.youtube.com/vi/c56eg0hOLuw/mqdefault.jpg", "fuente": "youtube", "url": "c56eg0hOLuw", "duracion": "42m" },
-        { "id": "doc_13", "titulo": "Machu Picchu Inca", "poster": "https://img.youtube.com/vi/b3A4RiRqvYk/mqdefault.jpg", "fuente": "youtube", "url": "b3A4RiRqvYk", "duracion": "42m" },
-        { "id": "doc_14", "titulo": "Inteligencia Artificial", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "fuente": "youtube", "url": "aZ3FfS0XgT0", "duracion": "42m" },
-        { "id": "doc_15", "titulo": "¿Paz Mundial?", "poster": "https://img.youtube.com/vi/2cON7CA20r4/mqdefault.jpg", "fuente": "youtube", "url": "2cON7CA20r4", "duracion": "50m" },
-        { "id": "doc_16", "titulo": "Egipto Antiguo", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "fuente": "youtube", "url": "sqVwKlZqOwc", "duracion": "50m" },
-        { "id": "doc_17", "titulo": "Volcanes Activos", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "fuente": "youtube", "url": "O1zFu_VcpO0", "duracion": "45m" },
-        { "id": "doc_18", "titulo": "Amazonas", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "fuente": "youtube", "url": "qJ0s-K-yR2I", "duracion": "45m" },
-        { "id": "doc_19", "titulo": "Desiertos del Mundo", "poster": "https://img.youtube.com/vi/9aMtg7tQDMU/mqdefault.jpg", "fuente": "youtube", "url": "9aMtg7tQDMU", "duracion": "45m" },
-        { "id": "doc_20", "titulo": "Vida Animal", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "fuente": "youtube", "url": "8k7_Mv9k-m4", "duracion": "45m" }
+        { "id": "c1", "titulo": "Secretos del Espacio", "poster": "https://img.youtube.com/vi/t6rHHnABoT8/mqdefault.jpg", "url": "t6rHHnABoT8", "duracion": "42m" },
+        { "id": "c2", "titulo": "Océanos Profundos", "poster": "https://img.youtube.com/vi/c56eg0hOLuw/mqdefault.jpg", "url": "c56eg0hOLuw", "duracion": "42m" },
+        { "id": "c3", "titulo": "Machu Picchu Inca", "poster": "https://img.youtube.com/vi/b3A4RiRqvYk/mqdefault.jpg", "url": "b3A4RiRqvYk", "duracion": "42m" },
+        { "id": "c4", "titulo": "Inteligencia Artificial", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "aZ3FfS0XgT0", "duracion": "42m" },
+        { "id": "c5", "titulo": "¿Paz Mundial?", "poster": "https://img.youtube.com/vi/2cON7CA20r4/mqdefault.jpg", "url": "2cON7CA20r4", "duracion": "50m" },
+        { "id": "c6", "titulo": "Egipto Antiguo", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "url": "sqVwKlZqOwc", "duracion": "50m" },
+        { "id": "c7", "titulo": "Volcanes Activos", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "url": "O1zFu_VcpO0", "duracion": "45m" },
+        { "id": "c8", "titulo": "Amazonas", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "url": "qJ0s-K-yR2I", "duracion": "45m" },
+        { "id": "c9", "titulo": "Desiertos del Mundo", "poster": "https://img.youtube.com/vi/9aMtg7tQDMU/mqdefault.jpg", "url": "9aMtg7tQDMU", "duracion": "45m" },
+        { "id": "c10", "titulo": "Vida Animal", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "url": "8k7_Mv9k-m4", "duracion": "45m" }
       ]
     },
     {
-      "titulo": "🎬 Cine de Acción (Películas Completas)",
+      "titulo": "🎬 CINE DE ACCIÓN (Películas Completas)",
       "tipo": "vod",
       "contenido": [
-        { "id": "mov_1", "titulo": "Kung Fury", "poster": "https://img.youtube.com/vi/bS5P_LAqiVg/mqdefault.jpg", "fuente": "youtube", "url": "bS5P_LAqiVg", "duracion": "30m" },
-        { "id": "mov_2", "titulo": "Tears of Steel", "poster": "https://img.youtube.com/vi/R6MlUcmOul8/mqdefault.jpg", "fuente": "youtube", "url": "R6MlUcmOul8", "duracion": "15m" },
-        { "id": "mov_3", "titulo": "Reino Perdido", "poster": "https://img.youtube.com/vi/g_LB8jbKOrg/mqdefault.jpg", "fuente": "youtube", "url": "g_LB8jbKOrg", "duracion": "1h 30m" },
-        { "id": "mov_4", "titulo": "Sintel 4K", "poster": "https://img.youtube.com/vi/eRsGyueVLvQ/mqdefault.jpg", "fuente": "youtube", "url": "eRsGyueVLvQ", "duracion": "15m" },
-        { "id": "mov_5", "titulo": "Big Buck Bunny", "poster": "https://img.youtube.com/vi/aqz-KE-bpKQ/mqdefault.jpg", "fuente": "youtube", "url": "aqz-KE-bpKQ", "duracion": "10m" },
-        { "id": "mov_6", "titulo": "La Noche de los Muertos", "poster": "https://img.youtube.com/vi/5gUKvmOEfkc/mqdefault.jpg", "fuente": "youtube", "url": "5gUKvmOEfkc", "duracion": "1h 36m" },
-        { "id": "mov_7", "titulo": "El Extraño", "poster": "https://img.youtube.com/vi/WdJj8e1Kqow/mqdefault.jpg", "fuente": "youtube", "url": "WdJj8e1Kqow", "duracion": "1h 35m" },
-        { "id": "mov_8", "titulo": "D.O.A.", "poster": "https://img.youtube.com/vi/3pqiQpM_jI8/mqdefault.jpg", "fuente": "youtube", "url": "3pqiQpM_jI8", "duracion": "1h 23m" },
-        { "id": "mov_9", "titulo": "El Autoestopista", "poster": "https://img.youtube.com/vi/ds-b84zO9k4/mqdefault.jpg", "fuente": "youtube", "url": "ds-b84zO9k4", "duracion": "1h 11m" },
-        { "id": "mov_10", "titulo": "Sherlock Holmes", "poster": "https://img.youtube.com/vi/W4hV4BKyR_w/mqdefault.jpg", "fuente": "youtube", "url": "W4hV4BKyR_w", "duracion": "1h 00m" }
+        { "id": "m1", "titulo": "Kung Fury", "poster": "https://img.youtube.com/vi/bS5P_LAqiVg/mqdefault.jpg", "url": "bS5P_LAqiVg", "duracion": "30m" },
+        { "id": "m2", "titulo": "Tears of Steel", "poster": "https://img.youtube.com/vi/R6MlUcmOul8/mqdefault.jpg", "url": "R6MlUcmOul8", "duracion": "15m" },
+        { "id": "m3", "titulo": "Reino Perdido", "poster": "https://img.youtube.com/vi/g_LB8jbKOrg/mqdefault.jpg", "url": "g_LB8jbKOrg", "duracion": "1h 30m" },
+        { "id": "m4", "titulo": "Sintel 4K", "poster": "https://img.youtube.com/vi/eRsGyueVLvQ/mqdefault.jpg", "url": "eRsGyueVLvQ", "duracion": "15m" },
+        { "id": "m5", "titulo": "Big Buck Bunny", "poster": "https://img.youtube.com/vi/aqz-KE-bpKQ/mqdefault.jpg", "url": "aqz-KE-bpKQ", "duracion": "10m" },
+        { "id": "m6", "titulo": "La Noche de los Muertos", "poster": "https://img.youtube.com/vi/5gUKvmOEfkc/mqdefault.jpg", "url": "5gUKvmOEfkc", "duracion": "1h 36m" },
+        { "id": "m7", "titulo": "El Extraño", "poster": "https://img.youtube.com/vi/WdJj8e1Kqow/mqdefault.jpg", "url": "WdJj8e1Kqow", "duracion": "1h 35m" },
+        { "id": "m8", "titulo": "D.O.A.", "poster": "https://img.youtube.com/vi/3pqiQpM_jI8/mqdefault.jpg", "url": "3pqiQpM_jI8", "duracion": "1h 23m" },
+        { "id": "m9", "titulo": "El Autoestopista", "poster": "https://img.youtube.com/vi/ds-b84zO9k4/mqdefault.jpg", "url": "ds-b84zO9k4", "duracion": "1h 11m" },
+        { "id": "m10", "titulo": "Sherlock Holmes", "poster": "https://img.youtube.com/vi/W4hV4BKyR_w/mqdefault.jpg", "url": "W4hV4BKyR_w", "duracion": "1h 00m" }
       ]
     },
     {
-      "titulo": "👶 Zona Kids (Dibujos Animados)",
+      "titulo": "👶 ZONA KIDS (Dibujos Animados)",
       "tipo": "vod",
       "contenido": [
-        { "id": "kid_1", "titulo": "Masha y el Oso", "poster": "https://img.youtube.com/vi/uteoVWparPQ/mqdefault.jpg", "fuente": "youtube", "url": "uteoVWparPQ", "duracion": "30m" },
-        { "id": "kid_2", "titulo": "Pocoyó Completo", "poster": "https://img.youtube.com/vi/d3x9a9l8qH8/mqdefault.jpg", "fuente": "youtube", "url": "d3x9a9l8qH8", "duracion": "1h" },
-        { "id": "kid_3", "titulo": "Baby Shark", "poster": "https://img.youtube.com/vi/XqZsoesa55w/mqdefault.jpg", "fuente": "youtube", "url": "XqZsoesa55w", "duracion": "15m" },
-        { "id": "kid_4", "titulo": "Peppa Pig", "poster": "https://img.youtube.com/vi/h2O4a3I6u_o/mqdefault.jpg", "fuente": "youtube", "url": "h2O4a3I6u_o", "duracion": "20m" },
-        { "id": "kid_5", "titulo": "La Granja de Zenón", "poster": "https://img.youtube.com/vi/H_Heid_Heid/mqdefault.jpg", "fuente": "youtube", "url": "H_Heid_Heid", "duracion": "15m" },
-        { "id": "kid_6", "titulo": "Larva Cartoon", "poster": "https://img.youtube.com/vi/bXnC9jH9t4/mqdefault.jpg", "fuente": "youtube", "url": "bXnC9jH9t4", "duracion": "20m" },
-        { "id": "kid_7", "titulo": "Pantera Rosa", "poster": "https://img.youtube.com/vi/y3_gG_y3_gG/mqdefault.jpg", "fuente": "youtube", "url": "y3_gG_y3_gG", "duracion": "30m" },
-        { "id": "kid_8", "titulo": "Jorge el Curioso", "poster": "https://img.youtube.com/vi/YwZ_YwZ_YwZ/mqdefault.jpg", "fuente": "youtube", "url": "YwZ_YwZ_YwZ", "duracion": "25m" }
+        { "id": "k1", "titulo": "Masha y el Oso", "poster": "https://img.youtube.com/vi/uteoVWparPQ/mqdefault.jpg", "url": "uteoVWparPQ", "duracion": "30m" },
+        { "id": "k2", "titulo": "Pocoyó Completo", "poster": "https://img.youtube.com/vi/d3x9a9l8qH8/mqdefault.jpg", "url": "d3x9a9l8qH8", "duracion": "1h" },
+        { "id": "k3", "titulo": "Baby Shark", "poster": "https://img.youtube.com/vi/XqZsoesa55w/mqdefault.jpg", "url": "XqZsoesa55w", "duracion": "15m" },
+        { "id": "k4", "titulo": "Peppa Pig", "poster": "https://img.youtube.com/vi/h2O4a3I6u_o/mqdefault.jpg", "url": "h2O4a3I6u_o", "duracion": "20m" },
+        { "id": "k5", "titulo": "La Granja de Zenón", "poster": "https://img.youtube.com/vi/H_Heid_Heid/mqdefault.jpg", "url": "H_Heid_Heid", "duracion": "15m" },
+        { "id": "k6", "titulo": "Larva Cartoon", "poster": "https://img.youtube.com/vi/bXnC9jH9t4/mqdefault.jpg", "url": "bXnC9jH9t4", "duracion": "20m" },
+        { "id": "k7", "titulo": "Pantera Rosa", "poster": "https://img.youtube.com/vi/y3_gG_y3_gG/mqdefault.jpg", "url": "y3_gG_y3_gG", "duracion": "30m" },
+        { "id": "k8", "titulo": "Jorge el Curioso", "poster": "https://img.youtube.com/vi/YwZ_YwZ_YwZ/mqdefault.jpg", "url": "YwZ_YwZ_YwZ", "duracion": "25m" }
       ]
     },
     {
-      "titulo": "📡 TV en Vivo (Noticias 24h)",
+      "titulo": "📡 NOTICIAS EN VIVO (24/7)",
       "tipo": "live",
       "contenido": [
-        { "id": "live_1", "titulo": "Euronews en Vivo", "poster": "https://img.youtube.com/vi/pyR6d5R7/mqdefault.jpg", "fuente": "youtube", "url": "pyR6d5R7", "duracion": "🔴 EN VIVO" },
-        { "id": "live_2", "titulo": "RTVE 24h", "poster": "https://img.youtube.com/vi/wTj-x8_yq6I/mqdefault.jpg", "fuente": "youtube", "url": "wTj-x8_yq6I", "duracion": "🔴 EN VIVO" },
-        { "id": "live_3", "titulo": "TN Argentina", "poster": "https://img.youtube.com/vi/wLGEs46CqT8/mqdefault.jpg", "fuente": "youtube", "url": "wLGEs46CqT8", "duracion": "🔴 EN VIVO" },
-        { "id": "live_4", "titulo": "Milenio México", "poster": "https://img.youtube.com/vi/97K0rTEKqvU/mqdefault.jpg", "fuente": "youtube", "url": "97K0rTEKqvU", "duracion": "🔴 EN VIVO" },
-        { "id": "live_5", "titulo": "NASA TV", "poster": "https://img.youtube.com/vi/21X5lGlDOfg/mqdefault.jpg", "fuente": "youtube", "url": "21X5lGlDOfg", "duracion": "🔴 EN VIVO" }
+        { "id": "l1", "titulo": "Euronews en Vivo", "poster": "https://img.youtube.com/vi/pyR6d5R7/mqdefault.jpg", "url": "pyR6d5R7", "duracion": "🔴 EN VIVO" },
+        { "id": "l2", "titulo": "RTVE 24h", "poster": "https://img.youtube.com/vi/wTj-x8_yq6I/mqdefault.jpg", "url": "wTj-x8_yq6I", "duracion": "🔴 EN VIVO" },
+        { "id": "l3", "titulo": "TN Argentina", "poster": "https://img.youtube.com/vi/wLGEs46CqT8/mqdefault.jpg", "url": "wLGEs46CqT8", "duracion": "🔴 EN VIVO" },
+        { "id": "l4", "titulo": "Milenio México", "poster": "https://img.youtube.com/vi/97K0rTEKqvU/mqdefault.jpg", "url": "97K0rTEKqvU", "duracion": "🔴 EN VIVO" },
+        { "id": "l5", "titulo": "NASA TV", "poster": "https://img.youtube.com/vi/21X5lGlDOfg/mqdefault.jpg", "url": "21X5lGlDOfg", "duracion": "🔴 EN VIVO" }
       ]
     },
     {
-      "titulo": "🎵 Música y Relax 24/7",
+      "titulo": "🎵 MÚSICA Y RELAX",
       "tipo": "live",
       "contenido": [
-        { "id": "mus_1", "titulo": "Lofi Girl Radio", "poster": "https://img.youtube.com/vi/jfKfPfyJRdk/mqdefault.jpg", "fuente": "youtube", "url": "jfKfPfyJRdk", "duracion": "🔴 EN VIVO" },
-        { "id": "mus_2", "titulo": "Jazz Bar Relax", "poster": "https://img.youtube.com/vi/Dx5qFacha3o/mqdefault.jpg", "fuente": "youtube", "url": "Dx5qFacha3o", "duracion": "🔴 EN VIVO" },
-        { "id": "mus_3", "titulo": "Café Bossa Nova", "poster": "https://img.youtube.com/vi/5qap5aO4i9A/mqdefault.jpg", "fuente": "youtube", "url": "5qap5aO4i9A", "duracion": "🔴 EN VIVO" },
-        { "id": "mus_4", "titulo": "Ibiza House", "poster": "https://img.youtube.com/vi/5yx6BWlEVcY/mqdefault.jpg", "fuente": "youtube", "url": "5yx6BWlEVcY", "duracion": "🔴 EN VIVO" }
+        { "id": "mu1", "titulo": "Lofi Girl Radio", "poster": "https://img.youtube.com/vi/jfKfPfyJRdk/mqdefault.jpg", "url": "jfKfPfyJRdk", "duracion": "🔴 EN VIVO" },
+        { "id": "mu2", "titulo": "Jazz Bar Relax", "poster": "https://img.youtube.com/vi/Dx5qFacha3o/mqdefault.jpg", "url": "Dx5qFacha3o", "duracion": "🔴 EN VIVO" },
+        { "id": "mu3", "titulo": "Café Bossa Nova", "poster": "https://img.youtube.com/vi/5qap5aO4i9A/mqdefault.jpg", "url": "5qap5aO4i9A", "duracion": "🔴 EN VIVO" },
+        { "id": "mu4", "titulo": "Ibiza House", "poster": "https://img.youtube.com/vi/5yx6BWlEVcY/mqdefault.jpg", "url": "5yx6BWlEVcY", "duracion": "🔴 EN VIVO" }
       ]
     }
   ]
