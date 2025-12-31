@@ -1,100 +1,134 @@
 {
-  "categorias": [
-    {
-      "titulo": "🌿 Naturaleza y Medio Ambiente",
-      "tipo": "live",
-      "contenido": [
-        {
-          "id": "dw_documentary",
-          "titulo": "DW Documentary (Deutsche Welle)",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/8/8b/DW_Logo_2012.svg",
-          "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8"
-        },
-        {
-          "id": "aljazeera_english",
-          "titulo": "Al Jazeera English",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Al_Jazeera_English_logo.svg",
-          "url": "https://live-hls-web-aje.getaj.net/AJE/03.m3u8"
-        },
-        {
-          "id": "france24_en",
-          "titulo": "France 24 English",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/8/8a/France_24_logo.svg",
-          "url": "https://static.france24.com/live/F24_EN_HI_HLS/master_web.m3u8"
-        }
-      ]
-    },
-    {
-      "titulo": "🏛️ Historia y Sociedad",
-      "tipo": "live",
-      "contenido": [
-        {
-          "id": "dw_english",
-          "titulo": "DW English",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/8/8b/DW_Logo_2012.svg",
-          "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8"
-        },
-        {
-          "id": "euronews_es",
-          "titulo": "Euronews Español",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Euronews_2016_logo.svg",
-          "url": "https://euronews-euronews-world-samsung-es.samsung.wurl.tv/playlist.m3u8"
-        },
-        {
-          "id": "cgtn_doc",
-          "titulo": "CGTN Documentary",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/8/81/CGTN_logo.svg",
-          "url": "https://l-vog5.jatr.cn/cgtn/doc/playlist.m3u8"
-        }
-      ]
-    },
-    {
-      "titulo": "🔬 Ciencia y Tecnología",
-      "tipo": "live",
-      "contenido": [
-        {
-          "id": "nasa_tv_public",
-          "titulo": "NASA TV Public",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
-          "url": "https://ntv1.akamaized.net/hls/live/2013975/NASA-NTV1-HLS/master.m3u8"
-        },
-        {
-          "id": "nasa_tv_media",
-          "titulo": "NASA TV Media",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
-          "url": "https://ntv1.akamaized.net/hls/live/2013975/NASA-NTV1-HLS/master_2000.m3u8"
-        }
-      ]
-    },
-    {
-      "titulo": "🚀 Espacio y Universo",
-      "tipo": "live",
-      "contenido": [
-        {
-          "id": "nasa_space",
-          "titulo": "NASA Space & Science",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
-          "url": "https://ntv1.akamaized.net/hls/live/2013975/NASA-NTV1-HLS/master.m3u8"
-        }
-      ]
-    },
-    {
-      "titulo": "✈️ Viajes y Culturas del Mundo",
-      "tipo": "live",
-      "contenido": [
-        {
-          "id": "nhk_world",
-          "titulo": "NHK World Japan",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2e/NHK_World.svg",
-          "url": "https://b-nhk-world-jp.akamaized.net/hls/live/2043063/nhkworld/master_4000.m3u8"
-        },
-        {
-          "id": "fashion_tv",
-          "titulo": "Fashion TV",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Fashion_TV_logo.svg",
-          "url": "https://fash1043.cloudycdn.services/slive/_definst_/ftv_paris_adaptive.smil/playlist.m3u8"
-        }
-      ]
-    }
-  ]
+  "videoclub": {
+    "categories": [
+      {
+        "id": "documentales-naturaleza",
+        "title": "🦈 Documentales Naturaleza",
+        "items": [
+          {
+            "id": "runtime-naturaleza",
+            "title": "Runtime Naturaleza",
+            "description": "Vida salvaje, océanos, tiburones y paisajes naturales 24/7.",
+            "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=533",
+            "poster": "https://images.runtime.tv/channel/runtime-nature.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "Runtime TV"
+          },
+          {
+            "id": "pluto-animales",
+            "title": "Pluto TV Animales",
+            "description": "Documentales continuos sobre el reino animal y vida marina.",
+            "streamUrl": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f121b6a96677c00072b20bf/master.m3u8",
+            "poster": "https://images.pluto.tv/channels/5f121b6a96677c00072b20bf/featuredImage.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "Pluto TV"
+          },
+          {
+            "id": "love-nature",
+            "title": "Love Nature Español",
+            "description": "Documentales premium de naturaleza.",
+            "streamUrl": "https://rakuten-lovenature-1-es.samsung.wurl.tv/playlist.m3u8",
+            "poster": "https://i.imgur.com/8H5FZqG.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "Samsung TV Plus"
+          },
+          {
+            "id": "teleislas",
+            "title": "Teleislas Colombia",
+            "description": "Naturaleza y mar Caribe.",
+            "streamUrl": "https://live.teleislas.com.co/live/teleislas.m3u8",
+            "poster": "https://i.imgur.com/6p2Yk5F.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "RTVC Colombia"
+          }
+        ]
+      },
+      {
+        "id": "documentales-historia",
+        "title": "🏛️ Documentales Historia",
+        "items": [
+          {
+            "id": "runtime-historia",
+            "title": "Runtime Historia",
+            "description": "Imperios, guerras y civilizaciones.",
+            "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=537",
+            "poster": "https://images.runtime.tv/channel/runtime-history.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "Runtime TV"
+          },
+          {
+            "id": "pluto-historia",
+            "title": "Pluto TV Historia",
+            "description": "Historia antigua y arqueología.",
+            "streamUrl": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f121c2596677c00072b20cb/master.m3u8",
+            "poster": "https://images.pluto.tv/channels/5f121c2596677c00072b20cb/featuredImage.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "Pluto TV"
+          },
+          {
+            "id": "canal-encuentro",
+            "title": "Canal Encuentro",
+            "description": "Historia y pensamiento latinoamericano.",
+            "streamUrl": "https://live-01-01-encuentro.mic.ar/live/24h/playlist.m3u8",
+            "poster": "https://i.imgur.com/1l0d8QF.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "Argentina"
+          },
+          {
+            "id": "canal-22",
+            "title": "Canal 22 México",
+            "description": "Cultura, historia y biografías.",
+            "streamUrl": "https://vivo.canal22.org.mx/hls/canal22-int.m3u8",
+            "poster": "https://i.imgur.com/Y4JXc6k.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "México"
+          }
+        ]
+      },
+      {
+        "id": "documentales-ciencia",
+        "title": "🔬 Documentales Ciencia",
+        "items": [
+          {
+            "id": "ingenio-tv",
+            "title": "Ingenio TV",
+            "description": "Educación científica.",
+            "streamUrl": "https://channel01-ingenio.akamaized.net/hls/live/2022749/event01/index.m3u8",
+            "poster": "https://i.imgur.com/Jy3WZ0Z.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "México"
+          },
+          {
+            "id": "tv-unam",
+            "title": "TV UNAM",
+            "description": "Divulgación científica.",
+            "streamUrl": "https://d3q66p8t91275l.cloudfront.net/tvunam/index.m3u8",
+            "poster": "https://i.imgur.com/5N7kK0f.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "UNAM"
+          },
+          {
+            "id": "canal-ucr",
+            "title": "Canal UCR",
+            "description": "Ciencia universitaria.",
+            "streamUrl": "https://streaming.ucr.ac.cr/canalucr/index.m3u8",
+            "poster": "https://i.imgur.com/0aZ4LwZ.jpg",
+            "type": "LIVE",
+            "language": "ES",
+            "source": "Costa Rica"
+          }
+        ]
+      }
+    ]
+  }
 }
