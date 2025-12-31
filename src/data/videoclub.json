@@ -1,45 +1,78 @@
 {
   "categorias": [
     {
-      "titulo": "🇨🇷 COSTA RICA (Señales Digitales)",
-      "tipo": "live",
-      "contenido": [
-        { "id": "cr_6", "titulo": "Repretel Canal 6", "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Repretel_Canal_6_logo.svg/1200px-Repretel_Canal_6_logo.svg.png", "url": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8" },
-        { "id": "cr_11", "titulo": "Repretel Canal 11", "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Repretel_11.svg/1200px-Repretel_11.svg.png", "url": "https://alba-cr-repretel-c11.stream.mediatiquestream.com/index.m3u8" },
-        { "id": "cr_42", "titulo": "Extra TV 42", "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Extra_TV_42_Logo.png", "url": "https://5f2c1b0d880e5.streamlock.net/tv42/videotv42/playlist.m3u8" },
-        { "id": "cr_alcance", "titulo": "Alcance TV", "poster": "https://pbs.twimg.com/profile_images/1356346740/Logo_Alcance_TV_400x400.png", "url": "https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8" },
-        { "id": "cr_extrema", "titulo": "Extrema Kids CR", "poster": "https://img.freepik.com/vector-gratis/ninos-felices_23-2147605937.jpg", "url": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8" }
-      ]
-    },
-    {
       "titulo": "🎬 CINE PREMIUM (24/7 Sin Cortes)",
       "tipo": "live",
       "contenido": [
-        { "id": "cine_accion", "titulo": "Cine Acción HD", "poster": "https://img.freepik.com/foto-gratis/hombre-apuntando-arma-lente_23-2149539454.jpg", "url": "https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8" },
-        { "id": "cine_canal", "titulo": "Cinecanal", "poster": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Cinecanal_logo_2018.svg", "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8" },
-        { "id": "pluto_cine", "titulo": "Pluto Cine Estelar", "poster": "https://images.pluto.tv/channels/5f1213f096677c00072b2046/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1213f096677c00072b2046/master.m3u8" },
-        { "id": "pluto_accion", "titulo": "Pluto TV Acción", "poster": "https://images.pluto.tv/channels/5f12150e96677c00072b2067/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12150e96677c00072b2067/master.m3u8" },
-        { "id": "pluto_terror", "titulo": "Pluto TV Terror", "poster": "https://images.pluto.tv/channels/5f12160d96677c00072b2089/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12160d96677c00072b2089/master.m3u8" }
+        {
+          "id": "pluto_accion",
+          "titulo": "Pluto TV Acción",
+          "poster": "https://images.pluto.tv/channels/5f12150e96677c00072b2067/colorLogoPNG.png",
+          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12150e96677c00072b2067/master.m3u8"
+        }
       ]
     },
+
     {
-      "titulo": "📺 SERIES Y ENTRETENIMIENTO",
-      "tipo": "live",
+      "titulo": "📚 DOCUMENTALES (A la carta)",
+      "tipo": "vod",
       "contenido": [
-        { "id": "serie_south", "titulo": "South Park", "poster": "https://images.pluto.tv/channels/5f6a282ef1c1c200076f827e/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a282ef1c1c200076f827e/master.m3u8" },
-        { "id": "serie_who", "titulo": "Doctor Who", "poster": "https://images.pluto.tv/channels/5f51480b59b58e00076a0841/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f51480b59b58e00076a0841/master.m3u8" },
-        { "id": "serie_misterios", "titulo": "Misterios sin Resolver", "poster": "https://images.pluto.tv/channels/5f12089496677c00072b1f48/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12089496677c00072b1f48/master.m3u8" },
-        { "id": "serie_narcos", "titulo": "Narcos", "poster": "https://images.pluto.tv/channels/5f6a27e7f1c1c200076f827a/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a27e7f1c1c200076f827a/master.m3u8" }
+        {
+          "id": "doc_001",
+          "titulo": "Costa Rica Natural",
+          "poster": "/posters/doc-cr-natural.jpg",
+          "url": "https://TU-CDN-O-VERCEL/video/costarica-natural.mp4",
+          "duracion": "1h 20m",
+          "anio": "2022",
+          "clasificacion": "TP",
+          "descripcion": "Un viaje por la naturaleza y parques de Costa Rica."
+        },
+        {
+          "id": "doc_002",
+          "titulo": "Misterios de Centroamérica",
+          "poster": "/posters/doc-misterios.jpg",
+          "url": "https://TU-CDN-O-VERCEL/video/misterios-centroamerica.m3u8",
+          "duracion": "58m",
+          "anio": "2021",
+          "clasificacion": "+13",
+          "descripcion": "Historias y lugares increíbles de la región."
+        }
       ]
     },
+
     {
-      "titulo": "👶 KIDS (Dibujos 24/7)",
-      "tipo": "live",
+      "titulo": "📺 SERIES (Temporadas)",
+      "tipo": "series",
       "contenido": [
-        { "id": "kid_bob", "titulo": "Bob Esponja", "poster": "https://images.pluto.tv/channels/5f12128796677c00072b202e/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12128796677c00072b202e/master.m3u8" },
-        { "id": "kid_padrinos", "titulo": "Padrinos Mágicos", "poster": "https://images.pluto.tv/channels/5f7626966144e50007621c17/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f7626966144e50007621c17/master.m3u8" },
-        { "id": "kid_avatar", "titulo": "Avatar", "poster": "https://images.pluto.tv/channels/5f6a2731f1c1c200076f8270/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a2731f1c1c200076f8270/master.m3u8" },
-        { "id": "kid_estrellas", "titulo": "Estrellas de Acción", "poster": "https://images.pluto.tv/channels/5f12121396677c00072b201a/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12121396677c00072b201a/master.m3u8" }
+        {
+          "id": "serie_001",
+          "titulo": "Historias de Costa Rica",
+          "poster": "/posters/serie-historias-cr.jpg",
+          "anio": "2023",
+          "clasificacion": "TP",
+          "descripcion": "Capítulos cortos sobre cultura, historia y tradición.",
+          "temporadas": [
+            {
+              "titulo": "Temporada 1",
+              "episodios": [
+                {
+                  "id": "s1e1",
+                  "titulo": "Episodio 1: Orígenes",
+                  "poster": "/posters/serie-historias-cr-s1e1.jpg",
+                  "url": "https://TU-CDN/video/serie001-s1e1.mp4",
+                  "duracion": "24m"
+                },
+                {
+                  "id": "s1e2",
+                  "titulo": "Episodio 2: Tradiciones",
+                  "poster": "/posters/serie-historias-cr-s1e2.jpg",
+                  "url": "https://TU-CDN/video/serie001-s1e2.m3u8",
+                  "duracion": "26m"
+                }
+              ]
+            }
+          ]
+        }
       ]
     }
   ]
