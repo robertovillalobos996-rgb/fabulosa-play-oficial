@@ -1,89 +1,45 @@
 {
   "categorias": [
     {
-      "titulo": "🔴 TV en Vivo (Noticias y Mundo 24/7)",
+      "titulo": "🔴 TV en Vivo (Noticias del Mundo)",
       "tipo": "live",
       "contenido": [
-        { "id": "live_euronews", "titulo": "Euronews en Vivo (Español)", "poster": "https://img.youtube.com/vi/pyR6d5R7/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=pyR6d5R7" },
-        { "id": "live_rtve", "titulo": "RTVE 24 Horas (España)", "poster": "https://img.youtube.com/vi/wTj-x8_yq6I/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=wTj-x8_yq6I" },
-        { "id": "live_telemundo", "titulo": "Noticias Telemundo Ahora", "poster": "https://img.youtube.com/vi/s71q5Qj9x6A/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=s71q5Qj9x6A" },
-        { "id": "live_tn", "titulo": "TN Argentina en Vivo", "poster": "https://img.youtube.com/vi/wLGEs46CqT8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=wLGEs46CqT8" },
-        { "id": "live_nasa", "titulo": "NASA TV (Espacio en Directo)", "poster": "https://img.youtube.com/vi/21X5lGlDOfg/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=21X5lGlDOfg" },
-        { "id": "live_mil", "titulo": "Milenio Noticias (México)", "poster": "https://img.youtube.com/vi/97K0rTEKqvU/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=97K0rTEKqvU" },
-        { "id": "live_fr24", "titulo": "France 24 (Español)", "poster": "https://img.youtube.com/vi/t4Zzi2j3dBs/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=t4Zzi2j3dBs" }
+        { "id": "live_euronews", "titulo": "Euronews (Español)", "poster": "https://img.youtube.com/vi/pyR6d5R7/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=pyR6d5R7" },
+        { "id": "live_nasa", "titulo": "NASA TV (Espacio)", "poster": "https://img.youtube.com/vi/21X5lGlDOfg/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=21X5lGlDOfg" },
+        { "id": "live_tn", "titulo": "TN Noticias (Argentina)", "poster": "https://img.youtube.com/vi/wLGEs46CqT8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=wLGEs46CqT8" },
+        { "id": "live_mil", "titulo": "Milenio (México)", "poster": "https://img.youtube.com/vi/97K0rTEKqvU/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=97K0rTEKqvU" }
       ]
     },
     {
-      "titulo": "🌍 Documentales: Sociedad y Crimen (DW)",
+      "titulo": "🌍 Documentales (DW y NatGeo)",
       "tipo": "vod",
       "contenido": [
-        { "id": "doc_maraton", "titulo": "▶ PLAYLIST: Maratón 50+ Documentales", "poster": "https://img.youtube.com/vi/_kLhaGMKpZY/mqdefault.jpg", "url": "https://www.youtube.com/playlist?list=PLuVQHfAY44hbD4lC0iiYFF-GElpVkb_fK" },
-        { "id": "doc_fenta", "titulo": "Fentanilo: La Droga Mortal", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=qJ0s-K-yR2I" },
-        { "id": "doc_inter", "titulo": "Interpol: Cazadores de Criminales", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=sqVwKlZqOwc" },
-        { "id": "doc_mafia", "titulo": "La Mafia Italiana: Negocios Sucios", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=8k7_Mv9k-m4" },
-        { "id": "doc_cartel", "titulo": "La Guerra de los Cárteles", "poster": "https://img.youtube.com/vi/9aMtg7tQDMU/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=9aMtg7tQDMU" },
-        { "id": "doc_coches", "titulo": "Ladrones de Coches de Lujo", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=O1zFu_VcpO0" },
+        { "id": "doc_maraton", "titulo": "▶ MARATÓN: 50 Documentales", "poster": "https://img.youtube.com/vi/_kLhaGMKpZY/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=_kLhaGMKpZY" },
+        { "id": "doc_fenta", "titulo": "Fentanilo: Droga Mortal", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=qJ0s-K-yR2I" },
+        { "id": "doc_mafia", "titulo": "La Mafia Italiana", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=8k7_Mv9k-m4" },
         { "id": "doc_ciber", "titulo": "Cibercrimen Organizado", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=aZ3FfS0XgT0" },
-        { "id": "doc_arena", "titulo": "El Negocio de la Arena", "poster": "https://img.youtube.com/vi/XXq54c1Wd6E/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=XXq54c1Wd6E" },
-        { "id": "doc_bukele", "titulo": "El Salvador de Bukele", "poster": "https://img.youtube.com/vi/6fO-gJ8qK6A/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=6fO-gJ8qK6A" },
-        { "id": "doc_prision", "titulo": "Cárceles de Máxima Seguridad", "poster": "https://img.youtube.com/vi/3K1x3n5_x0o/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=3K1x3n5_x0o" }
+        { "id": "doc_egipto", "titulo": "Egipto: Los Faraones", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=sqVwKlZqOwc" }
       ]
     },
     {
-      "titulo": "🧬 Documentales: Ciencia e Historia (DW/NatGeo)",
+      "titulo": "🎬 Cine de Acción (Completas)",
       "tipo": "vod",
       "contenido": [
-        { "id": "doc_space", "titulo": "Los Secretos del Espacio", "poster": "https://img.youtube.com/vi/t6rHHnABoT8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=t6rHHnABoT8" },
-        { "id": "doc_ocean", "titulo": "Océanos Profundos y Minería", "poster": "https://img.youtube.com/vi/c56eg0hOLuw/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=c56eg0hOLuw" },
-        { "id": "doc_machu", "titulo": "Machu Picchu: Arquitectos Incas", "poster": "https://img.youtube.com/vi/b3A4RiRqvYk/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=b3A4RiRqvYk" },
-        { "id": "doc_butan", "titulo": "Bután: El Reino de la Felicidad", "poster": "https://img.youtube.com/vi/o5ZgQwqxJ80/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=o5ZgQwqxJ80" },
-        { "id": "doc_ai", "titulo": "Inteligencia Artificial: ¿Amiga o Enemiga?", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=aZ3FfS0XgT0" },
-        { "id": "doc_paz", "titulo": "¿Es posible la paz mundial?", "poster": "https://img.youtube.com/vi/2cON7CA20r4/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=2cON7CA20r4" },
-        { "id": "doc_guerra", "titulo": "Legado Tóxico de las Guerras", "poster": "https://img.youtube.com/vi/_kLhaGMKpZY/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=_kLhaGMKpZY" },
-        { "id": "doc_egipto", "titulo": "Egipto: Los Faraones", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=sqVwKlZqOwc" },
-        { "id": "doc_volcan", "titulo": "Volcanes Activos", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=O1zFu_VcpO0" },
-        { "id": "doc_selva", "titulo": "Amazonas: Pulmón del Mundo", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=qJ0s-K-yR2I" }
-      ]
-    },
-    {
-      "titulo": "💥 Cine de Acción y Terror (Completas)",
-      "tipo": "vod",
-      "contenido": [
-        { "id": "mov_reino", "titulo": "Reino Perdido (Aventura)", "poster": "https://img.youtube.com/vi/g_LB8jbKOrg/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=g_LB8jbKOrg" },
         { "id": "mov_kungfury", "titulo": "Kung Fury (Acción 80s)", "poster": "https://img.youtube.com/vi/bS5P_LAqiVg/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=bS5P_LAqiVg" },
-        { "id": "mov_666", "titulo": "666: El Hijo (Terror)", "poster": "https://img.youtube.com/vi/zGNxVVl5K_M/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=zGNxVVl5K_M" },
-        { "id": "mov_whaley", "titulo": "El Embrujo de la Casa Whaley", "poster": "https://img.youtube.com/vi/wuUhljJIEtY/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=wuUhljJIEtY" },
+        { "id": "mov_reino", "titulo": "Reino Perdido (Aventura)", "poster": "https://img.youtube.com/vi/g_LB8jbKOrg/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=g_LB8jbKOrg" },
         { "id": "mov_steel", "titulo": "Tears of Steel (Sci-Fi)", "poster": "https://img.youtube.com/vi/R6MlUcmOul8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=R6MlUcmOul8" },
-        { "id": "mov_sintel", "titulo": "Sintel (Animación 4K)", "poster": "https://img.youtube.com/vi/eRsGyueVLvQ/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=eRsGyueVLvQ" },
-        { "id": "mov_asteroide", "titulo": "Asteroide Final (Acción)", "poster": "https://img.youtube.com/vi/y3_gG_y3_gG/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=y3_gG_y3_gG" },
-        { "id": "mov_nazi", "titulo": "Operación Nazi (Guerra)", "poster": "https://img.youtube.com/vi/2cON7CA20r4/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=2cON7CA20r4" }
+        { "id": "mov_sintel", "titulo": "Sintel (Animación 4K)", "poster": "https://img.youtube.com/vi/eRsGyueVLvQ/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=eRsGyueVLvQ" }
       ]
     },
     {
-      "titulo": "🎬 Cine Clásico de Hollywood (Español)",
+      "titulo": "👶 Zona Kids (Oficiales)",
       "tipo": "vod",
       "contenido": [
-        { "id": "cine_muertos", "titulo": "La Noche de los Muertos Vivientes", "poster": "https://img.youtube.com/vi/5gUKvmOEfkc/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=5gUKvmOEfkc" },
-        { "id": "cine_charada", "titulo": "Charada (Cary Grant)", "poster": "https://img.youtube.com/vi/v5u7QeMpplk/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=v5u7QeMpplk" },
-        { "id": "cine_general", "titulo": "El Maquinista de la General", "poster": "https://img.youtube.com/vi/Edo_I9R6K2k/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=Edo_I9R6K2k" },
-        { "id": "cine_sherlock", "titulo": "Sherlock Holmes: Terror", "poster": "https://img.youtube.com/vi/W4hV4BKyR_w/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=W4hV4BKyR_w" },
-        { "id": "cine_fantasma", "titulo": "El Fantasma de la Ópera", "poster": "https://img.youtube.com/vi/j52o-aL_5u8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=j52o-aL_5u8" },
-        { "id": "cine_luna", "titulo": "Viaje a la Luna (Color)", "poster": "https://img.youtube.com/vi/xLvChWMi71g/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=xLvChWMi71g" },
-        { "id": "cine_doa", "titulo": "D.O.A. (Al Límite)", "poster": "https://img.youtube.com/vi/3pqiQpM_jI8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=3pqiQpM_jI8" },
-        { "id": "cine_cyrano", "titulo": "Cyrano de Bergerac", "poster": "https://img.youtube.com/vi/Dq0s8W0s8W0/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=Dq0s8W0s8W0" }
+        { "id": "kid_masha", "titulo": "Masha y el Oso (Mix)", "poster": "https://img.youtube.com/vi/uteoVWparPQ/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=uteoVWparPQ" },
+        { "id": "kid_pocoyo", "titulo": "Pocoyó - Lo Mejor", "poster": "https://img.youtube.com/vi/d3x9a9l8qH8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=d3x9a9l8qH8" },
+        { "id": "kid_peppa", "titulo": "Peppa Pig - Capítulos", "poster": "https://img.youtube.com/vi/h2O4a3I6u_o/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=h2O4a3I6u_o" },
+        { "id": "kid_shark", "titulo": "Baby Shark - Baile", "poster": "https://img.youtube.com/vi/XqZsoesa55w/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=XqZsoesa55w" }
       ]
-    },
-    {
-      "titulo": "👶 Zona Kids (Capítulos Completos Oficiales)",
-      "tipo": "vod",
-      "contenido": [
-        { "id": "kid_masha1", "titulo": "Masha y el Oso - Episodios", "poster": "https://img.youtube.com/vi/uteoVWparPQ/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=uteoVWparPQ" },
-        { "id": "kid_masha2", "titulo": "Masha - Día de Lavado", "poster": "https://img.youtube.com/vi/i-vgTAPcSas/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=i-vgTAPcSas" },
-        { "id": "kid_pocoyo1", "titulo": "Pocoyó - Lo Mejor (1 Hora)", "poster": "https://img.youtube.com/vi/d3x9a9l8qH8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=d3x9a9l8qH8" },
-        { "id": "kid_pocoyo2", "titulo": "Pocoyó - Navidad Especial", "poster": "https://img.youtube.com/vi/UjQ29GqgKps/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=UjQ29GqgKps" },
-        { "id": "kid_peppa", "titulo": "Peppa Pig - Temporada 6", "poster": "https://img.youtube.com/vi/h2O4a3I6u_o/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=h2O4a3I6u_o" },
-        { "id": "kid_pollito", "titulo": "El Pollito Amarillito (Mix)", "poster": "https://img.youtube.com/vi/No1-4_f0aAQ/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=No1-4_f0aAQ" },
-        { "id": "kid_shark", "titulo": "Baby Shark - Baile", "poster": "https://img.youtube.com/vi/XqZsoesa55w/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=XqZsoesa55w" },
-        { "id": "kid_granja", "titulo": "La Granja de Zenón", "poster": "https://img.youtube.com/vi/H_Heid_Heid/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=H_Heid_Heid" },
-        { "id": "kid_colores", "titulo": "Aprende los Colores", "poster": "https://img.youtube.com/vi/pZW9veQUF9I/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=pZW9veQUF9I" },
-        { "id":
+    }
+  ]
+}
