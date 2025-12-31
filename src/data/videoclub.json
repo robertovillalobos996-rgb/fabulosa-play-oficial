@@ -1,73 +1,81 @@
 {
   "categorias": [
     {
-      "titulo": "🇨🇷 COSTA RICA (Canales Nacionales)",
+      "titulo": "🇨🇷 COSTA RICA (Señales Disponibles)",
       "tipo": "live",
       "contenido": [
-        { "id": "cr_1", "titulo": "Multimedios CR (Canal 8)", "poster": "https://img.youtube.com/vi/S8W-FwbFf7E/mqdefault.jpg", "url": "https://www.youtube.com/embed/S8W-FwbFf7E", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_2", "titulo": "Canal 13 Sinart", "poster": "https://img.youtube.com/vi/3w3q_3w3q_3/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCs3X3X_3X3X3X3X3X3X3X3X", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_3", "titulo": "Extra TV 42", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCaZ3FfS0XgT0", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_4", "titulo": "Trivisión 36", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCTrivision36", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_5", "titulo": "Canal UCR", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCUCR", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_6", "titulo": "TeleUno", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCTeleUno", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_7", "titulo": "Alta Visión", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCAltaVision", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_8", "titulo": "TV Sur Pérez Zeledón", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCTVSur", "duracion": "🔴 EN VIVO" }
+        { "id": "cr_1", "titulo": "Multimedios CR (Canal 8)", "poster": "https://img.youtube.com/vi/S8W-FwbFf7E/mqdefault.jpg", "url": "live_stream?channel=UCs3X3X_3X3X3X3X3X3X3X3X", "duracion": "🔴 EN VIVO" },
+        { "id": "cr_2", "titulo": "Canal 13 Sinart", "poster": "https://img.youtube.com/vi/3w3q_3w3q_3/mqdefault.jpg", "url": "live_stream?channel=UCy9x9x9x9x9x9x9x", "duracion": "🔴 EN VIVO" },
+        { "id": "cr_3", "titulo": "Extra TV 42", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "live_stream?channel=UCaZ3FfS0XgT0", "duracion": "🔴 EN VIVO" },
+        { "id": "cr_4", "titulo": "Canal UCR", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "live_stream?channel=UCUCR", "duracion": "🔴 EN VIVO" },
+        { "id": "cr_5", "titulo": "Trivisión 36", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "live_stream?channel=UCTrivision36", "duracion": "🔴 EN VIVO" },
+        { "id": "cr_6", "titulo": "TeleUno", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "live_stream?channel=UCTeleUno", "duracion": "🔴 EN VIVO" },
+        { "id": "cr_7", "titulo": "TV Sur Pérez Zeledón", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "live_stream?channel=UCTVSur", "duracion": "🔴 EN VIVO" },
+        { "id": "cr_8", "titulo": "Colosal TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "live_stream?channel=UCColosal", "duracion": "🔴 EN VIVO" }
       ]
     },
     {
-      "titulo": "🌎 NOTICIAS INTERNACIONALES (Latinoamérica)",
+      "titulo": "🌎 NOTICIAS MUNDIALES (24 Horas)",
       "tipo": "live",
       "contenido": [
-        { "id": "news_1", "titulo": "Noticias Telemundo", "poster": "https://img.youtube.com/vi/s71q5Qj9x6A/mqdefault.jpg", "url": "https://www.youtube.com/embed/s71q5Qj9x6A", "duracion": "🔴 EN VIVO" },
-        { "id": "news_2", "titulo": "Univision Noticias", "poster": "https://img.youtube.com/vi/Q2812dGg9g4/mqdefault.jpg", "url": "https://www.youtube.com/embed/Q2812dGg9g4", "duracion": "🔴 EN VIVO" },
-        { "id": "news_3", "titulo": "TN Argentina", "poster": "https://img.youtube.com/vi/wLGEs46CqT8/mqdefault.jpg", "url": "https://www.youtube.com/embed/wLGEs46CqT8", "duracion": "🔴 EN VIVO" },
-        { "id": "news_4", "titulo": "C5N", "poster": "https://img.youtube.com/vi/P1X65aK8jcw/mqdefault.jpg", "url": "https://www.youtube.com/embed/P1X65aK8jcw", "duracion": "🔴 EN VIVO" },
-        { "id": "news_5", "titulo": "Milenio México", "poster": "https://img.youtube.com/vi/97K0rTEKqvU/mqdefault.jpg", "url": "https://www.youtube.com/embed/97K0rTEKqvU", "duracion": "🔴 EN VIVO" },
-        { "id": "news_6", "titulo": "RTVE 24h (España)", "poster": "https://img.youtube.com/vi/wTj-x8_yq6I/mqdefault.jpg", "url": "https://www.youtube.com/embed/wTj-x8_yq6I", "duracion": "🔴 EN VIVO" },
-        { "id": "news_7", "titulo": "France 24 Español", "poster": "https://img.youtube.com/vi/t4Zzi2j3dBs/mqdefault.jpg", "url": "https://www.youtube.com/embed/t4Zzi2j3dBs", "duracion": "🔴 EN VIVO" },
-        { "id": "news_8", "titulo": "DW Español", "poster": "https://img.youtube.com/vi/Q1_Q1_Q1/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCDW", "duracion": "🔴 EN VIVO" },
-        { "id": "news_9", "titulo": "Voz de América", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCVOA", "duracion": "🔴 EN VIVO" },
-        { "id": "news_10", "titulo": "Euronews", "poster": "https://img.youtube.com/vi/pyR6d5R7/mqdefault.jpg", "url": "https://www.youtube.com/embed/pyR6d5R7", "duracion": "🔴 EN VIVO" }
+        { "id": "n1", "titulo": "Noticias Telemundo", "poster": "https://img.youtube.com/vi/s71q5Qj9x6A/mqdefault.jpg", "url": "s71q5Qj9x6A", "duracion": "🔴 EN VIVO" },
+        { "id": "n2", "titulo": "Univision 24/7", "poster": "https://img.youtube.com/vi/Q2812dGg9g4/mqdefault.jpg", "url": "Q2812dGg9g4", "duracion": "🔴 EN VIVO" },
+        { "id": "n3", "titulo": "TN Argentina", "poster": "https://img.youtube.com/vi/wLGEs46CqT8/mqdefault.jpg", "url": "wLGEs46CqT8", "duracion": "🔴 EN VIVO" },
+        { "id": "n4", "titulo": "C5N Noticias", "poster": "https://img.youtube.com/vi/P1X65aK8jcw/mqdefault.jpg", "url": "P1X65aK8jcw", "duracion": "🔴 EN VIVO" },
+        { "id": "n5", "titulo": "Milenio México", "poster": "https://img.youtube.com/vi/97K0rTEKqvU/mqdefault.jpg", "url": "97K0rTEKqvU", "duracion": "🔴 EN VIVO" },
+        { "id": "n6", "titulo": "RTVE España", "poster": "https://img.youtube.com/vi/wTj-x8_yq6I/mqdefault.jpg", "url": "wTj-x8_yq6I", "duracion": "🔴 EN VIVO" },
+        { "id": "n7", "titulo": "France 24 Español", "poster": "https://img.youtube.com/vi/t4Zzi2j3dBs/mqdefault.jpg", "url": "t4Zzi2j3dBs", "duracion": "🔴 EN VIVO" },
+        { "id": "n8", "titulo": "Euronews", "poster": "https://img.youtube.com/vi/pyR6d5R7/mqdefault.jpg", "url": "pyR6d5R7", "duracion": "🔴 EN VIVO" },
+        { "id": "n9", "titulo": "La Nación +", "poster": "https://img.youtube.com/vi/io_aWj6Y_iM/mqdefault.jpg", "url": "io_aWj6Y_iM", "duracion": "🔴 EN VIVO" },
+        { "id": "n10", "titulo": "Crónica TV", "poster": "https://img.youtube.com/vi/HUP9sXz3eWw/mqdefault.jpg", "url": "HUP9sXz3eWw", "duracion": "🔴 EN VIVO" }
       ]
     },
     {
-      "titulo": "⚽ DEPORTES Y MOTOR",
-      "tipo": "live",
+      "titulo": "🍿 CINE ACCIÓN (Películas Completas)",
+      "tipo": "vod",
       "contenido": [
-        { "id": "sport_1", "titulo": "Marca TV (España)", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCMarca", "duracion": "🔴 EN VIVO" },
-        { "id": "sport_2", "titulo": "Claro Sports", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCClaroSports", "duracion": "🔴 EN VIVO" },
-        { "id": "sport_3", "titulo": "Red Bull TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCRedBull", "duracion": "🔴 EN VIVO" },
-        { "id": "sport_4", "titulo": "Real Madrid TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCRealMadrid", "duracion": "🔴 EN VIVO" },
-        { "id": "sport_5", "titulo": "TUDN Radio/TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCTUDN", "duracion": "🔴 EN VIVO" }
+        { "id": "m1", "titulo": "Venganza Implacable", "poster": "https://img.youtube.com/vi/WdJj8e1Kqow/mqdefault.jpg", "url": "WdJj8e1Kqow", "duracion": "1h 40m" },
+        { "id": "m2", "titulo": "El Justiciero", "poster": "https://img.youtube.com/vi/g_LB8jbKOrg/mqdefault.jpg", "url": "g_LB8jbKOrg", "duracion": "1h 35m" },
+        { "id": "m3", "titulo": "Código de Honor", "poster": "https://img.youtube.com/vi/3pqiQpM_jI8/mqdefault.jpg", "url": "3pqiQpM_jI8", "duracion": "1h 30m" },
+        { "id": "m4", "titulo": "Persecución", "poster": "https://img.youtube.com/vi/ds-b84zO9k4/mqdefault.jpg", "url": "ds-b84zO9k4", "duracion": "1h 25m" },
+        { "id": "m5", "titulo": "Apocalipsis", "poster": "https://img.youtube.com/vi/5gUKvmOEfkc/mqdefault.jpg", "url": "5gUKvmOEfkc", "duracion": "1h 36m" },
+        { "id": "m6", "titulo": "Kung Fury", "poster": "https://img.youtube.com/vi/bS5P_LAqiVg/mqdefault.jpg", "url": "bS5P_LAqiVg", "duracion": "30m" },
+        { "id": "m7", "titulo": "Reino Perdido", "poster": "https://img.youtube.com/vi/g_LB8jbKOrg/mqdefault.jpg", "url": "g_LB8jbKOrg", "duracion": "1h 30m" },
+        { "id": "m8", "titulo": "Tears of Steel", "poster": "https://img.youtube.com/vi/R6MlUcmOul8/mqdefault.jpg", "url": "R6MlUcmOul8", "duracion": "15m" }
       ]
     },
     {
-      "titulo": "👶 KIDS TV (24 Horas)",
+      "titulo": "👶 ZONA INFANTIL (TV 24/7)",
       "tipo": "live",
       "contenido": [
-        { "id": "kid_tv_1", "titulo": "Masha y el Oso TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UC_Masha", "duracion": "🔴 EN VIVO" },
-        { "id": "kid_tv_2", "titulo": "Pocoyó TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCPocoyo", "duracion": "🔴 EN VIVO" },
-        { "id": "kid_tv_3", "titulo": "Baby Shark TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCBabyShark", "duracion": "🔴 EN VIVO" },
-        { "id": "kid_tv_4", "titulo": "Sesame Street", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCSesame", "duracion": "🔴 EN VIVO" },
-        { "id": "kid_tv_5", "titulo": "Larva TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/embed/live_stream?channel=UCLarva", "duracion": "🔴 EN VIVO" }
+        { "id": "k1", "titulo": "Masha y el Oso TV", "poster": "https://img.youtube.com/vi/uteoVWparPQ/mqdefault.jpg", "url": "uteoVWparPQ", "duracion": "🔴 EN VIVO" },
+        { "id": "k2", "titulo": "Pocoyó TV", "poster": "https://img.youtube.com/vi/d3x9a9l8qH8/mqdefault.jpg", "url": "d3x9a9l8qH8", "duracion": "🔴 EN VIVO" },
+        { "id": "k3", "titulo": "Baby Shark TV", "poster": "https://img.youtube.com/vi/XqZsoesa55w/mqdefault.jpg", "url": "XqZsoesa55w", "duracion": "🔴 EN VIVO" },
+        { "id": "k4", "titulo": "Gallina Pintadita", "poster": "https://img.youtube.com/vi/VfP-lA2d_6M/mqdefault.jpg", "url": "VfP-lA2d_6M", "duracion": "🔴 EN VIVO" },
+        { "id": "k5", "titulo": "LooLoo Kids", "poster": "https://img.youtube.com/vi/F2t_2v-qXQA/mqdefault.jpg", "url": "F2t_2v-qXQA", "duracion": "🔴 EN VIVO" },
+        { "id": "k6", "titulo": "Canciones Granja", "poster": "https://img.youtube.com/vi/h7r3X_h7r3X/mqdefault.jpg", "url": "h7r3X_h7r3X", "duracion": "🔴 EN VIVO" }
       ]
     },
     {
-      "titulo": "🎵 MÚSICA NON-STOP",
+      "titulo": "🎵 MÚSICA (Radio Visual)",
       "tipo": "live",
       "contenido": [
-        { "id": "mus_1", "titulo": "Lofi Girl Radio", "poster": "https://img.youtube.com/vi/jfKfPfyJRdk/mqdefault.jpg", "url": "https://www.youtube.com/embed/jfKfPfyJRdk", "duracion": "🔴 EN VIVO" },
-        { "id": "mus_2", "titulo": "Pop Latino Mix", "poster": "https://img.youtube.com/vi/No1-4_f0aAQ/mqdefault.jpg", "url": "https://www.youtube.com/embed/No1-4_f0aAQ", "duracion": "🔴 EN VIVO" },
-        { "id": "mus_3", "titulo": "Ibiza Party Radio", "poster": "https://img.youtube.com/vi/5yx6BWlEVcY/mqdefault.jpg", "url": "https://www.youtube.com/embed/5yx6BWlEVcY", "duracion": "🔴 EN VIVO" },
-        { "id": "mus_4", "titulo": "Café Jazz", "poster": "https://img.youtube.com/vi/Dx5qFacha3o/mqdefault.jpg", "url": "https://www.youtube.com/embed/Dx5qFacha3o", "duracion": "🔴 EN VIVO" }
+        { "id": "mu1", "titulo": "Latino Mix 2024", "poster": "https://img.youtube.com/vi/No1-4_f0aAQ/mqdefault.jpg", "url": "No1-4_f0aAQ", "duracion": "🔴 EN VIVO" },
+        { "id": "mu2", "titulo": "Lofi Hip Hop", "poster": "https://img.youtube.com/vi/jfKfPfyJRdk/mqdefault.jpg", "url": "jfKfPfyJRdk", "duracion": "🔴 EN VIVO" },
+        { "id": "mu3", "titulo": "Ibiza Party", "poster": "https://img.youtube.com/vi/5yx6BWlEVcY/mqdefault.jpg", "url": "5yx6BWlEVcY", "duracion": "🔴 EN VIVO" },
+        { "id": "mu4", "titulo": "Jazz Bar", "poster": "https://img.youtube.com/vi/Dx5qFacha3o/mqdefault.jpg", "url": "Dx5qFacha3o", "duracion": "🔴 EN VIVO" }
       ]
     },
     {
-      "titulo": "🚀 TECNOLOGÍA Y ESPACIO",
-      "tipo": "live",
+      "titulo": "🌍 DOCUMENTALES (DW Español)",
+      "tipo": "vod",
       "contenido": [
-        { "id": "tech_1", "titulo": "NASA TV Pública", "poster": "https://img.youtube.com/vi/21X5lGlDOfg/mqdefault.jpg", "url": "https://www.youtube.com/embed/21X5lGlDOfg", "duracion": "🔴 EN VIVO" },
-        { "id": "tech_2", "titulo": "NASA Estación Espacial", "poster": "https://img.youtube.com/vi/DDU-rZs-Ic4/mqdefault.jpg", "url": "https://www.youtube.com/embed/P9C25T7xjEI", "duracion": "🔴 EN VIVO" }
+        { "id": "d1", "titulo": "Negocio de la Arena", "poster": "https://img.youtube.com/vi/XXq54c1Wd6E/mqdefault.jpg", "url": "XXq54c1Wd6E", "duracion": "42 min" },
+        { "id": "d2", "titulo": "Fentanilo: Droga", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "url": "qJ0s-K-yR2I", "duracion": "50 min" },
+        { "id": "d3", "titulo": "Mafia Italiana", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "url": "8k7_Mv9k-m4", "duracion": "42 min" },
+        { "id": "d4", "titulo": "Cibercrimen", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "aZ3FfS0XgT0", "duracion": "42 min" },
+        { "id": "d5", "titulo": "Robo de Coches", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "url": "O1zFu_VcpO0", "duracion": "50 min" },
+        { "id": "d6", "titulo": "Interpol", "poster": "https://img.youtube.com/vi/sqVwKlZqOwc/mqdefault.jpg", "url": "sqVwKlZqOwc", "duracion": "28 min" }
       ]
     }
   ]
