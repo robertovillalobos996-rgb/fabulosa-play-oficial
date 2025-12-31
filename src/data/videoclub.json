@@ -1,216 +1,101 @@
 {
   "categorias": [
     {
-      "titulo": "✅ PRUEBAS (SI ESTO NO ABRE, EL PROBLEMA ES TÉCNICO)",
-      "tipo": "live",
-      "contenido": [
-        {
-          "id": "test_bbb",
-          "titulo": "TEST HLS - Big Buck Bunny (Mux)",
-          "poster": "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "test_sintel",
-          "titulo": "TEST HLS - Sintel (Akamai)",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sintel_poster.jpg/800px-Sintel_poster.jpg",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        }
-      ]
-    },
-
-    {
+      "id": "documentales",
       "titulo": "📚 Documentales (Curado)",
-      "tipo": "vod",
-      "contenido": [
+      "descripcion": "Colección inicial de documentales gratuitos y señales oficiales para Fabulosa Play",
+      "items": [
         {
-          "id": "doc_001",
-          "titulo": "Planeta Tierra: Océanos profundos",
-          "poster": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          "id": "bbb",
+          "titulo": "Big Buck Bunny",
+          "descripcion": "Corto animado Creative Commons, ideal para naturaleza y pruebas visuales.",
+          "tipo": "vod",
+          "categoria": "Naturaleza",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Big_Buck_Bunny_Poster.png/800px-Big_Buck_Bunny_Poster.png",
+          "stream": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
         },
         {
-          "id": "doc_002",
-          "titulo": "Naturaleza Salvaje: Selvas",
-          "poster": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+          "id": "sintel",
+          "titulo": "Sintel",
+          "descripcion": "Aventura épica animada con paisajes naturales, nieve y desiertos.",
+          "tipo": "vod",
+          "categoria": "Naturaleza",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/800px-Sintel_poster.jpg",
+          "stream": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
         },
         {
-          "id": "doc_003",
-          "titulo": "Historia Antigua: Imperios",
-          "poster": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          "id": "tears_of_steel",
+          "titulo": "Tears of Steel",
+          "descripcion": "Ciencia ficción filmada en Ámsterdam. Tecnología y futuro.",
+          "tipo": "vod",
+          "categoria": "Ciencia y Tecnología",
+          "poster": "https://mango.blender.org/wp-content/uploads/2013/05/Tears-of-Steel-poster.jpg",
+          "stream": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
         },
         {
-          "id": "doc_004",
-          "titulo": "Crimen Real: Casos sin resolver",
-          "poster": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+          "id": "spring",
+          "titulo": "Spring",
+          "descripcion": "Corto animado sobre espíritus antiguos y montañas.",
+          "tipo": "vod",
+          "categoria": "Naturaleza",
+          "poster": "https://cloud.blender.org/p/gallery/5718a967c379cf04929a4247.png",
+          "stream": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
         },
         {
-          "id": "doc_005",
-          "titulo": "Ciencia y Tecnología: Innovación",
-          "poster": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          "id": "apple_bipbop",
+          "titulo": "Paisajes Costeros",
+          "descripcion": "Escenas de mar y naturaleza para pruebas de streaming.",
+          "tipo": "vod",
+          "categoria": "Naturaleza",
+          "poster": "https://developer.apple.com/assets/elements/icons/streaming/streaming-96x96.png",
+          "stream": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
         },
         {
-          "id": "doc_006",
-          "titulo": "Viajes: Centroamérica",
-          "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+          "id": "nasa_tv",
+          "titulo": "NASA TV",
+          "descripcion": "Transmisión oficial de la NASA: espacio, lanzamientos y documentales.",
+          "tipo": "live",
+          "categoria": "Espacio",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
+          "stream": "https://ntv1.akamaized.net/hls/live/2013975/NASA-NTV1-HLS/master.m3u8"
         },
         {
-          "id": "doc_007",
-          "titulo": "Vida Marina: Arrecifes",
-          "poster": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          "id": "dw_documentary",
+          "titulo": "DW Documentary",
+          "descripcion": "Historia, sociedad y economía global.",
+          "tipo": "live",
+          "categoria": "Historia",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Deutsche_Welle_Logo.svg",
+          "stream": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8"
         },
         {
-          "id": "doc_008",
-          "titulo": "Grandes Montañas: Aventuras",
-          "poster": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+          "id": "aljazeera",
+          "titulo": "Al Jazeera English",
+          "descripcion": "Investigación, historia y reportajes internacionales.",
+          "tipo": "live",
+          "categoria": "Sociedad",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/3/36/Al_Jazeera_English_logo.svg",
+          "stream": "https://live-hls-web-aje.getaj.net/AJE/03.m3u8"
         },
         {
-          "id": "doc_009",
-          "titulo": "Misterios del Mundo",
-          "poster": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          "id": "nhk_world",
+          "titulo": "NHK World Japan",
+          "descripcion": "Viajes, cultura, gastronomía y documentales japoneses.",
+          "tipo": "live",
+          "categoria": "Viajes y Cultura",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/5/58/NHK_World.svg",
+          "stream": "https://b-nhk-world-jp.akamaized.net/hls/live/2043063/nhkworld/master_4000.m3u8"
         },
         {
-          "id": "doc_010",
-          "titulo": "Biografías: Grandes líderes",
-          "poster": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-
-        {
-          "id": "doc_011",
-          "titulo": "Naturaleza: Desiertos",
-          "poster": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_012",
-          "titulo": "Naturaleza: Glaciares",
-          "poster": "https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-        {
-          "id": "doc_013",
-          "titulo": "Historia: Civilizaciones perdidas",
-          "poster": "https://images.unsplash.com/photo-1568322445380-f64ac2515020?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_014",
-          "titulo": "Ciencia: El universo",
-          "poster": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-        {
-          "id": "doc_015",
-          "titulo": "Tecnología: IA y futuro",
-          "poster": "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_016",
-          "titulo": "Crimen Real: Investigación",
-          "poster": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-        {
-          "id": "doc_017",
-          "titulo": "Viajes: Pueblos mágicos",
-          "poster": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_018",
-          "titulo": "Cultura: Música del mundo",
-          "poster": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-        {
-          "id": "doc_019",
-          "titulo": "Fe y valores: Historias reales",
-          "poster": "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_020",
-          "titulo": "Planeta: Cambio climático",
-          "poster": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-
-        {
-          "id": "doc_021",
-          "titulo": "Naturaleza: Vida salvaje",
-          "poster": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_022",
-          "titulo": "Historia: Segunda Guerra Mundial",
-          "poster": "https://images.unsplash.com/photo-1529257414771-1960f45b6e6b?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-        {
-          "id": "doc_023",
-          "titulo": "Ciencia: Medicina y salud",
-          "poster": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_024",
-          "titulo": "Tecnología: Ciberseguridad",
-          "poster": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-        {
-          "id": "doc_025",
-          "titulo": "Animales: Grandes felinos",
-          "poster": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_026",
-          "titulo": "Océanos: Tiburones",
-          "poster": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-        {
-          "id": "doc_027",
-          "titulo": "Planeta: Bosques y selvas",
-          "poster": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_028",
-          "titulo": "Viajes: Costa Rica",
-          "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-        {
-          "id": "doc_029",
-          "titulo": "Cultura: Gastronomía",
-          "poster": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80",
-          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "doc_030",
-          "titulo": "Historia: Grandes misterios",
-          "poster": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
-          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+          "id": "cgtn_doc",
+          "titulo": "CGTN Documentary",
+          "descripcion": "Documentales culturales e históricos de Asia y el mundo.",
+          "tipo": "live",
+          "categoria": "Historia",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/1/1e/CGTN.svg",
+          "stream": "https://l-vog5.jatr.cn/cgtn/doc/playlist.m3u8"
         }
       ]
-    },
-
-    { "titulo": "🔥 Recomendado para ti", "tipo": "vod", "contenido": [] },
-    { "titulo": "📈 Tendencia", "tipo": "vod", "contenido": [] },
-    { "titulo": "🆕 Nuevos", "tipo": "vod", "contenido": [] },
-    { "titulo": "👀 Lo más visto", "tipo": "vod", "contenido": [] }
+    }
   ]
 }
