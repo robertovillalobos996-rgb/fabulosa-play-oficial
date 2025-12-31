@@ -1,49 +1,33 @@
 {
   "categorias": [
     {
-      "titulo": "🇨🇷 COSTA RICA (Canales Abiertos)",
+      "titulo": "🇨🇷 COSTA RICA (Tus Canales)",
       "tipo": "live",
       "contenido": [
-        { "id": "cr_1", "titulo": "Multimedios Canal 8", "poster": "https://img.youtube.com/vi/S8W-FwbFf7E/mqdefault.jpg", "url": "S8W-FwbFf7E", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_2", "titulo": "Extra TV 42", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "h7r3X_h7r3X", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_3", "titulo": "Canal 13 Sinart", "poster": "https://img.youtube.com/vi/3w3q_3w3q_3/mqdefault.jpg", "url": "3w3q_3w3q_3", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_4", "titulo": "TeleUno TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "live_stream?channel=UCTeleUno", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_5", "titulo": "Trivisión 36", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "live_stream?channel=UCTrivision36", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_6", "titulo": "Colosal TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "live_stream?channel=UCColosal", "duracion": "🔴 EN VIVO" }
+        { "id": "cr_6", "titulo": "Repretel Canal 6", "poster": "https://img.freepik.com/foto-gratis/television-retro_23-2147635671.jpg", "url": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8" },
+        { "id": "cr_11", "titulo": "Repretel Canal 11", "poster": "https://img.freepik.com/foto-gratis/television-antigua_23-2147635671.jpg", "url": "https://alba-cr-repretel-c11.stream.mediatiquestream.com/index.m3u8" },
+        { "id": "cr_42", "titulo": "Extra TV 42", "poster": "https://img.freepik.com/foto-gratis/noticias-ultima-hora_23-2149029277.jpg", "url": "https://5f2c1b0d880e5.streamlock.net/tv42/videotv42/playlist.m3u8" },
+        { "id": "cr_alcance", "titulo": "Alcance TV", "poster": "https://img.freepik.com/foto-gratis/antena-satelite_23-2148016480.jpg", "url": "https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8" },
+        { "id": "cr_extrema", "titulo": "Extrema Kids CR", "poster": "https://img.freepik.com/vector-gratis/ninos-felices_23-2147605937.jpg", "url": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8" }
       ]
     },
     {
-      "titulo": "🌎 NOTICIAS INTERNACIONALES (24H)",
+      "titulo": "🎬 CINE Y SERIES (Tu Lista)",
       "tipo": "live",
       "contenido": [
-        { "id": "n1", "titulo": "Noticias Telemundo", "poster": "https://img.youtube.com/vi/s71q5Qj9x6A/mqdefault.jpg", "url": "s71q5Qj9x6A", "duracion": "🔴 EN VIVO" },
-        { "id": "n2", "titulo": "Univision 24/7", "poster": "https://img.youtube.com/vi/Q2812dGg9g4/mqdefault.jpg", "url": "Q2812dGg9g4", "duracion": "🔴 EN VIVO" },
-        { "id": "n3", "titulo": "TN Argentina", "poster": "https://img.youtube.com/vi/wLGEs46CqT8/mqdefault.jpg", "url": "wLGEs46CqT8", "duracion": "🔴 EN VIVO" },
-        { "id": "n4", "titulo": "C5N Noticias", "poster": "https://img.youtube.com/vi/P1X65aK8jcw/mqdefault.jpg", "url": "P1X65aK8jcw", "duracion": "🔴 EN VIVO" },
-        { "id": "n5", "titulo": "Euronews Español", "poster": "https://img.youtube.com/vi/pyR6d5R7/mqdefault.jpg", "url": "pyR6d5R7", "duracion": "🔴 EN VIVO" },
-        { "id": "n6", "titulo": "RTVE España", "poster": "https://img.youtube.com/vi/wTj-x8_yq6I/mqdefault.jpg", "url": "wTj-x8_yq6I", "duracion": "🔴 EN VIVO" },
-        { "id": "n7", "titulo": "France 24", "poster": "https://img.youtube.com/vi/t4Zzi2j3dBs/mqdefault.jpg", "url": "t4Zzi2j3dBs", "duracion": "🔴 EN VIVO" },
-        { "id": "n8", "titulo": "DW Español", "poster": "https://img.youtube.com/vi/Q1_Q1_Q1/mqdefault.jpg", "url": "Q1_Q1_Q1", "duracion": "🔴 EN VIVO" }
+        { "id": "cine_accion", "titulo": "Cine Acción", "poster": "https://img.freepik.com/foto-gratis/claqueta-cine_23-2147805623.jpg", "url": "https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8" },
+        { "id": "cine_canal", "titulo": "Cinecanal", "poster": "https://img.freepik.com/foto-gratis/palomitas-maiz_23-2147690629.jpg", "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8" },
+        { "id": "hist_2", "titulo": "History 2", "poster": "https://img.freepik.com/foto-gratis/mapa-antiguo_23-2147648356.jpg", "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HISTORY2/index.m3u8" },
+        { "id": "pluto_cine", "titulo": "Pluto Cine", "poster": "https://img.freepik.com/vector-gratis/logo-cine_23-2147493863.jpg", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1abce155a03d0007718834/master.m3u8" }
       ]
     },
     {
-      "titulo": "👶 INFANTIL (Oficiales 24/7)",
+      "titulo": "🌍 INTERNACIONALES (Tu Lista)",
       "tipo": "live",
       "contenido": [
-        { "id": "k1", "titulo": "Masha y el Oso", "poster": "https://img.youtube.com/vi/uteoVWparPQ/mqdefault.jpg", "url": "uteoVWparPQ", "duracion": "🔴 EN VIVO" },
-        { "id": "k2", "titulo": "Pocoyó TV", "poster": "https://img.youtube.com/vi/d3x9a9l8qH8/mqdefault.jpg", "url": "d3x9a9l8qH8", "duracion": "🔴 EN VIVO" },
-        { "id": "k3", "titulo": "Baby Shark TV", "poster": "https://img.youtube.com/vi/XqZsoesa55w/mqdefault.jpg", "url": "XqZsoesa55w", "duracion": "🔴 EN VIVO" },
-        { "id": "k4", "titulo": "Gallina Pintadita", "poster": "https://img.youtube.com/vi/VfP-lA2d_6M/mqdefault.jpg", "url": "VfP-lA2d_6M", "duracion": "🔴 EN VIVO" }
-      ]
-    },
-    {
-      "titulo": "🍿 PELÍCULAS DE ACCIÓN",
-      "tipo": "vod",
-      "contenido": [
-        { "id": "m1", "titulo": "Venganza Implacable", "poster": "https://img.youtube.com/vi/WdJj8e1Kqow/mqdefault.jpg", "url": "WdJj8e1Kqow", "duracion": "Pelicula" },
-        { "id": "m2", "titulo": "El Justiciero", "poster": "https://img.youtube.com/vi/g_LB8jbKOrg/mqdefault.jpg", "url": "g_LB8jbKOrg", "duracion": "Pelicula" },
-        { "id": "m3", "titulo": "Kung Fury", "poster": "https://img.youtube.com/vi/bS5P_LAqiVg/mqdefault.jpg", "url": "bS5P_LAqiVg", "duracion": "30 min" },
-        { "id": "m4", "titulo": "Tears of Steel", "poster": "https://img.youtube.com/vi/R6MlUcmOul8/mqdefault.jpg", "url": "R6MlUcmOul8", "duracion": "15 min" }
+        { "id": "dw_not", "titulo": "DW Español", "poster": "https://img.freepik.com/foto-gratis/noticias-mundo_23-2148995833.jpg", "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8" },
+        { "id": "rtve_esp", "titulo": "RTVE España", "poster": "https://img.freepik.com/foto-gratis/bandera-espana_23-2147635671.jpg", "url": "https://ztnr.rtve.es/ztnr/1694255.m3u8" },
+        { "id": "mex_ntv", "titulo": "NTV México", "poster": "https://img.freepik.com/foto-gratis/mexico-flag_23-2147635671.jpg", "url": "https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8" }
       ]
     }
   ]
