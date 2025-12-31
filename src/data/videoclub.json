@@ -1,14 +1,63 @@
 {
   "categorias": [
     {
+      "titulo": "🇨🇷 COSTA RICA (Señales Digitales)",
+      "tipo": "live",
+      "contenido": [
+        {
+          "id": "cr_6",
+          "titulo": "Repretel Canal 6",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Repretel_Canal_6_logo.svg/1200px-Repretel_Canal_6_logo.svg.png",
+          "url": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8"
+        },
+        {
+          "id": "cr_11",
+          "titulo": "Repretel Canal 11",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Repretel_11.svg/1200px-Repretel_11.svg.png",
+          "url": "https://alba-cr-repretel-c11.stream.mediatiquestream.com/index.m3u8"
+        },
+        {
+          "id": "cr_42",
+          "titulo": "Extra TV 42",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Extra_TV_42_Logo.png",
+          "url": "https://5f2c1b0d880e5.streamlock.net/tv42/videotv42/playlist.m3u8"
+        },
+        {
+          "id": "cr_alcance",
+          "titulo": "Alcance TV",
+          "poster": "https://pbs.twimg.com/profile_images/1356346740/Logo_Alcance_TV_400x400.png",
+          "url": "https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8"
+        },
+        {
+          "id": "cr_kids",
+          "titulo": "Extrema Kids CR",
+          "poster": "https://img.freepik.com/vector-gratis/ninos-felices_23-2147605937.jpg",
+          "url": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8"
+        }
+      ]
+    },
+
+    {
       "titulo": "🎬 CINE PREMIUM (24/7 Sin Cortes)",
       "tipo": "live",
       "contenido": [
+        {
+          "id": "pluto_cine",
+          "titulo": "Pluto Cine Estelar",
+          "poster": "https://images.pluto.tv/channels/5f1213f096677c00072b2046/colorLogoPNG.png",
+          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1213f096677c00072b2046/master.m3u8"
+        },
         {
           "id": "pluto_accion",
           "titulo": "Pluto TV Acción",
           "poster": "https://images.pluto.tv/channels/5f12150e96677c00072b2067/colorLogoPNG.png",
           "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12150e96677c00072b2067/master.m3u8"
+        },
+        {
+          "id": "pluto_terror",
+          "titulo": "Pluto TV Terror",
+          "poster": "https://images.pluto.tv/channels/5f12160d96677c00072b2089/colorLogoPNG.png",
+          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12160d96677c00072b2089/master.m3u8"
         }
       ]
     },
@@ -21,17 +70,17 @@
           "id": "doc_001",
           "titulo": "Costa Rica Natural",
           "poster": "/posters/doc-cr-natural.jpg",
-          "url": "https://TU-CDN-O-VERCEL/video/costarica-natural.mp4",
+          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1213f096677c00072b2046/master.m3u8",
           "duracion": "1h 20m",
           "anio": "2022",
           "clasificacion": "TP",
-          "descripcion": "Un viaje por la naturaleza y parques de Costa Rica."
+          "descripcion": "Un recorrido por la naturaleza y parques nacionales de Costa Rica."
         },
         {
           "id": "doc_002",
           "titulo": "Misterios de Centroamérica",
           "poster": "/posters/doc-misterios.jpg",
-          "url": "https://TU-CDN-O-VERCEL/video/misterios-centroamerica.m3u8",
+          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12089496677c00072b1f48/master.m3u8",
           "duracion": "58m",
           "anio": "2021",
           "clasificacion": "+13",
@@ -50,7 +99,7 @@
           "poster": "/posters/serie-historias-cr.jpg",
           "anio": "2023",
           "clasificacion": "TP",
-          "descripcion": "Capítulos cortos sobre cultura, historia y tradición.",
+          "descripcion": "Serie documental sobre cultura, historia y tradiciones.",
           "temporadas": [
             {
               "titulo": "Temporada 1",
@@ -59,14 +108,14 @@
                   "id": "s1e1",
                   "titulo": "Episodio 1: Orígenes",
                   "poster": "/posters/serie-historias-cr-s1e1.jpg",
-                  "url": "https://TU-CDN/video/serie001-s1e1.mp4",
+                  "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f51480b59b58e00076a0841/master.m3u8",
                   "duracion": "24m"
                 },
                 {
                   "id": "s1e2",
                   "titulo": "Episodio 2: Tradiciones",
                   "poster": "/posters/serie-historias-cr-s1e2.jpg",
-                  "url": "https://TU-CDN/video/serie001-s1e2.m3u8",
+                  "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a282ef1c1c200076f827e/master.m3u8",
                   "duracion": "26m"
                 }
               ]
