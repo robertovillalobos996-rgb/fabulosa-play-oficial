@@ -1,46 +1,53 @@
 {
   "categorias": [
     {
-      "titulo": "🎬 CINE ESTELAR (Canales 24/7)",
+      "titulo": "🇨🇷 COSTA RICA Y NOTICIAS (Señales Digitales)",
       "tipo": "live",
       "contenido": [
-        { "id": "cine_1", "titulo": "Runtime Acción", "poster": "https://img.freepik.com/foto-gratis/hombre-apuntando-arma-lente_23-2149539454.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=533" },
-        { "id": "cine_2", "titulo": "Runtime Comedia", "poster": "https://img.freepik.com/foto-gratis/amigos-riendo-viendo-television_23-2148924632.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=534" },
-        { "id": "cine_3", "titulo": "Runtime Thriller", "poster": "https://img.freepik.com/foto-gratis/silueta-hombre-misterioso_23-2149449835.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=535" },
-        { "id": "cine_4", "titulo": "Runtime Romance", "poster": "https://img.freepik.com/foto-gratis/pareja-romantica-playa_23-2148135865.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=536" },
-        { "id": "cine_5", "titulo": "Cine Clásico", "poster": "https://img.freepik.com/foto-gratis/rollo-pelicula-claqueta_23-2148285552.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=537" },
-        { "id": "cine_6", "titulo": "Pluto TV Cine Estelar", "poster": "https://images.pluto.tv/channels/5f1213f096677c00072b2046/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1213f096677c00072b2046/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f1213f096677c00072b2046&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f1213f096677c00072b2046&userId=" },
-        { "id": "cine_7", "titulo": "Pluto TV Acción", "poster": "https://images.pluto.tv/channels/5f12150e96677c00072b2067/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12150e96677c00072b2067/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f12150e96677c00072b2067&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f12150e96677c00072b2067&userId=" }
+        { "id": "cr_repretel", "titulo": "Repretel Canal 6 (Noticias)", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=P1X65aK8jcw" },
+        { "id": "cr_multimedios", "titulo": "Canal 8 (Multimedios)", "poster": "https://img.youtube.com/vi/S8W-FwbFf7E/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=S8W-FwbFf7E" },
+        { "id": "cr_13", "titulo": "Trece Costa Rica", "poster": "https://img.youtube.com/vi/3w3q_3w3q_3/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=3w3q_3w3q_3" },
+        { "id": "cr_extra", "titulo": "Extra TV 42", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=h7r3X_h7r3X" },
+        { "id": "cr_teleuno", "titulo": "TeleUno TV", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=live_stream" },
+        { "id": "not_tn", "titulo": "TN Argentina (24h)", "poster": "https://img.youtube.com/vi/wLGEs46CqT8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=wLGEs46CqT8" },
+        { "id": "not_c5n", "titulo": "C5N En Vivo", "poster": "https://img.youtube.com/vi/P1X65aK8jcw/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=P1X65aK8jcw" },
+        { "id": "not_euro", "titulo": "Euronews Español", "poster": "https://img.youtube.com/vi/pyR6d5R7/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=pyR6d5R7" },
+        { "id": "not_france", "titulo": "France 24 Español", "poster": "https://img.youtube.com/vi/t4Zzi2j3dBs/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=t4Zzi2j3dBs" },
+        { "id": "not_rtve", "titulo": "RTVE España", "poster": "https://img.youtube.com/vi/wTj-x8_yq6I/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=wTj-x8_yq6I" }
       ]
     },
     {
-      "titulo": "📺 SERIES Y NOVELAS",
+      "titulo": "👶 ZONA INFANTIL (24 Horas Sin Cortes)",
       "tipo": "live",
       "contenido": [
-        { "id": "ser_1", "titulo": "Doctor Who", "poster": "https://images.pluto.tv/channels/5f51480b59b58e00076a0841/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f51480b59b58e00076a0841/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f51480b59b58e00076a0841&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f51480b59b58e00076a0841&userId=" },
-        { "id": "ser_2", "titulo": "Narcos (Pluto)", "poster": "https://images.pluto.tv/channels/5f6a27e7f1c1c200076f827a/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a27e7f1c1c200076f827a/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f6a27e7f1c1c200076f827a&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f6a27e7f1c1c200076f827a&userId=" },
-        { "id": "ser_3", "titulo": "Misterios sin Resolver", "poster": "https://images.pluto.tv/channels/5f12089496677c00072b1f48/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12089496677c00072b1f48/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f12089496677c00072b1f48&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f12089496677c00072b1f48&userId=" },
-        { "id": "ser_4", "titulo": "Telenovelas Clásicas", "poster": "https://images.pluto.tv/channels/5f120c1b96677c00072b1fbb/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f120c1b96677c00072b1fbb/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f120c1b96677c00072b1fbb&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f120c1b96677c00072b1fbb&userId=" }
+        { "id": "kid_masha", "titulo": "Masha y el Oso TV", "poster": "https://img.youtube.com/vi/uteoVWparPQ/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=uteoVWparPQ" },
+        { "id": "kid_pocoyo", "titulo": "Pocoyó TV en Vivo", "poster": "https://img.youtube.com/vi/d3x9a9l8qH8/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=d3x9a9l8qH8" },
+        { "id": "kid_baby", "titulo": "Baby Shark TV", "poster": "https://img.youtube.com/vi/XqZsoesa55w/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=XqZsoesa55w" },
+        { "id": "kid_looloo", "titulo": "LooLoo Kids", "poster": "https://img.youtube.com/vi/F2t_2v-qXQA/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=F2t_2v-qXQA" },
+        { "id": "kid_gallina", "titulo": "Gallina Pintadita", "poster": "https://img.youtube.com/vi/VfP-lA2d_6M/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=VfP-lA2d_6M" },
+        { "id": "kid_granja", "titulo": "La Granja de Zenón", "poster": "https://img.youtube.com/vi/H_Heid_Heid/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=H_Heid_Heid" }
       ]
     },
     {
-      "titulo": "👶 NIÑOS (Dibujos 24/7)",
+      "titulo": "🎵 MÚSICA Y RADIO VISUAL (Ambiente)",
       "tipo": "live",
       "contenido": [
-        { "id": "kid_1", "titulo": "Bob Esponja", "poster": "https://images.pluto.tv/channels/5f12128796677c00072b202e/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12128796677c00072b202e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f12128796677c00072b202e&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f12128796677c00072b202e&userId=" },
-        { "id": "kid_2", "titulo": "Padrinos Mágicos", "poster": "https://images.pluto.tv/channels/5f7626966144e50007621c17/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f7626966144e50007621c17/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f7626966144e50007621c17&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f7626966144e50007621c17&userId=" },
-        { "id": "kid_3", "titulo": "Avatar: Leyenda de Aang", "poster": "https://images.pluto.tv/channels/5f6a2731f1c1c200076f8270/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a2731f1c1c200076f8270/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f6a2731f1c1c200076f8270&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f6a2731f1c1c200076f8270&userId=" },
-        { "id": "kid_4", "titulo": "Pluto TV Junior", "poster": "https://images.pluto.tv/channels/5f12121396677c00072b201a/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12121396677c00072b201a/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f12121396677c00072b201a&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f12121396677c00072b201a&userId=" }
+        { "id": "mus_latino", "titulo": "Éxitos Latinos 2024", "poster": "https://img.youtube.com/vi/No1-4_f0aAQ/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=No1-4_f0aAQ" },
+        { "id": "mus_lofi", "titulo": "Lofi Girl (Relax/Estudio)", "poster": "https://img.youtube.com/vi/jfKfPfyJRdk/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=jfKfPfyJRdk" },
+        { "id": "mus_jazz", "titulo": "Jazz Bar (Música Suave)", "poster": "https://img.youtube.com/vi/Dx5qFacha3o/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=Dx5qFacha3o" },
+        { "id": "mus_ibiza", "titulo": "Ibiza Summer Mix", "poster": "https://img.youtube.com/vi/5yx6BWlEVcY/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=5yx6BWlEVcY" }
       ]
     },
     {
-      "titulo": "🌍 NOTICIAS Y DEPORTES",
-      "tipo": "live",
+      "titulo": "🌍 DOCUMENTALES DW (Alta Calidad)",
+      "tipo": "vod",
       "contenido": [
-        { "id": "news_1", "titulo": "Euronews Español", "poster": "https://images.pluto.tv/channels/5f4d4e0e59b58e00076a02b3/colorLogoPNG.png", "url": "https://euronews-euronews-world-samsung-es.samsung.wurl.tv/playlist.m3u8" },
-        { "id": "news_2", "titulo": "FIFA+ TV", "poster": "https://img.freepik.com/vector-gratis/estadio-futbol-noche_1284-18035.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2081" },
-        { "id": "news_3", "titulo": "Real Madrid TV", "poster": "https://img.freepik.com/foto-gratis/balon-futbol-campo-estadio_23-2148995833.jpg", "url": "https://rmtv24h-web.akamaized.net/hls/live/2043153/rmtv24h-web/master.m3u8" },
-        { "id": "news_4", "titulo": "Red Bull TV", "poster": "https://img.freepik.com/foto-gratis/coche-carreras-pista_23-2150865809.jpg", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8" }
+        { "id": "doc_1", "titulo": "El Negocio de la Arena", "poster": "https://img.youtube.com/vi/XXq54c1Wd6E/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=XXq54c1Wd6E" },
+        { "id": "doc_2", "titulo": "Fentanilo: Droga Mortal", "poster": "https://img.youtube.com/vi/qJ0s-K-yR2I/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=qJ0s-K-yR2I" },
+        { "id": "doc_3", "titulo": "La Mafia Italiana", "poster": "https://img.youtube.com/vi/8k7_Mv9k-m4/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=8k7_Mv9k-m4" },
+        { "id": "doc_4", "titulo": "Inteligencia Artificial", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=aZ3FfS0XgT0" },
+        { "id": "doc_5", "titulo": "Robo de Autos de Lujo", "poster": "https://img.youtube.com/vi/O1zFu_VcpO0/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=O1zFu_VcpO0" },
+        { "id": "doc_6", "titulo": "El Salvador de Bukele", "poster": "https://img.youtube.com/vi/6fO-gJ8qK6A/mqdefault.jpg", "url": "https://www.youtube.com/watch?v=6fO-gJ8qK6A" }
       ]
     }
   ]
