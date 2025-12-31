@@ -1,4 +1,3 @@
-
 {
   "categorias": [
     {
@@ -20,372 +19,198 @@
       ]
     },
 
+    {
+      "titulo": "📚 Documentales (Curado)",
+      "tipo": "vod",
+      "contenido": [
+        {
+          "id": "doc_001",
+          "titulo": "Planeta Tierra: Océanos profundos",
+          "poster": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_002",
+          "titulo": "Naturaleza Salvaje: Selvas",
+          "poster": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_003",
+          "titulo": "Historia Antigua: Imperios",
+          "poster": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_004",
+          "titulo": "Crimen Real: Casos sin resolver",
+          "poster": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_005",
+          "titulo": "Ciencia y Tecnología: Innovación",
+          "poster": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_006",
+          "titulo": "Viajes: Centroamérica",
+          "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_007",
+          "titulo": "Vida Marina: Arrecifes",
+          "poster": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_008",
+          "titulo": "Grandes Montañas: Aventuras",
+          "poster": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_009",
+          "titulo": "Misterios del Mundo",
+          "poster": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_010",
+          "titulo": "Biografías: Grandes líderes",
+          "poster": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+
+        {
+          "id": "doc_011",
+          "titulo": "Naturaleza: Desiertos",
+          "poster": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_012",
+          "titulo": "Naturaleza: Glaciares",
+          "poster": "https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_013",
+          "titulo": "Historia: Civilizaciones perdidas",
+          "poster": "https://images.unsplash.com/photo-1568322445380-f64ac2515020?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_014",
+          "titulo": "Ciencia: El universo",
+          "poster": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_015",
+          "titulo": "Tecnología: IA y futuro",
+          "poster": "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_016",
+          "titulo": "Crimen Real: Investigación",
+          "poster": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_017",
+          "titulo": "Viajes: Pueblos mágicos",
+          "poster": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_018",
+          "titulo": "Cultura: Música del mundo",
+          "poster": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_019",
+          "titulo": "Fe y valores: Historias reales",
+          "poster": "https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_020",
+          "titulo": "Planeta: Cambio climático",
+          "poster": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+
+        {
+          "id": "doc_021",
+          "titulo": "Naturaleza: Vida salvaje",
+          "poster": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_022",
+          "titulo": "Historia: Segunda Guerra Mundial",
+          "poster": "https://images.unsplash.com/photo-1529257414771-1960f45b6e6b?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_023",
+          "titulo": "Ciencia: Medicina y salud",
+          "poster": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_024",
+          "titulo": "Tecnología: Ciberseguridad",
+          "poster": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_025",
+          "titulo": "Animales: Grandes felinos",
+          "poster": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_026",
+          "titulo": "Océanos: Tiburones",
+          "poster": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_027",
+          "titulo": "Planeta: Bosques y selvas",
+          "poster": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_028",
+          "titulo": "Viajes: Costa Rica",
+          "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        },
+        {
+          "id": "doc_029",
+          "titulo": "Cultura: Gastronomía",
+          "poster": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+          "id": "doc_030",
+          "titulo": "Historia: Grandes misterios",
+          "poster": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
+          "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+        }
+      ]
+    },
+
     { "titulo": "🔥 Recomendado para ti", "tipo": "vod", "contenido": [] },
     { "titulo": "📈 Tendencia", "tipo": "vod", "contenido": [] },
     { "titulo": "🆕 Nuevos", "tipo": "vod", "contenido": [] },
-    { "titulo": "👀 Lo más visto", "tipo": "vod", "contenido": [] },
-
-    {
-      "titulo": "🎬 Estrenos",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Acción",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Terror / Horror",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Suspenso / Thriller",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Drama",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Comedia",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Romance",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Familiar",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Animación",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Sci-Fi / Fantasía",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Aventura",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Crimen / Policial",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Guerra",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Western",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Clásicos",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Cine Latino",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Cine Centroamericano",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Cine Cristiano",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Cine Nacional (Costa Rica)",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Independiente / Festival",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎬 Películas HD (Curado)",
-      "tipo": "vod",
-      "contenido": []
-    },
-
-    {
-      "titulo": "📺 Series (Top)",
-      "tipo": "series",
-      "contenido": []
-    },
-    {
-      "titulo": "📺 Series de Acción",
-      "tipo": "series",
-      "contenido": []
-    },
-    {
-      "titulo": "📺 Series de Crimen",
-      "tipo": "series",
-      "contenido": []
-    },
-    {
-      "titulo": "📺 Series Juveniles",
-      "tipo": "series",
-      "contenido": []
-    },
-    {
-      "titulo": "📺 Series Familiares",
-      "tipo": "series",
-      "contenido": []
-    },
-    {
-      "titulo": "📺 Series Cristianas",
-      "tipo": "series",
-      "contenido": []
-    },
-    {
-      "titulo": "📺 Series Documentales",
-      "tipo": "series",
-      "contenido": []
-    },
-    {
-      "titulo": "📺 Novelas / Telenovelas",
-      "tipo": "series",
-      "contenido": []
-    },
-
-    {
-      "titulo": "📚 Documentales (Top)",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📚 Naturaleza",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📚 Historia",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📚 Misterio",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📚 Crimen Real",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📚 Ciencia y Tecnología",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📚 Viajes",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📚 Biografías",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📚 Música",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📚 Religión / Fe",
-      "tipo": "vod",
-      "contenido": []
-    },
-
-    {
-      "titulo": "👶 Kids (Preescolar)",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "👶 Kids (6–12)",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "👶 Anime / Animación",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "👶 Educación Kids",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "👶 Kids Cristiano",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "👶 Música Kids",
-      "tipo": "vod",
-      "contenido": []
-    },
-
-    {
-      "titulo": "⚽ Deportes 24/7",
-      "tipo": "live",
-      "contenido": []
-    },
-    {
-      "titulo": "⚽ Fútbol",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🥊 Box / MMA",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🏟️ Resúmenes / Highlights",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎥 Documentales Deportivos",
-      "tipo": "vod",
-      "contenido": []
-    },
-
-    {
-      "titulo": "🎵 Videoclips",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎵 Conciertos",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎵 Música Romántica",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎵 Música Urbana",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "🎵 Música Cristiana",
-      "tipo": "vod",
-      "contenido": []
-    },
-
-    {
-      "titulo": "📰 Noticias 24/7",
-      "tipo": "live",
-      "contenido": []
-    },
-    {
-      "titulo": "📰 Regional (Paso Canoas / CR)",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📰 Economía",
-      "tipo": "vod",
-      "contenido": []
-    },
-    {
-      "titulo": "📰 Tecnología",
-      "tipo": "vod",
-      "contenido": []
-    },
-
-    {
-      "titulo": "🌎 Internacional (USA)",
-      "tipo": "live",
-      "contenido": []
-    },
-    {
-      "titulo": "🌎 Internacional (México)",
-      "tipo": "live",
-      "contenido": []
-    },
-    {
-      "titulo": "🌎 Internacional (Colombia)",
-      "tipo": "live",
-      "contenido": []
-    },
-    {
-      "titulo": "🌎 Internacional (Argentina)",
-      "tipo": "live",
-      "contenido": []
-    },
-    {
-      "titulo": "🌎 Internacional (España)",
-      "tipo": "live",
-      "contenido": []
-    },
-    {
-      "titulo": "🌎 Centroamérica",
-      "tipo": "live",
-      "contenido": []
-    },
-    {
-      "titulo": "🌎 Europa",
-      "tipo": "live",
-      "contenido": []
-    },
-
-    { "titulo": "🎄 Especial Navidad", "tipo": "vod", "contenido": [] },
-    { "titulo": "✝️ Especial Semana Santa", "tipo": "vod", "contenido": [] },
-    { "titulo": "🎉 Especial Fiestas", "tipo": "vod", "contenido": [] },
-    { "titulo": "🍿 Maratón", "tipo": "vod", "contenido": [] },
-    { "titulo": "⭐ Imperdibles", "tipo": "vod", "contenido": [] },
-
-    {
-      "titulo": "📦 TV GRATIS (Puede variar por región)",
-      "tipo": "live",
-      "contenido": [
-        {
-          "id": "pluto_cine_estelar",
-          "titulo": "Pluto - Cine Estelar (si abre en tu país)",
-          "poster": "https://images.pluto.tv/channels/5f1213f096677c00072b2046/colorLogoPNG.png",
-          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1213f096677c00072b2046/master.m3u8"
-        },
-        {
-          "id": "pluto_accion",
-          "titulo": "Pluto - Acción (si abre en tu país)",
-          "poster": "https://images.pluto.tv/channels/5f12150e96677c00072b2067/colorLogoPNG.png",
-          "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12150e96677c00072b2067/master.m3u8"
-        }
-      ]
-    }
+    { "titulo": "👀 Lo más visto", "tipo": "vod", "contenido": [] }
   ]
 }
