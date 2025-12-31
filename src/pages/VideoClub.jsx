@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ReactPlayer from 'react-player'; // Importante: Usamos el reproductor potente
+import ReactPlayer from 'react-player'; 
 import data from '../data/videoclub.json'; 
 
 export default function VideoClub() {
@@ -21,7 +21,7 @@ export default function VideoClub() {
         </h1>
       </div>
 
-      {/* REPRODUCTOR UNIVERSAL */}
+      {/* REPRODUCTOR */}
       {selectedChannel && (
         <div className="w-full bg-black sticky top-[60px] z-50 shadow-2xl">
           <div className="aspect-video w-full h-[60vh] md:h-[80vh] relative bg-black">
@@ -32,7 +32,6 @@ export default function VideoClub() {
               CERRAR X
             </button>
             
-            {/* AQUÍ ESTÁ LA CLAVE: ReactPlayer lee los canales M3U8 */}
             <ReactPlayer 
               url={selectedChannel.url}
               width="100%"
@@ -46,19 +45,19 @@ export default function VideoClub() {
                   attributes: { style: { height: '100%', width: '100%', objectFit: 'contain' } } 
                 }
               }}
-              onError={(e) => console.log('Error de reproducción', e)}
+              onError={(e) => console.log('Error:', e)}
             />
           </div>
           <div className="p-4 bg-[#1a1a1a] border-b border-gray-800">
             <h2 className="text-lg font-bold text-white flex items-center gap-2">
-              📡 EN VIVO: <span className="text-purple-400">{selectedChannel.titulo}</span>
+              🔴 EN VIVO: <span className="text-purple-400">{selectedChannel.titulo}</span>
             </h2>
           </div>
         </div>
       )}
 
       {/* LISTA DE CANALES */}
-      <div className="p-4 space-y-8 max-w-[1600px] mx-auto">
+      <div className="p-4 space-y-8 max-w-[1800px] mx-auto">
         {data.categorias.map((cat, i) => (
           <div key={i}>
             <h3 className="text-lg font-bold mb-4 border-l-4 border-purple-500 pl-3 text-gray-200">{cat.titulo}</h3>
