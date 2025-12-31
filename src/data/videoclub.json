@@ -1,99 +1,98 @@
 {
   "categorias": [
     {
-      "id": "documentales",
-      "titulo": "📚 Documentales (Curado)",
-      "descripcion": "Colección inicial de documentales gratuitos y señales oficiales para Fabulosa Play",
-      "items": [
-        {
-          "id": "bbb",
-          "titulo": "Big Buck Bunny",
-          "descripcion": "Corto animado Creative Commons, ideal para naturaleza y pruebas visuales.",
-          "tipo": "vod",
-          "categoria": "Naturaleza",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Big_Buck_Bunny_Poster.png/800px-Big_Buck_Bunny_Poster.png",
-          "stream": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-        },
-        {
-          "id": "sintel",
-          "titulo": "Sintel",
-          "descripcion": "Aventura épica animada con paisajes naturales, nieve y desiertos.",
-          "tipo": "vod",
-          "categoria": "Naturaleza",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/800px-Sintel_poster.jpg",
-          "stream": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
-        },
-        {
-          "id": "tears_of_steel",
-          "titulo": "Tears of Steel",
-          "descripcion": "Ciencia ficción filmada en Ámsterdam. Tecnología y futuro.",
-          "tipo": "vod",
-          "categoria": "Ciencia y Tecnología",
-          "poster": "https://mango.blender.org/wp-content/uploads/2013/05/Tears-of-Steel-poster.jpg",
-          "stream": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-        },
-        {
-          "id": "spring",
-          "titulo": "Spring",
-          "descripcion": "Corto animado sobre espíritus antiguos y montañas.",
-          "tipo": "vod",
-          "categoria": "Naturaleza",
-          "poster": "https://cloud.blender.org/p/gallery/5718a967c379cf04929a4247.png",
-          "stream": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
-        },
-        {
-          "id": "apple_bipbop",
-          "titulo": "Paisajes Costeros",
-          "descripcion": "Escenas de mar y naturaleza para pruebas de streaming.",
-          "tipo": "vod",
-          "categoria": "Naturaleza",
-          "poster": "https://developer.apple.com/assets/elements/icons/streaming/streaming-96x96.png",
-          "stream": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
-        },
-        {
-          "id": "nasa_tv",
-          "titulo": "NASA TV",
-          "descripcion": "Transmisión oficial de la NASA: espacio, lanzamientos y documentales.",
-          "tipo": "live",
-          "categoria": "Espacio",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
-          "stream": "https://ntv1.akamaized.net/hls/live/2013975/NASA-NTV1-HLS/master.m3u8"
-        },
+      "titulo": "🌿 Naturaleza y Medio Ambiente",
+      "tipo": "live",
+      "contenido": [
         {
           "id": "dw_documentary",
-          "titulo": "DW Documentary",
-          "descripcion": "Historia, sociedad y economía global.",
-          "tipo": "live",
-          "categoria": "Historia",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Deutsche_Welle_Logo.svg",
-          "stream": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8"
+          "titulo": "DW Documentary (Deutsche Welle)",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/8/8b/DW_Logo_2012.svg",
+          "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8"
         },
         {
-          "id": "aljazeera",
+          "id": "aljazeera_english",
           "titulo": "Al Jazeera English",
-          "descripcion": "Investigación, historia y reportajes internacionales.",
-          "tipo": "live",
-          "categoria": "Sociedad",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/3/36/Al_Jazeera_English_logo.svg",
-          "stream": "https://live-hls-web-aje.getaj.net/AJE/03.m3u8"
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Al_Jazeera_English_logo.svg",
+          "url": "https://live-hls-web-aje.getaj.net/AJE/03.m3u8"
         },
         {
-          "id": "nhk_world",
-          "titulo": "NHK World Japan",
-          "descripcion": "Viajes, cultura, gastronomía y documentales japoneses.",
-          "tipo": "live",
-          "categoria": "Viajes y Cultura",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/5/58/NHK_World.svg",
-          "stream": "https://b-nhk-world-jp.akamaized.net/hls/live/2043063/nhkworld/master_4000.m3u8"
+          "id": "france24_en",
+          "titulo": "France 24 English",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/8/8a/France_24_logo.svg",
+          "url": "https://static.france24.com/live/F24_EN_HI_HLS/master_web.m3u8"
+        }
+      ]
+    },
+    {
+      "titulo": "🏛️ Historia y Sociedad",
+      "tipo": "live",
+      "contenido": [
+        {
+          "id": "dw_english",
+          "titulo": "DW English",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/8/8b/DW_Logo_2012.svg",
+          "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8"
+        },
+        {
+          "id": "euronews_es",
+          "titulo": "Euronews Español",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Euronews_2016_logo.svg",
+          "url": "https://euronews-euronews-world-samsung-es.samsung.wurl.tv/playlist.m3u8"
         },
         {
           "id": "cgtn_doc",
           "titulo": "CGTN Documentary",
-          "descripcion": "Documentales culturales e históricos de Asia y el mundo.",
-          "tipo": "live",
-          "categoria": "Historia",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/1/1e/CGTN.svg",
-          "stream": "https://l-vog5.jatr.cn/cgtn/doc/playlist.m3u8"
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/8/81/CGTN_logo.svg",
+          "url": "https://l-vog5.jatr.cn/cgtn/doc/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "titulo": "🔬 Ciencia y Tecnología",
+      "tipo": "live",
+      "contenido": [
+        {
+          "id": "nasa_tv_public",
+          "titulo": "NASA TV Public",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
+          "url": "https://ntv1.akamaized.net/hls/live/2013975/NASA-NTV1-HLS/master.m3u8"
+        },
+        {
+          "id": "nasa_tv_media",
+          "titulo": "NASA TV Media",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
+          "url": "https://ntv1.akamaized.net/hls/live/2013975/NASA-NTV1-HLS/master_2000.m3u8"
+        }
+      ]
+    },
+    {
+      "titulo": "🚀 Espacio y Universo",
+      "tipo": "live",
+      "contenido": [
+        {
+          "id": "nasa_space",
+          "titulo": "NASA Space & Science",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg",
+          "url": "https://ntv1.akamaized.net/hls/live/2013975/NASA-NTV1-HLS/master.m3u8"
+        }
+      ]
+    },
+    {
+      "titulo": "✈️ Viajes y Culturas del Mundo",
+      "tipo": "live",
+      "contenido": [
+        {
+          "id": "nhk_world",
+          "titulo": "NHK World Japan",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/2/2e/NHK_World.svg",
+          "url": "https://b-nhk-world-jp.akamaized.net/hls/live/2043063/nhkworld/master_4000.m3u8"
+        },
+        {
+          "id": "fashion_tv",
+          "titulo": "Fashion TV",
+          "poster": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Fashion_TV_logo.svg",
+          "url": "https://fash1043.cloudycdn.services/slive/_definst_/ftv_paris_adaptive.smil/playlist.m3u8"
         }
       ]
     }
