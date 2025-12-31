@@ -1,33 +1,24 @@
 {
   "categorias": [
     {
-      "titulo": "🇨🇷 COSTA RICA (Señales Seguras)",
+      "titulo": "🇨🇷 COSTA RICA (Señales Digitales)",
       "tipo": "live",
       "contenido": [
-        { "id": "cr_6", "titulo": "Repretel 6 (Oficial)", "poster": "https://img.freepik.com/foto-gratis/television-retro_23-2147635671.jpg", "url": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8" },
-        { "id": "cr_11", "titulo": "Repretel 11 (Oficial)", "poster": "https://img.freepik.com/foto-gratis/television-antigua_23-2147635671.jpg", "url": "https://alba-cr-repretel-c11.stream.mediatiquestream.com/index.m3u8" },
+        { "id": "cr_6", "titulo": "Repretel Canal 6", "poster": "https://img.freepik.com/foto-gratis/television-retro_23-2147635671.jpg", "url": "https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8" },
+        { "id": "cr_11", "titulo": "Repretel Canal 11", "poster": "https://img.freepik.com/foto-gratis/television-antigua_23-2147635671.jpg", "url": "https://alba-cr-repretel-c11.stream.mediatiquestream.com/index.m3u8" },
         { "id": "cr_42", "titulo": "Extra TV 42", "poster": "https://img.freepik.com/foto-gratis/noticias-ultima-hora_23-2149029277.jpg", "url": "https://5f2c1b0d880e5.streamlock.net/tv42/videotv42/playlist.m3u8" },
         { "id": "cr_alcance", "titulo": "Alcance TV", "poster": "https://img.freepik.com/foto-gratis/antena-satelite_23-2148016480.jpg", "url": "https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8" },
         { "id": "cr_extrema", "titulo": "Extrema Kids", "poster": "https://img.freepik.com/vector-gratis/ninos-felices_23-2147605937.jpg", "url": "https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8" }
       ]
     },
     {
-      "titulo": "🌎 INTERNACIONALES (Sin Bloqueo)",
+      "titulo": "🌎 INTERNACIONALES (Tu Lista)",
       "tipo": "live",
       "contenido": [
-        { "id": "cine_accion", "titulo": "Cine Acción HD", "poster": "https://img.freepik.com/foto-gratis/claqueta-cine_23-2147805623.jpg", "url": "https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8" },
-        { "id": "mex_ntv", "titulo": "NTV México", "poster": "https://img.freepik.com/foto-gratis/mexico-flag_23-2147635671.jpg", "url": "https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8" },
-        { "id": "esp_rtve", "titulo": "RTVE España", "poster": "https://img.freepik.com/foto-gratis/bandera-espana_23-2147635671.jpg", "url": "https://ztnr.rtve.es/ztnr/1694255.m3u8" },
-        { "id": "dw_noticias", "titulo": "DW Noticias", "poster": "https://img.freepik.com/foto-gratis/noticias-mundo_23-2148995833.jpg", "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8" }
-      ]
-    },
-    {
-      "titulo": "📺 PLUTO TV (Funcionan 100%)",
-      "tipo": "live",
-      "contenido": [
-        { "id": "pluto_cine", "titulo": "Pluto Cine Estelar", "poster": "https://img.freepik.com/vector-gratis/logo-cine_23-2147493863.jpg", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1abce155a03d0007718834/master.m3u8" },
-        { "id": "pluto_bob", "titulo": "Bob Esponja", "poster": "https://images.pluto.tv/channels/5f12128796677c00072b202e/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12128796677c00072b202e/master.m3u8" },
-        { "id": "pluto_south", "titulo": "South Park", "poster": "https://images.pluto.tv/channels/5f12128796677c00072b202e/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a282ef1c1c200076f827e/master.m3u8" }
+        { "id": "cine_accion", "titulo": "Cine Acción", "poster": "https://img.freepik.com/foto-gratis/claqueta-cine_23-2147805623.jpg", "url": "https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8" },
+        { "id": "cine_canal", "titulo": "Cinecanal", "poster": "https://img.freepik.com/foto-gratis/palomitas-maiz_23-2147690629.jpg", "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8" },
+        { "id": "hist_2", "titulo": "History 2", "poster": "https://img.freepik.com/foto-gratis/mapa-antiguo_23-2147648356.jpg", "url": "https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HISTORY2/index.m3u8" },
+        { "id": "pluto_cine", "titulo": "Pluto Cine", "poster": "https://img.freepik.com/vector-gratis/logo-cine_23-2147493863.jpg", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1abce155a03d0007718834/master.m3u8" }
       ]
     }
   ]

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ReactPlayer from 'react-player'; 
+import ReactPlayer from 'react-player'; // Importante: Usamos el reproductor potente
 import data from '../data/videoclub.json'; 
 
 export default function VideoClub() {
@@ -17,11 +17,11 @@ export default function VideoClub() {
       <div className="sticky top-0 z-40 bg-black/95 p-4 flex items-center gap-4 border-b border-gray-800 shadow-xl">
         <Link to="/home" className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition">⬅</Link>
         <h1 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
-          LISTA PREMIUM TV
+          FABULOSA TV
         </h1>
       </div>
 
-      {/* REPRODUCTOR M3U8 */}
+      {/* REPRODUCTOR UNIVERSAL */}
       {selectedChannel && (
         <div className="w-full bg-black sticky top-[60px] z-50 shadow-2xl">
           <div className="aspect-video w-full h-[60vh] md:h-[80vh] relative bg-black">
@@ -32,6 +32,7 @@ export default function VideoClub() {
               CERRAR X
             </button>
             
+            {/* AQUÍ ESTÁ LA CLAVE: ReactPlayer lee los canales M3U8 */}
             <ReactPlayer 
               url={selectedChannel.url}
               width="100%"
@@ -45,20 +46,19 @@ export default function VideoClub() {
                   attributes: { style: { height: '100%', width: '100%', objectFit: 'contain' } } 
                 }
               }}
-              onError={(e) => console.log('Error al cargar stream:', e)}
+              onError={(e) => console.log('Error de reproducción', e)}
             />
           </div>
           <div className="p-4 bg-[#1a1a1a] border-b border-gray-800">
             <h2 className="text-lg font-bold text-white flex items-center gap-2">
               📡 EN VIVO: <span className="text-purple-400">{selectedChannel.titulo}</span>
             </h2>
-            <p className="text-xs text-red-400 mt-1">Nota: Si no carga, revisa el bloqueo de contenido mixto en tu navegador.</p>
           </div>
         </div>
       )}
 
       {/* LISTA DE CANALES */}
-      <div className="p-4 space-y-8 max-w-[1800px] mx-auto">
+      <div className="p-4 space-y-8 max-w-[1600px] mx-auto">
         {data.categorias.map((cat, i) => (
           <div key={i}>
             <h3 className="text-lg font-bold mb-4 border-l-4 border-purple-500 pl-3 text-gray-200">{cat.titulo}</h3>
@@ -66,12 +66,7 @@ export default function VideoClub() {
               {cat.contenido.map((item) => (
                 <div key={item.id} onClick={() => handlePlay(item)} className="cursor-pointer group relative hover:scale-105 transition-transform duration-300">
                   <div className="aspect-video rounded-lg overflow-hidden bg-gray-800 shadow-lg border border-white/5 group-hover:border-purple-500">
-                    {/* Poster genérico si no hay imagen específica */}
-                    <img 
-                      src={item.poster || "https://img.freepik.com/vector-gratis/fondo-tecnologia-digital-abstracta_1017-23190.jpg"} 
-                      alt={item.titulo}
-                      className="w-full h-full object-cover opacity-80 group-hover:opacity-100"
-                    />
+                    <img src={item.poster} className="w-full h-full object-cover opacity-80 group-hover:opacity-100"/>
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition">
                       <div className="bg-purple-600 p-2 rounded-full">▶</div>
                     </div>
