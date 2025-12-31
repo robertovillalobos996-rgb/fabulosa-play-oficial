@@ -1,46 +1,46 @@
 {
   "categorias": [
     {
-      "titulo": "🇨🇷 COSTA RICA (Lo Último - Sin Bloqueos)",
-      "tipo": "vod",
-      "contenido": [
-        { "id": "cr_rep", "titulo": "Noticias Repretel (Lo más reciente)", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "videoseries?list=UUd2stJ90qS_u5jF7y9RPfCg", "duracion": "🔄 Auto-Play" },
-        { "id": "cr_teletica", "titulo": "Teletica.com (Noticias)", "poster": "https://img.youtube.com/vi/S8W-FwbFf7E/mqdefault.jpg", "url": "videoseries?list=UUq1WpPjZJ6Kx0g9-8Zq_G_g", "duracion": "🔄 Auto-Play" },
-        { "id": "cr_multi", "titulo": "Multimedios CR (Clips)", "poster": "https://img.youtube.com/vi/live_stream/mqdefault.jpg", "url": "videoseries?list=UU3X3X_3X3X3X3X3X3X3X3X", "duracion": "🔄 Auto-Play" },
-        { "id": "cr_extra", "titulo": "Extra TV 42 (En Vivo)", "poster": "https://img.youtube.com/vi/aZ3FfS0XgT0/mqdefault.jpg", "url": "live_stream?channel=UCaZ3FfS0XgT0", "duracion": "🔴 EN VIVO" },
-        { "id": "cr_13", "titulo": "Canal 13 Costa Rica", "poster": "https://img.youtube.com/vi/3w3q_3w3q_3/mqdefault.jpg", "url": "live_stream?channel=UCy9x9x9x9x9x9x9x", "duracion": "🔴 EN VIVO" }
-      ]
-    },
-    {
-      "titulo": "🍿 CINE DE ACCIÓN (Funcionan 100%)",
-      "tipo": "vod",
-      "contenido": [
-        { "id": "m1", "titulo": "Parker (Jason Statham)", "poster": "https://img.youtube.com/vi/p8b4q5/mqdefault.jpg", "url": "M7B5r0Fk8XU", "duracion": "1h 58m" },
-        { "id": "m2", "titulo": "El Especialista (Stallone)", "poster": "https://img.youtube.com/vi/y3_gG_y3_gG/mqdefault.jpg", "url": "Dq0s8W0s8W0", "duracion": "1h 50m" },
-        { "id": "m3", "titulo": "Venganza (Liam Neeson)", "poster": "https://img.youtube.com/vi/WdJj8e1Kqow/mqdefault.jpg", "url": "WdJj8e1Kqow", "duracion": "1h 30m" },
-        { "id": "m4", "titulo": "Tears of Steel (Sci-Fi)", "poster": "https://img.youtube.com/vi/R6MlUcmOul8/mqdefault.jpg", "url": "R6MlUcmOul8", "duracion": "12m" },
-        { "id": "m5", "titulo": "Kung Fury", "poster": "https://img.youtube.com/vi/bS5P_LAqiVg/mqdefault.jpg", "url": "bS5P_LAqiVg", "duracion": "30m" }
-      ]
-    },
-    {
-      "titulo": "🌍 NOTICIAS MUNDIALES (Señal Abierta)",
+      "titulo": "🎬 CINE ESTELAR (Canales 24/7)",
       "tipo": "live",
       "contenido": [
-        { "id": "n1", "titulo": "RTVE España 24h", "poster": "https://img.youtube.com/vi/wTj-x8_yq6I/mqdefault.jpg", "url": "wTj-x8_yq6I", "duracion": "🔴 EN VIVO" },
-        { "id": "n2", "titulo": "TN Argentina", "poster": "https://img.youtube.com/vi/wLGEs46CqT8/mqdefault.jpg", "url": "wLGEs46CqT8", "duracion": "🔴 EN VIVO" },
-        { "id": "n3", "titulo": "Euronews Español", "poster": "https://img.youtube.com/vi/pyR6d5R7/mqdefault.jpg", "url": "pyR6d5R7", "duracion": "🔴 EN VIVO" },
-        { "id": "n4", "titulo": "Milenio México", "poster": "https://img.youtube.com/vi/97K0rTEKqvU/mqdefault.jpg", "url": "97K0rTEKqvU", "duracion": "🔴 EN VIVO" },
-        { "id": "n5", "titulo": "France 24", "poster": "https://img.youtube.com/vi/t4Zzi2j3dBs/mqdefault.jpg", "url": "t4Zzi2j3dBs", "duracion": "🔴 EN VIVO" }
+        { "id": "cine_1", "titulo": "Runtime Acción", "poster": "https://img.freepik.com/foto-gratis/hombre-apuntando-arma-lente_23-2149539454.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=533" },
+        { "id": "cine_2", "titulo": "Runtime Comedia", "poster": "https://img.freepik.com/foto-gratis/amigos-riendo-viendo-television_23-2148924632.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=534" },
+        { "id": "cine_3", "titulo": "Runtime Thriller", "poster": "https://img.freepik.com/foto-gratis/silueta-hombre-misterioso_23-2149449835.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=535" },
+        { "id": "cine_4", "titulo": "Runtime Romance", "poster": "https://img.freepik.com/foto-gratis/pareja-romantica-playa_23-2148135865.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=536" },
+        { "id": "cine_5", "titulo": "Cine Clásico", "poster": "https://img.freepik.com/foto-gratis/rollo-pelicula-claqueta_23-2148285552.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=537" },
+        { "id": "cine_6", "titulo": "Pluto TV Cine Estelar", "poster": "https://images.pluto.tv/channels/5f1213f096677c00072b2046/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1213f096677c00072b2046/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f1213f096677c00072b2046&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f1213f096677c00072b2046&userId=" },
+        { "id": "cine_7", "titulo": "Pluto TV Acción", "poster": "https://images.pluto.tv/channels/5f12150e96677c00072b2067/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12150e96677c00072b2067/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f12150e96677c00072b2067&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f12150e96677c00072b2067&userId=" }
       ]
     },
     {
-      "titulo": "👶 ZONA INFANTIL (Dibujos)",
-      "tipo": "vod",
+      "titulo": "📺 SERIES Y NOVELAS",
+      "tipo": "live",
       "contenido": [
-        { "id": "k1", "titulo": "Masha y el Oso", "poster": "https://img.youtube.com/vi/uteoVWparPQ/mqdefault.jpg", "url": "uteoVWparPQ", "duracion": "20m" },
-        { "id": "k2", "titulo": "Pocoyó", "poster": "https://img.youtube.com/vi/d3x9a9l8qH8/mqdefault.jpg", "url": "d3x9a9l8qH8", "duracion": "1h" },
-        { "id": "k3", "titulo": "La Granja de Zenón", "poster": "https://img.youtube.com/vi/H_Heid_Heid/mqdefault.jpg", "url": "H_Heid_Heid", "duracion": "15m" },
-        { "id": "k4", "titulo": "Peppa Pig", "poster": "https://img.youtube.com/vi/h2O4a3I6u_o/mqdefault.jpg", "url": "h2O4a3I6u_o", "duracion": "20m" }
+        { "id": "ser_1", "titulo": "Doctor Who", "poster": "https://images.pluto.tv/channels/5f51480b59b58e00076a0841/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f51480b59b58e00076a0841/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f51480b59b58e00076a0841&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f51480b59b58e00076a0841&userId=" },
+        { "id": "ser_2", "titulo": "Narcos (Pluto)", "poster": "https://images.pluto.tv/channels/5f6a27e7f1c1c200076f827a/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a27e7f1c1c200076f827a/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f6a27e7f1c1c200076f827a&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f6a27e7f1c1c200076f827a&userId=" },
+        { "id": "ser_3", "titulo": "Misterios sin Resolver", "poster": "https://images.pluto.tv/channels/5f12089496677c00072b1f48/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12089496677c00072b1f48/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f12089496677c00072b1f48&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f12089496677c00072b1f48&userId=" },
+        { "id": "ser_4", "titulo": "Telenovelas Clásicas", "poster": "https://images.pluto.tv/channels/5f120c1b96677c00072b1fbb/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f120c1b96677c00072b1fbb/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f120c1b96677c00072b1fbb&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f120c1b96677c00072b1fbb&userId=" }
+      ]
+    },
+    {
+      "titulo": "👶 NIÑOS (Dibujos 24/7)",
+      "tipo": "live",
+      "contenido": [
+        { "id": "kid_1", "titulo": "Bob Esponja", "poster": "https://images.pluto.tv/channels/5f12128796677c00072b202e/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12128796677c00072b202e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f12128796677c00072b202e&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f12128796677c00072b202e&userId=" },
+        { "id": "kid_2", "titulo": "Padrinos Mágicos", "poster": "https://images.pluto.tv/channels/5f7626966144e50007621c17/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f7626966144e50007621c17/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f7626966144e50007621c17&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f7626966144e50007621c17&userId=" },
+        { "id": "kid_3", "titulo": "Avatar: Leyenda de Aang", "poster": "https://images.pluto.tv/channels/5f6a2731f1c1c200076f8270/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a2731f1c1c200076f8270/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f6a2731f1c1c200076f8270&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f6a2731f1c1c200076f8270&userId=" },
+        { "id": "kid_4", "titulo": "Pluto TV Junior", "poster": "https://images.pluto.tv/channels/5f12121396677c00072b201a/colorLogoPNG.png", "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12121396677c00072b201a/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=5f12121396677c00072b201a&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=5f12121396677c00072b201a&userId=" }
+      ]
+    },
+    {
+      "titulo": "🌍 NOTICIAS Y DEPORTES",
+      "tipo": "live",
+      "contenido": [
+        { "id": "news_1", "titulo": "Euronews Español", "poster": "https://images.pluto.tv/channels/5f4d4e0e59b58e00076a02b3/colorLogoPNG.png", "url": "https://euronews-euronews-world-samsung-es.samsung.wurl.tv/playlist.m3u8" },
+        { "id": "news_2", "titulo": "FIFA+ TV", "poster": "https://img.freepik.com/vector-gratis/estadio-futbol-noche_1284-18035.jpg", "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2081" },
+        { "id": "news_3", "titulo": "Real Madrid TV", "poster": "https://img.freepik.com/foto-gratis/balon-futbol-campo-estadio_23-2148995833.jpg", "url": "https://rmtv24h-web.akamaized.net/hls/live/2043153/rmtv24h-web/master.m3u8" },
+        { "id": "news_4", "titulo": "Red Bull TV", "poster": "https://img.freepik.com/foto-gratis/coche-carreras-pista_23-2150865809.jpg", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8" }
       ]
     }
   ]
