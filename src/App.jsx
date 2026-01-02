@@ -1,35 +1,43 @@
+import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-// Páginas
+// ✅ Importa SOLO lo que estás seguro que existe
 import Home from "./pages/Home";
-import VideoClub from "./pages/VideoClub";
 import Channels from "./pages/Channels";
 import Radio from "./pages/Radio";
+import VideoClub from "./pages/VideoClub";
 
-function App() {
+// ✅ EnVivo seguro (sin importar archivo externo)
+// (Luego, si tenés EnVivo.jsx real, te digo cómo activarlo bien)
+function EnVivo() {
+  return (
+    <div style={{ padding: 20, color: "white" }}>
+      <h2>En Vivo</h2>
+      <p>
+        Página En Vivo temporal. (Tu import de EnVivo estaba fallando y por eso se
+        iba a pantalla negra.)
+      </p>
+    </div>
+  );
+}
+
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Inicio */}
-        <Route path="/" element={<Home />} />
+        {/* Ruta raíz */}
+        <Route path="/" element={<Navigate to="/home" replace />} />
 
-        {/* Video Club */}
+        {/* Páginas */}
+        <Route path="/home" element={<Home />} />
+        <Route path="/channels" element={<Channels />} />
+        <Route path="/radio" element={<Radio />} />
+        <Route path="/envivo" element={<EnVivo />} />
         <Route path="/videoclub" element={<VideoClub />} />
 
-        {/* Canales TV */}
-        <Route path="/channels" element={<Channels />} />
-
-        {/* Radio */}
-        <Route path="/radio" element={<Radio />} />
-
-        {/* Si alguien entra a /envivo y no existe, lo manda a inicio */}
-        <Route path="/envivo" element={<Navigate to="/" replace />} />
-
-        {/* Cualquier otra ruta */}
-        <Route path="*" element={<Navigate to="/" replace />} />
+        {/* Catch-all */}
+        <Route path="*" element={<Navigate to="/home" replace />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
-export default App;

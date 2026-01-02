@@ -1,176 +1,50 @@
 {
   "categorias": [
     {
-      "id": "documentales-naturaleza",
-      "titulo": "🦈 Documentales Naturaleza",
-      "items": [
-        {
-          "id": "runtime-naturaleza",
-          "titulo": "Runtime Naturaleza",
-          "descripcion": "Vida salvaje, océanos, tiburones y paisajes naturales 24/7.",
-          "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=533",
-          "tipo": "LIVE",
-          "idioma": "ES",
-          "fuente": "Runtime TV"
-        },
+      "titulo": "🌿 Naturaleza y Medio Ambiente",
+      "contenido": [
         {
           "id": "dw-documentary",
           "titulo": "DW Documentary (Deutsche Welle)",
-          "descripcion": "Documentales en inglés (DW).",
-          "stream_url": "https://dwamdstream103.akamaized.net/hls/live/2017965/dwstream103/index.m3u8",
-          "tipo": "LIVE",
-          "idioma": "EN",
-          "fuente": "DW"
-        },
-        {
-          "id": "cgtn-documentary",
-          "titulo": "CGTN Documentary",
-          "descripcion": "Documentales y reportajes (CGTN).",
-          "stream_url": "https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8",
-          "tipo": "LIVE",
-          "idioma": "EN",
-          "fuente": "CGTN"
-        },
-        {
-          "id": "france24-english",
-          "titulo": "France 24 English",
-          "descripcion": "Noticias y reportajes internacionales (EN).",
-          "stream_url": "https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8",
-          "tipo": "LIVE",
-          "idioma": "EN",
-          "fuente": "France24"
+          "url": "https://TU_STREAM_M3U8_AQUI_1.m3u8",
+          "poster": "https://placehold.co/300x450/png?text=DW+Documentary"
         },
         {
           "id": "aljazeera-english",
           "titulo": "Al Jazeera English",
-          "descripcion": "Noticias y documentales (EN).",
-          "stream_url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8",
-          "tipo": "LIVE",
-          "idioma": "EN",
-          "fuente": "AlJazeera"
+          "url": "https://TU_STREAM_M3U8_AQUI_2.m3u8",
+          "poster": "https://placehold.co/300x450/png?text=Al+Jazeera+English"
+        },
+        {
+          "id": "france24-english",
+          "titulo": "France 24 English",
+          "url": "https://TU_STREAM_M3U8_AQUI_3.m3u8",
+          "poster": "https://placehold.co/300x450/png?text=France24+English"
         }
       ]
     },
     {
-      "id": "documentales-historia",
-      "titulo": "🏛️ Documentales Historia",
-      "items": [
-        {
-          "id": "runtime-historia",
-          "titulo": "Runtime Historia",
-          "descripcion": "Imperios, guerras y civilizaciones.",
-          "stream_url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=537",
-          "tipo": "LIVE",
-          "idioma": "ES",
-          "fuente": "Runtime TV"
-        },
+      "titulo": "🏛️ Historia y Sociedad",
+      "contenido": [
         {
           "id": "dw-english",
           "titulo": "DW English",
-          "descripcion": "Noticias y reportajes (DW English).",
-          "stream_url": "https://dwstream5-lh.akamaihd.net/i/dwstream5_live@124540/index_1_av-p.m3u8",
-          "tipo": "LIVE",
-          "idioma": "EN",
-          "fuente": "DW"
+          "url": "https://TU_STREAM_M3U8_AQUI_4.m3u8",
+          "poster": "https://placehold.co/300x450/png?text=DW+English"
         },
         {
           "id": "euronews-es",
           "titulo": "Euronews Español",
-          "descripcion": "Noticias europeas en español.",
-          "stream_url": "https://rakuten-euronews-8-es.samsung.wurl.tv/manifest/playlist.m3u8",
-          "tipo": "LIVE",
-          "idioma": "ES",
-          "fuente": "Euronews"
+          "url": "https://TU_STREAM_M3U8_AQUI_5.m3u8",
+          "poster": "https://placehold.co/300x450/png?text=Euronews+ES"
+        },
+        {
+          "id": "cgtn-documentary",
+          "titulo": "CGTN Documentary",
+          "url": "https://TU_STREAM_M3U8_AQUI_6.m3u8",
+          "poster": "https://placehold.co/300x450/png?text=CGTN+Doc"
         }
       ]
     }
-  ],
-  "videoclub": {
-    "categories": [
-      {
-        "id": "documentales-naturaleza",
-        "title": "🦈 Documentales Naturaleza",
-        "items": [
-          {
-            "id": "runtime-naturaleza",
-            "type": "LIVE",
-            "title": "Runtime Naturaleza",
-            "description": "Vida salvaje, océanos, tiburones y paisajes naturales 24/7.",
-            "language": "ES",
-            "source": "Runtime TV",
-            "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=533"
-          },
-          {
-            "id": "dw-documentary",
-            "type": "LIVE",
-            "title": "DW Documentary (Deutsche Welle)",
-            "description": "Documentales en inglés (DW).",
-            "language": "EN",
-            "source": "DW",
-            "streamUrl": "https://dwamdstream103.akamaized.net/hls/live/2017965/dwstream103/index.m3u8"
-          },
-          {
-            "id": "cgtn-documentary",
-            "type": "LIVE",
-            "title": "CGTN Documentary",
-            "description": "Documentales y reportajes (CGTN).",
-            "language": "EN",
-            "source": "CGTN",
-            "streamUrl": "https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8"
-          },
-          {
-            "id": "france24-english",
-            "type": "LIVE",
-            "title": "France 24 English",
-            "description": "Noticias y reportajes internacionales (EN).",
-            "language": "EN",
-            "source": "France24",
-            "streamUrl": "https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8"
-          },
-          {
-            "id": "aljazeera-english",
-            "type": "LIVE",
-            "title": "Al Jazeera English",
-            "description": "Noticias y documentales (EN).",
-            "language": "EN",
-            "source": "AlJazeera",
-            "streamUrl": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8"
-          }
-        ]
-      },
-      {
-        "id": "documentales-historia",
-        "title": "🏛️ Documentales Historia",
-        "items": [
-          {
-            "id": "runtime-historia",
-            "type": "LIVE",
-            "title": "Runtime Historia",
-            "description": "Imperios, guerras y civilizaciones.",
-            "language": "ES",
-            "source": "Runtime TV",
-            "streamUrl": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=537"
-          },
-          {
-            "id": "dw-english",
-            "type": "LIVE",
-            "title": "DW English",
-            "description": "Noticias y reportajes (DW English).",
-            "language": "EN",
-            "source": "DW",
-            "streamUrl": "https://dwstream5-lh.akamaihd.net/i/dwstream5_live@124540/index_1_av-p.m3u8"
-          },
-          {
-            "id": "euronews-es",
-            "type": "LIVE",
-            "title": "Euronews Español",
-            "description": "Noticias europeas en español.",
-            "language": "ES",
-            "source": "Euronews",
-            "streamUrl": "https://rakuten-euronews-8-es.samsung.wurl.tv/manifest/playlist.m3u8"
-          }
-        ]
-      }
-    ]
-  }
+  ]
 }
