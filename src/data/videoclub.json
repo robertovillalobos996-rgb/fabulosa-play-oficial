@@ -1,48 +1,44 @@
 {
   "categorias": [
     {
-      "titulo": "🌿 Naturaleza y Medio Ambiente",
-      "contenido": [
+      "id": "naturaleza",
+      "nombre": "Naturaleza y Medio Ambiente",
+      "videos": [
         {
-          "id": "dw-documentary",
-          "titulo": "DW Documentary (Deutsche Welle)",
-          "url": "https://TU_STREAM_M3U8_AQUI_1.m3u8",
-          "poster": "https://placehold.co/300x450/png?text=DW+Documentary"
+          "id": "dw-doc",
+          "titulo": "DW Documentary",
+          "thumb": "/logos/dw.png",
+          "url": "https://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/master.m3u8"
         },
         {
-          "id": "aljazeera-english",
+          "id": "aljazeera",
           "titulo": "Al Jazeera English",
-          "url": "https://TU_STREAM_M3U8_AQUI_2.m3u8",
-          "poster": "https://placehold.co/300x450/png?text=Al+Jazeera+English"
+          "thumb": "/logos/aljazeera.png",
+          "url": "https://live-hls-web-aje.getaj.net/AJE/01.m3u8"
         },
         {
-          "id": "france24-english",
+          "id": "france24",
           "titulo": "France 24 English",
-          "url": "https://TU_STREAM_M3U8_AQUI_3.m3u8",
-          "poster": "https://placehold.co/300x450/png?text=France24+English"
+          "thumb": "/logos/france24.png",
+          "url": "https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8"
         }
       ]
     },
     {
-      "titulo": "🏛️ Historia y Sociedad",
-      "contenido": [
+      "id": "historia",
+      "nombre": "Historia y Sociedad",
+      "videos": [
         {
-          "id": "dw-english",
-          "titulo": "DW English",
-          "url": "https://TU_STREAM_M3U8_AQUI_4.m3u8",
-          "poster": "https://placehold.co/300x450/png?text=DW+English"
-        },
-        {
-          "id": "euronews-es",
+          "id": "euronews",
           "titulo": "Euronews Español",
-          "url": "https://TU_STREAM_M3U8_AQUI_5.m3u8",
-          "poster": "https://placehold.co/300x450/png?text=Euronews+ES"
+          "thumb": "/logos/euronews.png",
+          "url": "https://rakuten-euronews-3-es.samsung.wurl.com/manifest/playlist.m3u8"
         },
         {
-          "id": "cgtn-documentary",
+          "id": "cgtn",
           "titulo": "CGTN Documentary",
-          "url": "https://TU_STREAM_M3U8_AQUI_6.m3u8",
-          "poster": "https://placehold.co/300x450/png?text=CGTN+Doc"
+          "thumb": "/logos/cgtn.png",
+          "url": "https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8"
         }
       ]
     }
