@@ -1,55 +1,35 @@
-import React from "react";
-import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import Layout from "./Layout";
-
-// --- TUS PÁGINAS ORIGINALES (Se mantienen) ---
-import Splash from "./pages/Splash";
+// Páginas
 import Home from "./pages/Home";
+import VideoClub from "./pages/VideoClub";
 import Channels from "./pages/Channels";
-import Live from "./pages/Live";
 import Radio from "./pages/Radio";
-import PSCInforma from "./pages/PSCInforma";
-import Player from "./pages/Player";
 
-// --- LA NUEVA PÁGINA (Agregada) ---
-import VideoClub from "./pages/VideoClub"; 
-
-function getPageName(pathname) {
-  if (pathname === "/") return "Splash";
-  if (pathname.startsWith("/home")) return "Home";
-  if (pathname.startsWith("/channels")) return "Channels"; // <-- Tu página de canales sigue aquí
-  if (pathname.startsWith("/live")) return "Live";         // <-- Tu página En Vivo sigue aquí
-  if (pathname.startsWith("/radio")) return "Radio";       // <-- Tu Radio sigue aquí
-  if (pathname.startsWith("/psc")) return "PSCInforma";
-  if (pathname.startsWith("/player")) return "Player";
-  
-  if (pathname.startsWith("/videoclub")) return "VideoClub"; // <-- Nueva lógica
-  
-  return "Home";
-}
-
-export default function App() {
-  const location = useLocation();
-  const currentPageName = getPageName(location.pathname);
-
+function App() {
   return (
-    <Layout currentPageName={currentPageName}>
+    <BrowserRouter>
       <Routes>
-        {/* --- TUS RUTAS ORIGINALES (Intactas) --- */}
-        <Route path="/" element={<Splash />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/channels" element={<Channels />} />
-        <Route path="/live" element={<Live />} />
-        <Route path="/radio" element={<Radio />} />
-        <Route path="/psc" element={<PSCInforma />} />
-        <Route path="/player" element={<Player />} />
+        {/* Inicio */}
+        <Route path="/" element={<Home />} />
 
-        {/* --- NUEVA RUTA VIDEO CLUB --- */}
+        {/* Video Club */}
         <Route path="/videoclub" element={<VideoClub />} />
-        
-        <Route path="*" element={<Navigate to="/home" replace />} />
+
+        {/* Canales TV */}
+        <Route path="/channels" element={<Channels />} />
+
+        {/* Radio */}
+        <Route path="/radio" element={<Radio />} />
+
+        {/* Si alguien entra a /envivo y no existe, lo manda a inicio */}
+        <Route path="/envivo" element={<Navigate to="/" replace />} />
+
+        {/* Cualquier otra ruta */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </Layout>
+    </BrowserRouter>
   );
 }
+
+export default App;

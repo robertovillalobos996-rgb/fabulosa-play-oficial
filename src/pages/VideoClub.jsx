@@ -1,180 +1,189 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Hls from "hls.js";
 import data from "../data/videoclub.json";
 
+function normalizeCategories(raw) {
+  // Acepta:
+  // 1) { categorias: [...] }
+  // 2) { videoclub: { categorias: [...] } }
+  // 3) { videoclub: { categories: [...] } }
+  const cats =
+    raw?.categorias ??
+    raw?.videoclub?.categorias ??
+    raw?.videoclub?.categories ??
+    [];
+
+  // Normaliza campos a formato español
+  return (cats || []).map((c) => {
+    const items = c.items ?? c.items ?? [];
+    return {
+      id: c.id,
+      titulo: c.titulo ?? c.title ?? "Categoría",
+      items: (items || []).map((it) => ({
+        id: it.id,
+        titulo: it.titulo ?? it.title ?? "Canal",
+        descripcion: it.descripcion ?? it.description ?? "",
+        stream_url: it.stream_url ?? it.streamUrl ?? it.url ?? "",
+        tipo: it.tipo ?? it.type ?? "LIVE",
+        idioma: it.idioma ?? it.language ?? "",
+        fuente: it.fuente ?? it.source ?? "",
+        poster: it.poster ?? ""
+      }))
+    };
+  });
+}
+
 export default function VideoClub() {
+  const categorias = useMemo(() => normalizeCategories(data), []);
   const [selected, setSelected] = useState(null);
-  const [error, setError] = useState(false);
+
+  // Refs del video
   const videoRef = useRef(null);
+  const hlsRef = useRef(null);
 
-  const categorias = useMemo(() => {
-    return Array.isArray(data?.categorias) ? data.categorias : [];
-  }, []);
-
-  const playItem = (item) => {
-    setError(false);
-    setSelected(item);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  // Limpieza HLS
+  const destroyHls = () => {
+    try {
+      if (hlsRef.current) {
+        hlsRef.current.destroy();
+        hlsRef.current = null;
+      }
+    } catch (e) {}
   };
 
-  // Reproductor HLS seguro (Chrome/Edge/Android TV)
+  // Cargar stream (HLS)
   useEffect(() => {
-    if (!selected?.url) return;
-
     const video = videoRef.current;
     if (!video) return;
 
-    let hls;
+    destroyHls();
 
-    // Limpieza previa
-    try {
-      video.pause();
-      video.removeAttribute("src");
-      video.load();
-    } catch {}
+    if (!selected?.stream_url) return;
 
-    const url = selected.url;
+    const url = selected.stream_url;
 
-    // Safari / iOS: HLS nativo
+    // iOS Safari reproduce HLS nativo
     if (video.canPlayType("application/vnd.apple.mpegurl")) {
       video.src = url;
       video.play().catch(() => {});
       return;
     }
 
-    // Chrome/Edge/Android: HLS.js
+    // HLS.js (Chrome/Edge/Firefox)
     if (Hls.isSupported()) {
-      hls = new Hls({
-        enableWorker: true,
-        lowLatencyMode: false,
-        backBufferLength: 60,
+      const hls = new Hls({
+        lowLatencyMode: true,
+        backBufferLength: 30
       });
-
+      hlsRef.current = hls;
       hls.loadSource(url);
       hls.attachMedia(video);
-
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
         video.play().catch(() => {});
       });
-
       hls.on(Hls.Events.ERROR, (event, data) => {
-        console.error("HLS ERROR:", data);
-        // Si es fatal, mostramos error
-        if (data?.fatal) {
-          setError(true);
-          try {
-            hls.destroy();
-          } catch {}
-        }
+        // Si el stream cae, no rompe la app
+        console.log("HLS error:", data);
       });
-
-      return () => {
-        try {
-          hls.destroy();
-        } catch {}
-      };
+    } else {
+      // Último recurso
+      video.src = url;
+      video.play().catch(() => {});
     }
 
-    // Si no soporta HLS.js
-    setError(true);
+    return () => destroyHls();
   }, [selected]);
 
+  // Si está vacío, mostramos mensaje SIEMPRE (aunque Tailwind no cargue)
+  if (!categorias.length) {
+    return (
+      <div style={{ minHeight: "100vh", background: "#070711", color: "#fff", padding: 24 }}>
+        <h2 style={{ marginBottom: 10 }}>No hay categorías.</h2>
+        <p>Revisá <b>src/data/videoclub.json</b> (estructura).</p>
+        <div style={{ marginTop: 16 }}>
+          <Link to="/" style={{ color: "#ff4fd8", textDecoration: "underline" }}>
+            Volver al inicio
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="min-h-screen bg-black text-white">
-      {/* Top bar */}
-      <div className="sticky top-0 z-50 bg-black/90 backdrop-blur border-b border-gray-800 p-4 flex items-center gap-3">
-        <Link to="/home" className="px-3 py-2 rounded bg-gray-800 hover:bg-gray-700">
-          ⬅ Volver
+    <div className="min-h-screen bg-black text-white p-4">
+      <div className="flex items-center justify-between mb-6">
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition"
+        >
+          ← Volver
         </Link>
-        <div className="font-black text-xl">
-          FABULOSAPLAY{" "}
-          <span className="text-xs bg-cyan-400 text-black px-2 py-1 rounded">
-            VIDEOCLUB
-          </span>
+
+        <div className="text-lg font-semibold tracking-wide">
+          FABULOSAPLAY <span className="ml-2 px-2 py-1 text-xs rounded bg-cyan-500/20 text-cyan-200">VIDEOCLUB</span>
         </div>
       </div>
 
       {/* Player */}
-      {selected && (
-        <div className="border-b border-gray-800 bg-black">
-          <div className="relative w-full h-[50vh] md:h-[70vh] bg-black">
-            <button
-              onClick={() => {
-                setSelected(null);
-                setError(false);
-              }}
-              className="absolute top-4 right-4 z-50 bg-red-600 hover:bg-red-700 px-5 py-2 rounded-full font-bold"
-            >
-              ✖ CERRAR
-            </button>
-
-            {!error ? (
-              <video
-                ref={videoRef}
-                controls
-                autoPlay
-                playsInline
-                className="w-full h-full"
-                style={{ background: "black" }}
-              />
-            ) : (
-              <div className="w-full h-full flex items-center justify-center text-center p-6">
-                <div>
-                  <div className="text-5xl mb-3">📡</div>
-                  <div className="text-xl font-bold text-red-500">No se pudo reproducir</div>
-                  <div className="text-gray-400 mt-2">
-                    Ese stream está caído, bloqueado por región, o el navegador no soporta el formato.
-                  </div>
-                </div>
+      <div className="mb-6">
+        <div className="rounded-xl overflow-hidden bg-white/5 border border-white/10">
+          <div className="p-3 flex items-center justify-between flex-wrap gap-3">
+            <div>
+              <div className="text-sm text-white/60">Reproduciendo</div>
+              <div className="font-semibold">
+                {selected?.titulo ? selected.titulo : "Seleccioná un canal"}
               </div>
-            )}
+              {selected?.descripcion ? (
+                <div className="text-sm text-white/60">{selected.descripcion}</div>
+              ) : null}
+            </div>
+            {selected?.idioma || selected?.fuente ? (
+              <div className="text-sm text-white/60">
+                {selected?.fuente ? <span className="mr-3">Fuente: {selected.fuente}</span> : null}
+                {selected?.idioma ? <span>Idioma: {selected.idioma}</span> : null}
+              </div>
+            ) : null}
           </div>
 
-          <div className="p-4 bg-[#0f0f0f] border-t border-gray-800">
-            <div className="text-lg font-bold">{selected.titulo}</div>
-            <div className="text-xs text-gray-400 break-all">{selected.url}</div>
-          </div>
+          <video
+            ref={videoRef}
+            controls
+            playsInline
+            style={{ width: "100%", maxHeight: 420, background: "#000" }}
+          />
         </div>
-      )}
+      </div>
 
-      {/* Catalog */}
-      <div className="p-4 md:p-8 space-y-10">
-        {categorias.map((cat, idx) => (
-          <div key={`${cat.titulo}-${idx}`}>
-            <div className="text-lg md:text-xl font-bold mb-4 border-l-4 border-cyan-400 pl-3">
-              {cat.titulo}
+      {/* Categorías */}
+      <div className="space-y-8">
+        {categorias.map((cat) => (
+          <div key={cat.id}>
+            <div className="flex items-center gap-2 mb-3">
+              <div className="w-1 h-6 bg-cyan-400 rounded" />
+              <h3 className="text-lg font-semibold">{cat.titulo}</h3>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-4">
-              {(cat.contenido || []).map((item) => (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {cat.items.map((item) => (
                 <button
                   key={item.id}
-                  onClick={() => playItem(item)}
-                  className="text-left bg-[#121212] hover:bg-[#1a1a1a] rounded-xl overflow-hidden border border-gray-800 hover:border-cyan-400 transition"
+                  onClick={() => setSelected(item)}
+                  className="text-left rounded-xl p-4 bg-white/5 hover:bg-white/10 border border-white/10 transition"
                 >
-                  <div className="w-full aspect-[2/3] bg-black">
-                    <img
-                      src={item.poster}
-                      alt={item.titulo}
-                      className="w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="p-3">
-                    <div className="text-sm font-bold line-clamp-2">{item.titulo}</div>
+                  <div className="font-semibold">{item.titulo}</div>
+                  {item.descripcion ? (
+                    <div className="text-sm text-white/60 mt-1">{item.descripcion}</div>
+                  ) : null}
+                  <div className="text-xs text-white/50 mt-3">
+                    {item.fuente ? <span className="mr-3">Fuente: {item.fuente}</span> : null}
+                    {item.idioma ? <span>Idioma: {item.idioma}</span> : null}
                   </div>
                 </button>
               ))}
             </div>
           </div>
         ))}
-
-        {categorias.length === 0 && (
-          <div className="text-center text-gray-400 py-16">
-            No hay categorías. Revisá <b>src/data/videoclub.json</b>
-          </div>
-        )}
       </div>
     </div>
   );
