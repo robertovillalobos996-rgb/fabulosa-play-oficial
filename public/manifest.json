@@ -1,0 +1,24 @@
+{
+  "short_name": "Fabulosa Hub",
+  "name": "Fabulosa Play Hub Premium",
+  "description": "Tu portal de TV y Radio oficial de Fabulosa Play",
+  "icons": [
+    {
+      "src": "/logos/logo-fabulosa.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logos/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0a0a0f",
+  "background_color": "#0a0a0f",
+  "orientation": "any"
+}

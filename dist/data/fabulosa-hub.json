@@ -1,0 +1,12 @@
+{
+  "hub_name": "Fabulosa Play Hub",
+  "version": "2.0 Premium",
+  "streams": {
+    "tv": "https://live20.bozztv.com/akamaissh101/ssh101/fabulosa/playlist.m3u8",
+    "radio": "https://dattavolt.com/8030/stream"
+  },
+  "settings": {
+    "theme": "futuristic-neon",
+    "chat_enabled": true
+  }
+}

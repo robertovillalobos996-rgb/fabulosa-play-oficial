@@ -1,0 +1,12 @@
+{
+  "site_name": "Fabulosa Play Hub",
+  "version": "2.0 Premium",
+  "streaming": {
+    "tv_url": "https://live20.bozztv.com/akamaissh101/ssh101/fabulosa/playlist.m3u8",
+    "radio_url": "https://dattavolt.com/8030/stream"
+  },
+  "social": {
+    "chat_room": "fabulosa_live_global",
+    "download_app": "https://fabulosaplay.online/fabulosa.apk"
+  }
+}

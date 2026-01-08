@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. CONFIGURACIÓN BASE */
+@layer base {
+  body {
+    @apply bg-[#06060a] text-white overflow-x-hidden;
+    font-family: 'Inter', sans-serif;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* 2. ANIMACIONES CINEMATOGRÁFICAS DE INTRO (SPLASH) */
+
+/* Zoom de entrada con desenfoque */
+@keyframes intro-zoom {
+  0% { transform: scale(0.5); filter: brightness(0) blur(10px); }
+  50% { filter: brightness(1.5) blur(0px); }
+  100% { transform: scale(1); }
+}
+
+.animate-intro-zoom {
+  animation: intro-zoom 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Brillo de energía pulsante para el logo */
+.logo-energy-glow {
+  filter: drop-shadow(0 0 30px rgba(255, 0, 0, 0.5));
+  animation: energy-pulse 3s infinite ease-in-out;
+}
+
+@keyframes energy-pulse {
+  0%, 100% { filter: drop-shadow(0 0 20px rgba(255, 0, 0, 0.4)); transform: translateY(0); }
+  50% { filter: drop-shadow(0 0 60px rgba(255, 0, 0, 0.8)); transform: translateY(-10px); }
+}
+
+/* Parpadeo de texto futurista */
+@keyframes text-flicker {
+  0%, 100% { opacity: 1; }
+  92% { opacity: 1; }
+  94% { opacity: 0.5; }
+  96% { opacity: 1; }
+  98% { opacity: 0.7; }
+}
+
+.animate-text-flicker {
+  animation: text-flicker 4s infinite;
+}
+
+/* Flash de salida blanco */
+@keyframes flash-out {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-flash-out {
+  animation: flash-out 0.8s ease-in-out forwards;
+}
+
+/* 3. COMPONENTES VISUALES PRO */
+
+/* Botón de Descarga 3D Espectacular */
+.btn-download-3d {
+  background: linear-gradient(145deg, #ff1a1a, #800000);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 0 #4d0000, 0 15px 25px rgba(255, 0, 0, 0.4);
+  transition: all 0.1s ease;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.btn-download-3d:active {
+  transform: translateY(6px);
+  box-shadow: 0 2px 0 #4d0000, 0 5px 10px rgba(255, 0, 0, 0.4);
+}
+
+/* Letras Candy Perladas */
+.text-candy-perlado {
+  background: linear-gradient(180deg, #ffffff 0%, #ff1a1a 45%, #660000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  text-transform: uppercase;
+  -webkit-box-reflect: below -8px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+}
+
+/* 4. REPRODUCTORES Y EFECTOS */
+
+/* Latido de Corazón Pro Realista */
+@keyframes heart-pro {
+  0% { transform: scale(1); }
+  15% { transform: scale(1.15); }
+  30% { transform: scale(1); }
+  45% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.animate-heart-pro {
+  animation: heart-pro 2s infinite ease-in-out;
+}
+
+/* Línea de escaneo láser (Splash) */
+.scanner-line {
+  height: 2px;
+  width: 100%;
+  background: #ff0000;
+  box-shadow: 0 0 20px #ff0000;
+  position: absolute;
+  top: 0;
+  animation: scan-move 2s linear infinite;
+}
+
+@keyframes scan-move {
+  0% { top: 0%; }
+  100% { top: 100%; }
+}
+
+/* 5. UTILIDADES */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.animate-ping-slow {
+  animation: ping 3s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* --- EFECTOS PRO DE RADIO FABULOSA (SUPERNOVA) --- */
+
+/* 1. Latido Realista (Sístole/Diástole) */
+@keyframes heartbeat-real {
+  0% { transform: scale(1); }
+  14% { transform: scale(1.1); } /* Primer pum */
+  28% { transform: scale(1); }
+  42% { transform: scale(1.25); filter: drop-shadow(0 0 25px rgba(255, 0, 0, 0.8)); } /* Segundo PUM fuerte */
+  70% { transform: scale(1); }
+}
+
+.animate-heart-real {
+  animation: heartbeat-real 1.3s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* 2. Nebulosa de Fondo (Adiós caja negra) */
+@keyframes nebula-breathe {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.1); }
+}
+
+.bg-nebula-red {
+  background: radial-gradient(circle, rgba(220, 38, 38, 0.4) 0%, rgba(0, 0, 0, 0) 70%);
+  filter: blur(40px);
+  animation: nebula-breathe 4s infinite ease-in-out;
+  pointer-events: none;
+}
+
+/* 3. Onda Expansiva (Shockwave) - CORREGIDO */
+@keyframes shockwave {
+  0% { transform: scale(0.8); opacity: 0.8; border-width: 4px; }
+  100% { transform: scale(2); opacity: 0; border-width: 0px; }
+}
+
+.shockwave-effect::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; height: 100%;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 50, 50, 0.5);
+  animation: shockwave 2s infinite linear;
+  z-index: -1;
+}
