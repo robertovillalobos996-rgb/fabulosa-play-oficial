@@ -1,1 +1,10 @@
-import React from "react"; import Social from "./pages/Social"; export default function ChatLive() { return <div className="h-full w-full"><Social /></div>; }
+import React from "react"; 
+import Social from "./pages/Social"; 
+
+export default function ChatLive() { 
+  return (
+    <div className="h-full w-full">
+      <Social />
+    </div>
+  ); 
+}
