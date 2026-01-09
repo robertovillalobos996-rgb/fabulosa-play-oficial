@@ -1,23 +1,15 @@
-import React, { useState } from 'react';
-import Home from './pages/Home';
-import SplashScreen from './components/SplashScreen';
-import Layout from './components/Layout';
+import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom"; 
+import Home from "./pages/Home";
+import Social from "./pages/Social";
 
-function App() {
-  const [loading, setLoading] = useState(true);
-
+export default function App() {
   return (
-    <>
-      {loading ? (
-        <SplashScreen onFinish={() => setLoading(false)} />
-      ) : (
-        <Layout>
-          {/* El chat ya está dentro de Home, no lo ponemos aquí para evitar duplicados */}
-          <Home />
-        </Layout>
-      )}
-    </>
+    <Routes>
+      <Route path="/" element={<Navigate to="/home" replace />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/social" element={<Social />} />
+      <Route path="*" element={<Navigate to="/home" replace />} />
+    </Routes>
   );
 }
-
-export default App;

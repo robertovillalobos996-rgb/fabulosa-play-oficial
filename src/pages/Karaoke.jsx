@@ -1,0 +1,1 @@
+import React from "react"; export default function P(){return <div className="text-white p-10">Proximamente</div>}
